@@ -1,34 +1,34 @@
 How likely is it that I get COVID once I am vaccinated? It typically takes a few weeks for the body to build immunity (protection against the virus that causes COVID-19) after vaccination. That means it's possible a person could be infected with the virus that causes COVID-19 just before or just after vaccination and still get sick.
-How effective is the Pfizer COVID-19 vaccination? The Pfizer-BioNTech COVID-19 vaccine is 95% effective in preventing the COVID-19 virus with symptoms.
+How effective is the Pfizer COVID-19 vaccination? (F)The Pfizer-BioNTech COVID-19 vaccine is 95% effective in preventing the COVID-19 virus with symptoms.
 What are the long term side-effects of having COVID-19? Long-term effects COVID-19 symptoms can sometimes persist for months. The virus can damage the lungs, heart and brain, which increases the risk of long-term health problems. Most people who have coronavirus disease 2019 (COVID-19) recover completely within a few weeks.
 Can you still spread COVID even if you are fully vaccinated? Yes, you can still get COVID after being fully vaccinated.
 How does the COVID-19 vaccine work? The COVID-19 vaccines produce protection against the disease, as a result of developing an immune response to the SARS-Cov-2 virus. Developing immunity through vaccination means there is a reduced risk of developing the illness and its consequences. This immunity helps you fight the virus if exposed.
 How long do I quarantine for if I tested positive for COVID-19? If you continue to have no symptoms, you can be with others after 10 days have passed since you had a positive viral test for COVID-19.
 How long will vaccine immunity last? Based on clinical trials, experts do know that vaccine-induced immunity should last a minimum of about three months.
-How many covid deaths occurred today? 17,332 deaths occurred.
-How many total vaccinations have been given in the US? As of 6 a.m. EDT April 4, a total of 61,416,536 Americans had been fully vaccinated, or 18.5 percent of the country's population.
-Which country has had the greatest number of covid cases? The United States.
-How many total covid cases have there been worldwide? 133M total cases worldwide.
+How many covid deaths occurred today? (F)17,332 deaths occurred.
+How many total vaccinations have been given in the US? (F)As of 6 a.m. EDT April 4, a total of 61,416,536 Americans had been fully vaccinated, or 18.5 percent of the country's population.
+Which country has had the greatest number of covid cases? (F)The United States.
+How many total covid cases have there been worldwide? (F)133M total cases worldwide.
 Once you are vaccinated and come in contact with someone who has Covid-19, even if you don’t get it or show symptoms can you still pass the virus to others? None of the vaccines are 100 percent effective at preventing infections. So even if people don't get very sick with COVID-19, they may still contract an infection and can potentially transmit the virus to others.
-How many new cases in the USA today? 62,025 new cases in the USA
-How effective is the Moderna COVID-19 vaccines? The Moderna vaccine was 94.1% effective at preventing symptomatic Covid-19 after the second dose.
-What is the recovery rate of COVID-19? Early estimates predict that the overall COVID-19 recovery rate is between 97% and 99.75%.
+How many new cases in the USA today? (F)62,025 new cases in the USA
+How effective is the Moderna COVID-19 vaccines? (F)The Moderna vaccine was 94.1% effective at preventing symptomatic Covid-19 after the second dose.
+What is the recovery rate of COVID-19? (F)Early estimates predict that the overall COVID-19 recovery rate is between 97% and 99.75%.
 What are common COVID-19 symptoms? Fever or chills, Cough, Shortness of breath or difficulty breathing, Fatigue, Muscle or body aches, Headache, New loss of taste or smell, Sore throat, Congestion or runny nose
 How long will the Covid-19 vaccine last? New research finds that mRNA COVID-19 vaccines provide immunity for at least 6 months. But since COVID-19 is so new, experts aren’t sure if immunity will wane after that.
 Should I get the vaccine if I have already had Covid-19? Yes, you should be vaccinated regardless of whether you already had COVID-19.
 Will we have to get a Covid-19 vaccination every year? Although we are unsure how long immunity from the vaccine lasts, a study out of Charité – Universitätsmedizin Berlin suggests that the answer is yes for a few years, but may be unnecessary after a few years post-pandemic.
 Do we know if the vaccines given in the U.S. work against the new Covid variants now showing up? The simple answer is yes. At this time, there is no evidence to suggest that these or any other strains of the COVID-19 virus are resistant to the current vaccines.
 Can people be immune to the COVID-19 virus? Health experts don't know whether we really become immune to COVID-19 after we're infected. And if we do have immunity, we don't know how long it might last. Thus far, there have been only a few incidents of confirmed re-infections.
-How much of the US has been vaccinated? Since COVID-19 vaccine distribution began in the United States on Dec. 14, more than 171 million doses have been administered, fully vaccinating over 64.4 million people or 19.4% of the total U.S. population.
+How much of the US has been vaccinated? (F)Since COVID-19 vaccine distribution began in the United States on Dec. 14, more than 171 million doses have been administered, fully vaccinating over 64.4 million people or 19.4% of the total U.S. population.
 Why are some individuals unwilling to get the Covid-19 vaccine? Concerns about safety, fear of unknown side effects, and misinformation about COVID-19 are some reasons why people may not accept the vaccine.
-How much of the world has been vaccinated? More than 710 million vaccine doses have been administered worldwide, equal to 9.2 doses for every 100 people.
+How much of the world has been vaccinated? (F)More than 710 million vaccine doses have been administered worldwide, equal to 9.2 doses for every 100 people.
 What is the definition of a "close contact"? Close contact is defined as someone who was within 6 feet for a total of 15 minutes or more within 2 days prior to illness onset, regardless of whether the contact was wearing a mask.
 Can vaccinated people spread the virus to non-vaccinated people? It's possible. Experts say the risk is low, but are still studying how well the shots blunt the spread of the virus. The current vaccines are highly effective at preventing people from getting seriously sick with COVID-19.
 Can vaccinated people contract Covid? Data has shown that you can still get coronavirus even after you're fully vaccinated.
 What is the risk of spreading the virus in an outdoor setting versus an indoor setting? The chances of becoming infected with the virus are far slimmer outdoors than indoors. This applies to the original coronavirus as well as to its mutants. This is due to aerosols, which are tiny particles floating in the atmosphere, that play a key role in the spread of the virus. Experts say aerosols pose a smaller risk outdoors.
-What phase of vaccine distribution are we in in Michigan? We are in phase 2.
+What phase of vaccine distribution are we in in Michigan? (F)We are in phase 2.
 Do I need my second dose at exactly 21 days and is it less effective if I wait longer? You should get your second shot as close to the recommended 3-week interval as possible. However, your second dose may be given up to 6 weeks (42 days) after the first dose and will still be effective.
-Are vaccine side effects worse if you've had Covid? Research and anecdotal reports suggest that people with a previously diagnosed Covid-19 infection may have a stronger reaction and more side effects after their first dose of vaccine compared to those who were never infected with the virus.
+Are vaccine side effects worse if you've had Covid-19? Research and anecdotal reports suggest that people with a previously diagnosed Covid-19 infection may have a stronger reaction and more side effects after their first dose of vaccine compared to those who were never infected with the virus.
 Will I test positive for COVID-19 on a viral test after I get the vaccine? No. Neither the recently authorized and recommended vaccines nor the other COVID-19 vaccines currently in clinical trials in the United States can cause you to test positive on viral tests, which are used to see if you have a current infection.
 Can you contract the coronavirus disease from a package in the mail? Coronaviruses are thought to be spread most often by respiratory droplets. Although the virus can survive for a short period on some surfaces, it is unlikely to be spread from domestic or international mail, products or packaging.
 Can diarrhea be an initial symptom of COVID-19? Many people with COVID-19 experience gastrointestinal symptoms such as nausea, vomiting or diarrhea, sometimes prior to developing fever and lower respiratory tract signs and symptoms.
