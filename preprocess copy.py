@@ -488,16 +488,16 @@ def main():
     # tokens, nextPassStartId = processFolder(file_list_1, tokens, nextPassStartId, documents)
     vocab = {}
     word_count = 0
-    for x in tokens: 
+    for x in tokens:
         if x not in ['!','>','<', '?', ';', '~', '\"', '.', ',', '-', '_', '\'', ':', '/', '-', '_', '=', '`', '%', '^', '&', '(', ')', '{', '}', '$', '*', '[', ']', '@', '#']:
             word_count += 1
             if x not in vocab:
                 vocab[x] = 1
-            else: 
+            else:
                 vocab.update({x: vocab[x] + 1})
-    
+
 # TODO: Address formatting output with team
-#       Current format is the format from Assignment 1, determine whether this needs to be modified in any way. 
+#       Current format is the format from Assignment 1, determine whether this needs to be modified in any way.
     output_str = ""
     answers_str = "".join(("Words: ", str(word_count), '\n',"Vocabulary: ", str(len(vocab)),'\n'))
     output_str = "".join((answers_str, "Top 50 words\n"))
@@ -505,12 +505,12 @@ def main():
     res_key = sorted(vocab, key = vocab.get)
     res_val.reverse()
     res_key.reverse()
-    for i,x in enumerate(res_val): 
-        if not (i < 50): 
+    for i,x in enumerate(res_val):
+        if not (i < 50):
             break
         else:
             output_str = "".join((output_str, res_key[i]," ", str(x), '\n'))
-        
+
     output_file = open("preprocess_new_thing.output", 'w')
     output_file.write(output_str)
     output_file.close()
