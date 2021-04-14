@@ -14,6 +14,7 @@
 import os
 import re
 import sys
+import json
 from stemmer import PorterStemmer
 
 class tokFlags:
@@ -37,26 +38,10 @@ class sentenceText:
 # Output: string
 # Assumptions: Descriptive content between tags (eg <AUTHOR> John Smith </AUTHOR>) is not removed
 #               - John Smith is not removed, quotes formatted like << content >> are not present
-def removeSGML(file):
-    found_left = False
-    found_both = False
+def parseJSON(file):
     ret_str = ""
-    left_i = 0
-    right_i = 0
-    last = len(file) - 1
-    for i, x in enumerate(file): 
-        if found_left and x == '>':
-            found_both = True
-        elif x == '<': 
-            found_left = True
-            right_i = i
-        if found_both == True or i == len(file) - 1:
-            if i == len(file) - 1:
-                right_i = i + 1
-            ret_str += file[left_i : right_i]
-            left_i = i + 1
-            found_both = False
-            found_left = False
+    for dictionary in file["body_text"]:
+        ret_str = ret_str + " " + dictionary["text"]
     return ret_str
 
 def is_basic_punc(character):
@@ -464,7 +449,8 @@ def processFolder(file_list, tokens, passStartId, documents):
     idProcessed = passStartId
     for i,x in enumerate(file_list):
         file = open(x, "r")
-        current_file = removeSGML(file.read())
+        data = json.load(file)
+        current_file = parseJSON(data)
         #divide into sentences
         documents[idProcessed] = []
         curr_file_tokens, documents[idProcessed] = tokenizeText(current_file, documents[idProcessed])
