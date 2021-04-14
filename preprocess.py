@@ -21,9 +21,15 @@ class tokFlags:
     tokenize_word = False
     special_tokenize = False
     tokenize_contr = False
+    found_fullstop = False
     tokenize_list = []
     contr_handled = False
     slash_count =  0
+
+class sentenceText: 
+    raw = ""
+    tokenized = []
+
 
 # a. Function that removes the SGML tags.
 # Name: removeSGML;
@@ -53,7 +59,6 @@ def removeSGML(file):
             found_left = False
     return ret_str
 
-
 def is_basic_punc(character):
     if character in ['!','>','<', '?', ';', '~', '\"', '{', "}", '`']:
         ret_bool = True
@@ -79,7 +84,7 @@ def maybe_date(word, date_flag):
 
 
 def tokenize_str(word, tokens): 
-    if(word):
+    if(word):            
         tokens.append(word)
     return tokens
 
@@ -181,6 +186,7 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
             ret_flags.special_tokenize = False
             return  ret_flags; 
     elif character == '.':
+        ret_flags.found_fullstop = True
         if next_char.isspace() or i + 1 == file_len:
             ret_flags.tokenize_punc = True
             ret_flags.tokenize_word = True
@@ -326,7 +332,7 @@ def check_date_format(word, tokens):
     
 # b. Function that tokenizes the text.
 # Name: tokenizeText; input: string; output: list (of tokens)
-def tokenizeText(file):
+def tokenizeText(file, sentencesFound):
     entry_start = 0
     tokens = []
     possible_date = False
@@ -335,6 +341,8 @@ def tokenizeText(file):
     prev_char = ""
     file_len = len(file)
     special_flags = tokFlags()
+    sentence_start_in_tokens = 0
+    sentence_start_in_string = 0
     for i,x in enumerate(file):
         next_char = ""
         char_2_after = ""
@@ -393,10 +401,19 @@ def tokenizeText(file):
                     space_count = 0
                     found_num = False
                     possible_date = False
+                if(special_flags.found_fullstop and special_flags.tokenize_punc):
+                    sentenceContent = sentenceText()
+                    sentenceContent.tokenized = tokens[sentence_start_in_tokens:]
+                    sentenceContent.raw = file[entry_start:i]
+                    sentencesFound.append(sentenceContent)
                 entry_start = i + 1
             if(special_flags.tokenize_punc):
                 tokens = tokenize_str(x, tokens)
                 entry_start = i + 1
+                if(special_flags.found_fullstop):
+                    sentence_start_in_tokens = len(tokens)
+                    sentence_start_in_string = entry_start
+                    special_flags.found_fullstop = False
             if(special_flags.tokenize_contr):
                 for y in special_flags.tokenize_list:
                     tokens = tokenize_str(y,tokens)
@@ -404,7 +421,12 @@ def tokenizeText(file):
                 special_flags.tokenize_list.clear()
     if not special_flags.contr_handled:
         tokens = tokenize_str(file[entry_start:len(file)], tokens)
-    return tokens          
+    if sentence_start_in_string != entry_start:
+        sentenceContent = sentenceText()
+        sentenceContent.tokenized = tokens[sentence_start_in_tokens:]
+        sentenceContent.raw = file[entry_start:i]
+        sentencesFound.append(sentenceContent)
+    return tokens, sentencesFound           
 
 
 # c. Function that removes the stopwords.
@@ -433,8 +455,26 @@ def stemWords(tokens):
     stemmed = []
     stem = PorterStemmer()
     for x in tokens: 
-        stemmed.append(stem.stem(x,0, len(x) -1))
+        y = stem.stem(x,0, len(x) -1)
+        stemmed.append(y)
     return stemmed
+
+
+def processFolder(file_list, tokens, passStartId, documents):
+    idProcessed = passStartId
+    for i,x in enumerate(file_list):
+        file = open(x, "r")
+        current_file = removeSGML(file.read())
+        #divide into sentences
+        documents[idProcessed] = []
+        curr_file_tokens, documents[idProcessed] = tokenizeText(current_file, documents[idProcessed])
+        for j, y in enumerate(documents[idProcessed]):
+            documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
+            documents[idProcessed][j].tokenized = stemWords(y.tokenized)
+            tokens.extend(documents[idProcessed][j].tokenized)
+        idProcessed += i
+        file.close()
+    return tokens, idProcessed
 
 # The main program should perform the following sequence of steps:
 # i. open the folder containing the data collection, provided as the first argument on the command
@@ -449,17 +489,17 @@ def stemWords(tokens):
 def main():
     cwd = os.getcwd
     arg1 = sys.argv[1]
-    collection = os.path.abspath(arg1)
-    file_list = os.scandir(collection)
+    # arg2 = sys.argv[2]
+    collection_1 = os.path.abspath(arg1)
+    # collection_2 = os.path.abspath(arg2)
+    file_list_1 = os.scandir(collection_1)
+    # file_list_2 = os.scandir(collection_2)
     tokens =[]
-    for x in file_list:
-        file = open(x, "r")
-        current_file = removeSGML(file.read())
-        curr_file_tokens = tokenizeText(current_file)
-        curr_file_tokens = removeStopwords(curr_file_tokens)
-        curr_file_tokens = stemWords(curr_file_tokens)
-        tokens.extend(curr_file_tokens)
-        file.close()
+    nextPassStartId = 0
+    documents  = {}
+
+    tokens, nextPassStartId = processFolder(file_list_1, tokens, nextPassStartId, documents)
+    # tokens, nextPassStartId = processFolder(file_list_1, tokens, nextPassStartId, documents)
     vocab = {}
     word_count = 0
     for x in tokens: 
@@ -485,7 +525,7 @@ def main():
         else:
             output_str = "".join((output_str, res_key[i]," ", str(x), '\n'))
         
-    output_file = open("preprocess.output", 'w')
+    output_file = open("preprocess_new_thing.output", 'w')
     output_file.write(output_str)
     output_file.close()
 
