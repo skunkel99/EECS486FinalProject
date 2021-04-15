@@ -461,10 +461,8 @@ def processFolder(file_list, passStartId, documents):
     idProcessed = passStartId
     for i,x in enumerate(file_list):
         file = open(x, "r")
-        print(x.name)
-        # data = json.load(file)
-        # current_file = parseJSON(data)
-        current_file = removeSGML(file.read())
+        data = json.load(file)
+        current_file = parseJSON(data)
         current_file = current_file.encode('ascii', 'ignore').decode('utf-8')
         #divide into sentences
         documents[idProcessed] = []
@@ -476,6 +474,7 @@ def processFolder(file_list, passStartId, documents):
         idProcessed += 1
         file.close()
     return documents, idProcessed
+    #return tokens, documents, idProcessed
 
 # The main program should perform the following sequence of steps:
 # i. open the folder containing the data collection, provided as the first argument on the command

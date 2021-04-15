@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
+
 #vectorspace.py - EECS 486 Final project group, derived from Assignment 1 (ndcotton)
 
 '''
  Assumptions for proper use: 
 
  preprocess.py accurately tokenizes the CORD-19 dataset into sentences
- sys.argv[1] is the question to be answered
+ sys.argv[1] is the folder containing CORD-19 documents
+ Remaining arguments are the question to be answered
 
  '''
 
@@ -12,66 +15,67 @@ import sys
 import os
 import math
 import string
-from preprocess import removeSGML, tokenizeText, removeStopwords, stemWords, getSentences
-#TODO - remove imported functions if necessary
+from preprocess import tokenizeText, removeStopwords, stemWords, processFolder
 
 
 
 def main():
+    file_list = []
+    documents = {}
     inverted_index = {}
     sentence_lengths = {}
     max_sentence_freqs = {}
-    query = sys.argv[1]
-    # TODO - change to correct function call
-    sentences = getSentences()
+    path = sys.argv[1]
+    query = str(' '.join(sys.argv[2:]))
+
+    for file in os.listdir(path):
+        file_list.append(os.path.join(path, file))
+    documents, return_ID = processFolder(file_list, 0, documents)
 
     # For each sentence, obtain the content and add it to the inverted index
-    for sentence in sentences:
-        inverted_index, sentence_ID, term_freqs = indexSentence(sentence, inverted_index)
+    for doc_ID, sentences in documents.items():
+        for sentence_ID, sentence in enumerate(sentences):
+            current_ID = str(doc_ID) + "-" + str(sentence_ID)
+            inverted_index, term_freqs = indexSentence(sentence.tokenized, current_ID, inverted_index)
 
-        # Exit the program if multiple identical IDs are found
-        if sentence_ID in sentence_lengths:
-            print("sentence_ID already in sentence_lengths and was overwritten")
-            sys.exit()
+            # Exit the program if multiple identical IDs are found
+            if current_ID in sentence_lengths:
+                print("sentence_ID already in sentence_lengths and was overwritten")
+                sys.exit()
         
-        # Find the max term frequency in the sentence
-        sentence_lengths[sentence_ID] = term_freqs
-        max_frequency = 0
-        for frequency in terms.values():
-             if frequency > max_frequency:
-                 max_frequency = frequency
-        max_sentence_freqs[sentence_ID] = max_frequency
+            # Find the max term frequency in the sentence
+            sentence_lengths[current_ID] = term_freqs
+            max_frequency = 0
+            for frequency in term_freqs.values():
+                 if frequency > max_frequency:
+                     max_frequency = frequency
+            max_sentence_freqs[current_ID] = max_frequency
 
-        # Calculate sentence lengths given its term frequencies according to the nxc weighting scheme
-        sum = 0
-        for term, frequency in terms.items():
-            sum += (.5 + (.5 * frequency / max_frequency)) ** 2
-        sentence_lengths[ID] = math.sqrt(sum)
+            # Calculate sentence lengths given its term frequencies according to the nxc weighting scheme
+            sum = 0
+            for term, frequency in term_freqs.items():
+                sum += (.5 + (.5 * frequency / max_frequency)) ** 2
+            sentence_lengths[current_ID] = math.sqrt(sum)
 
     # Find the list of relevant sentences and their similarity scores
     similarities = list(retrieveSentences(query, inverted_index, sentence_lengths, max_sentence_freqs).items())
-    similarities = sorted(similarities, reverse=True, key=lambda document:document[1])
+    similarities = sorted(similarities, reverse=True, key=lambda sentence:sentence[1])
 
     # TODO - change to however we want to output the answer
-    print(str(similarity[0]))
+    if (len(similarities) > 0):
+        answer_loc = str(similarities[0][0]).split("-")
+        print(documents[int(answer_loc[0])][int(answer_loc[1])].raw)
+        print("Answer found in document " + str(int(answer_loc[0])) + " in sentence " + str(int(answer_loc[0])) + "\n")
+    else:
+        print("No answer could be found in the database.\n")
 
 
 
 ''' Adds a sentence to the inverted_index '''
-def indexSentence(sentence, inverted_index):
-    tokens = []
+def indexSentence(sentence, ID, inverted_index):
     term_freqs = {}
 
-    # TODO - remove these lines if tokenization is already taken care of in preprocess.py
-    # Apply removeSGML, tokenizeText, removeStopwords, stemWords to sentence
-    sentence = removeSGML(sentence)
-    tokens = tokenizeText(sentence)
-    tokens = removeStopwords(tokens)
-    tokens = stemWords(tokens)
-
-    # TODO - read sentence ID correctly
-    ID = sentence[0]
-    for token in tokens:
+    for token in sentence:
         # Get term frequences in the sentence
         if token in term_freqs:
             term_freqs[token] += 1
@@ -89,8 +93,7 @@ def indexSentence(sentence, inverted_index):
             new_ID[ID] = 1
             inverted_index[token] = new_ID
 
-    # TODO - remove ID if extracted before function call
-    return inverted_index, ID, term_freqs
+    return inverted_index, term_freqs
 
 
 
@@ -98,13 +101,11 @@ def indexSentence(sentence, inverted_index):
 def retrieveSentences(query, inverted_index, sentence_lengths, max_sentence_freqs):
     # TODO - determine what a "short query" is and only use nfx in that case
     query_scheme = "tfx"
-    if len(query_scheme) < 5:
+    if len(query) < 5:
         query_scheme = "nfx"
 
-    #TODO - remove these lines if tokenization is already taken care of in preprocess.py
-    # Apply removeSGML, tokenizeText, removeStopwords, stemWords to query
-    query = removeSGML(query)
-    tokens = tokenizeText(query)
+    # Apply tokenizeText, removeStopwords, stemWords to query
+    tokens, returned_sentences = tokenizeText(query, [])
     tokens = removeStopwords(tokens)
     tokens = stemWords(tokens)
 

@@ -48,7 +48,7 @@ Are people with high blood pressure at risk of getting severely ill with COVID-1
 How long does the coronavirus last on surfaces? Coronaviruses on surfaces and objects naturally die within hours to days. Warmer temperatures and exposure to sunlight will reduce the time the virus survives on surfaces and objects.
 Can pets get sick from COVID-19? A small number of pets (cats and dogs) have been confirmed to be infected with the virus that causes COVID-19, mostly after close contact with a person with COVID-19. Some pets did not show any signs of illness, but those pets that did get sick all had mild disease that could be taken care of at home.
 Will there be a Covid-21? There would only be a Covid-21 if a new strain were to emerge that could escape the virus.
-How many people need to be protected with the Vaccine  to reach group immunity? It's estimated that 94% of the population must be immune to interrupt the chain of transmission.
+How many people need to be protected with the Vaccine to reach group immunity? It's estimated that 94% of the population must be immune to interrupt the chain of transmission.
 What is the activity with the highest risk of exposure? Going to a bar is one of the activities with highest risk of exposure.
 How long does COVID-19 stay in my body? The virus may remain in the body at low levels for up to 3 months after diagnosis.
 What are some ways to get better if suffering COVID-19 symptoms? Treatment is aimed at relieving symptoms and includes rest, fluid intake and pain relievers.
@@ -66,3 +66,15 @@ Would you be able to get the second round of the shot if you have an anaphylacti
 Should I get the covid-19 vaccine if I have covid-19? No. People with COVID-19 who have symptoms should wait to be vaccinated until they have recovered from their illness and have met the criteria for discontinuing isolation; those without symptoms should also wait until they meet the criteria before getting vaccinated.
 Does the vaccine pose a higher risk for someone that is pregnant? Based on how these vaccines work in the body, experts believe they are unlikely to pose a specific risk for people who are pregnant.
 Can anyone get the covid-19 vaccine? The federal government is providing the vaccine free of charge to all people living in the United States, regardless of their immigration or health insurance status.
+Why is it called COVID-19? (F)In COVID-19, 'CO' stands for 'corona,' 'VI' for 'virus,' and 'D' for disease.
+Can children be vaccinated for covid-19? The COVID-19 vaccine is currently not authorized for use in children under the age of 16.
+How many people have died of covid-19? (F)2,982,891 total people have died from COVID-19 so far.
+Where was the first covid case? (F)The initial outbreak was linked to a large seafood and live animal market in Wuhan, China.
+When was the first reported covid-19 case? (F)The first COVID-19 cases were reported in December, 2019.
+Can I get the covid vaccine if I am sick? You should wait until you are recovered from your illness before getting your vaccine to keep from spreading the illness.
+Does cooking kill the covid virus? Per the WHO, heat at 56 degrees Celsius kills the SARS coronavirus at around 10,000 units per 15 minutes.
+Can you contract covid from kissing? Yes, the virus that causes COVID-19 travels in saliva so kissing an infected person could transfer the virus to you.
+Who is authorized to administer covid vaccines? (F)Recommendations include authorizing community health workers, retired professionals, health professions students, pharmacists, dentists, and veterinarians to administer the COVID-19 vaccine.
+Why do I need to wear two masks? (F)Adding more layers of material to a mask or wearing two masks reduces the number of respiratory droplets containing the virus that come through the mask.
+How was the covid vaccine tested? (F)The process was a randomized double-blinded control trial, in which half the group received the vaccine and all were monitored for symptoms, side effects, and the COVID-19 virus.
+How contagious is COIVD-19? (F)The virus that causes COVID-19 appears to spread more efficiently than influenza but not as efficiently as measles, which is among the most contagious viruses known to affect people.
