@@ -445,22 +445,26 @@ def stemWords(tokens):
     return stemmed
 
 
-def processFolder(file_list, tokens, passStartId, documents):
+#def processFolder(file_list, tokens, passStartId, documents):
+def processFolder(file_list, passStartId, documents):
     idProcessed = passStartId
     for i,x in enumerate(file_list):
         file = open(x, "r")
         data = json.load(file)
         current_file = parseJSON(data)
+        current_file = current_file.encode('ascii', 'ignore').decode('utf-8')
         #divide into sentences
         documents[idProcessed] = []
         curr_file_tokens, documents[idProcessed] = tokenizeText(current_file, documents[idProcessed])
         for j, y in enumerate(documents[idProcessed]):
             documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
             documents[idProcessed][j].tokenized = stemWords(y.tokenized)
-            tokens.extend(documents[idProcessed][j].tokenized)
-        idProcessed += i
+            documents[idProcessed][j] = documents[idProcessed][j].tokenized
+            #tokens.extend(documents[idProcessed][j].tokenized)
+        idProcessed += 1
         file.close()
-    return tokens, idProcessed
+    return documents, idProcessed
+    #return tokens, documents, idProcessed
 
 # The main program should perform the following sequence of steps:
 # i. open the folder containing the data collection, provided as the first argument on the command
