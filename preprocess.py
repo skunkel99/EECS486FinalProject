@@ -459,7 +459,6 @@ def processFolder(file_list, passStartId, documents):
         for j, y in enumerate(documents[idProcessed]):
             documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
             documents[idProcessed][j].tokenized = stemWords(y.tokenized)
-            documents[idProcessed][j] = documents[idProcessed][j].tokenized
             #tokens.extend(documents[idProcessed][j].tokenized)
         idProcessed += 1
         file.close()

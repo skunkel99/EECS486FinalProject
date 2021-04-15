@@ -27,7 +27,6 @@ def main():
     max_sentence_freqs = {}
     path = sys.argv[1]
     query = str(' '.join(sys.argv[2:]))
-    print(query)
 
     for file in os.listdir(path):
         file_list.append(os.path.join(path, file))
@@ -37,7 +36,7 @@ def main():
     for doc_ID, sentences in documents.items():
         for sentence_ID, sentence in enumerate(sentences):
             current_ID = str(doc_ID) + "-" + str(sentence_ID)
-            inverted_index, term_freqs = indexSentence(sentence, current_ID, inverted_index)
+            inverted_index, term_freqs = indexSentence(sentence.tokenized, current_ID, inverted_index)
 
             # Exit the program if multiple identical IDs are found
             if current_ID in sentence_lengths:
@@ -65,7 +64,7 @@ def main():
     # TODO - change to however we want to output the answer
     if (len(similarities) > 0):
         answer_loc = str(similarities[0][0]).split("-")
-        print(" ".join(documents[int(answer_loc[0])][int(answer_loc[1])]))
+        print(documents[int(answer_loc[0])][int(answer_loc[1])].raw)
         print("Answer found in document " + str(int(answer_loc[0])) + " in sentence " + str(int(answer_loc[0])) + "\n")
     else:
         print("No answer could be found in the database.\n")
