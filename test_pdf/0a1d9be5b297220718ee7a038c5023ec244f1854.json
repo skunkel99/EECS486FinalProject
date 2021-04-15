@@ -1,0 +1,1582 @@
+{
+    "paper_id": "0a1d9be5b297220718ee7a038c5023ec244f1854",
+    "metadata": {
+        "title": "Journal Pre-proof AIR quality and COVID-19 adverse outcomes: Divergent views and experimental findings AIR QUALITY AND COVID-19 ADVERSE OUTCOMES: 2 DIVERGENT VIEWS AND EXPERIMENTAL FINDINGS 3 4",
+        "authors": [
+            {
+                "first": "Leonardo",
+                "middle": [],
+                "last": "Becchetti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rome Tor Vergata",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": "becchetti@economia.uniroma2.it"
+            },
+            {
+                "first": "Gabriele",
+                "middle": [],
+                "last": "Beccari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rome Tor Vergata",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Gianluigi",
+                "middle": [],
+                "last": "Conzo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rome Tor Vergata",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pierluigi",
+                "middle": [],
+                "last": "Conzo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Turin",
+                    "location": {
+                        "settlement": "Turin",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Davide",
+                "middle": [],
+                "last": "De Santis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Francesco",
+                "middle": [],
+                "last": "Salustri",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Davide",
+                "middle": [
+                    "De"
+                ],
+                "last": "Santis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rome Tor Vergata",
+                    "location": {
+                        "settlement": "Rome",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: The questioned link between air pollution and coronavirus disease 2019 22 spreading or related mortality represents a hot topic that has immediately been regarded in the 23 light of divergent views. A first \"school of thought\" advocates that what matters are only standard 24 epidemiological variables (i.e. frequency of interactions in proportion of the viral charge). A second 25 school of thought argues that co-factors such as quality of air play an important role too. Methods:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We analyzed available literature concerning the link between air quality, as measured by different 27 pollutants and a number of COVID-19 outcomes, such as number of positive cases, deaths, and 28 excess mortality rates. We reviewed several studies conducted worldwide and discussing many 29 different methodological approaches aimed at investigating causality associations. Results: Our 30 paper reviewed the most recent empirical researches documenting the existence of a huge evidence 31 produced worldwide concerning the role played by air pollution on health in general and on 32 COVID-19 outcomes in particular. These results support both research hypotheses, i.e. long-term 33 exposure effects and short-term consequences (including the hypothesis of particulate matter 34 acting as viral \"carrier\") according to the two schools of thought, respectively. Conclusions: The 35 link between air pollution and COVID-19 outcomes is strong and robust as resulting from many 36 different research methodologies. Policy implications should be drawn from a \"rational\" 37 assessment of these findings as \"not taking any action\" represents an action itself. 38 39 40 41 J o u r n a l P r e -p r o o f J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The tragedy of the coronavirus diseases 2019 (COVID-19) pandemic has stimulated an 43 incredibly vast number of reflections in the public opinion that ultimately turned out to 44 become research questions for academics and medical practitioners. One of the main 45 emerging issues explores the reason why the pandemic spread has been so uneven across 46 different geographical areas, both across and within countries. On this point, Italy offers a 47 classic example, with one region (Lombardy) concentrating approximately 17 percent of the 48 population (characterized by a unique increasing trend in terms of proportion of people aged 49 >85 on the regional population) and more than 46 percent of deaths attributed to COVID-19 50 from March 5 th to October 15 th , namely in the first epidemic wave during last winter. 51",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "The recent history of the debate and the empirical research on this question tells us that the 52 discussion hinges around two main \"schools of thought\". The first supports a purely 53 epidemiological explanation where the only factor accounting for the observed heterogeneity 54 is given by the frequency of physical encounters in proportion to the viral charge of each 55",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "individual. According to this approach, the only variables that matter in explaining the 56 phenomenon are those capturing the non-linear (usually \"bell-shaped\" curves) contagion 57 dynamics. Variation across different geographical areas in this perspective is explained by 58 the non-synchronous origin of the phenomenon across different regions, and crucially 59 influenced by the presence/absence of \"super-spreader\" individuals or events (e.g. the 60",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "Champions League match between Atalanta and Valencia in late February, when 40,000 61 supporters from the neighbor province of Bergamo moved to Milan, the place of the match). 62",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "A typical descriptive picture reflecting this approach is the non-synchronous overlapping of 63 pandemic contagion curves in different countries/regions. The first day of the local 64 epidemics at the origin of the X-axis conventionally starts from the 100 th contagion case, and 65 the abilities of different policymakers in tackling the local spread of the epidemics can be 66 evaluated at first sight by looking at the overlapped curves. 67",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "A non-alternative but more articulated approach argues that several other factors beyond the 68 standard expected dynamics of the contagion can help us to assess the observed 69",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "heterogeneity. Air quality represents one of these factors. Over the last two months, the 70 debate on the role of air pollution has typically opposed the two above mentioned \"schools of 71 thought\" discussing the issue from two different, if not opposite, views. 72",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "The hypothesis that air quality can influence the dynamics of COVID-19 contagions and 73 deaths finds a strong theoretical background in scientific literature about the link between air 74 pollution and several respiratory and heart diseases. This literature suggests that quality of air 75",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "can affect adverse COVID-19 outcomes in two ways: long term ex ante exposures to 76 particulate matter (PM) may weaken health in general and lungs in particular, but at the same 77 time it cannot be excluded that air pollutants might serve as \"carriers\" for the viruses. 78",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "The first hypothesis relies on the well-established link between long term exposure to PM 79 and lungs morbidities. In particular, this exposure may have weakened lungs and alveolar 80 reactivity to the severe acute respiratory syndrome coronavirus 2 (SARS-COV-2), thereby 81 making severe respiratory and pulmonary consequences more likely to occur. 82",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "In the literature, the link between PM inhalation and lung diseases is hugely documented. 83 Pope and Dockery [1] have assessed around 200 papers focusing on adverse health effects of 84 exposure to PM. They conclude that long term exposure produces lungs inflammation and 85 oxidative stress, accelerating the progression and exacerbation of chronic obstructive 86 pulmonary disease (COPD), and reducing lung function. 87",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 92,
+                    "text": "83",
+                    "ref_id": null
+                },
+                {
+                    "start": 110,
+                    "end": 113,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "As of the viral particles on PM10 were not performed due to the study design and unavailable 107 high-security laboratory facilities. However, it can be argued that PM probably carries the 108 coronavirus and therefore make its presence outside the human body more dangerous in 109 terms of contagions. What is still missing in this analysis is an evaluation of the viral load and 110 therefore of the potential contagion effects, if we consider that viruses get progressively 111 weaker when outside the human body. 112",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "In our short survey we try to follow this discussion by illustrating the main empirical or 113 experimental results found so far in support of both hypotheses, challenging the pure 114 epidemiological explanation and trying to assess the relevance of air quality as a co-factor not 115 only in terms of statistical significance but also in terms of relevance of the observed effect 116 magnitude. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "42"
+        },
+        {
+            "text": "The tools for health economists who aim at answering the proposed research question are 123 mainly statistical and econometric methods. The inspection of a simple correlation between 124 the two variables of interest (quality of air, on the one side, and COVID-19 contagions or 125 deaths, on the other side) serves only as a starting point of the analysis. This is followed by 126 the identification of all the concurring and confounding factors that may have affected the 127 phenomenon. Thus, the analysis outlines a multivariate model that allows to test the impact 128",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "(and hopefully the causality) of the main variable of interest (namely airquality) on the 129 dependent variables, coeteris paribus. 130",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "The task is daunting since many other factors may have concurred to the observed outcome. 131",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "The first candidates are time invariant structural factors related to geography, structural 132",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "commuting dynamics, quality of local and regional administrations, structural characteristics 133 of the regional health systems that in many countries are autonomous and decentralized. 134",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "Together with this structural and time invariant factors (as conventionally assumed), many 135 other time varying factors may matter. Local authorities and regulators may have had 136",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "different speed and quality of reaction to the pandemic, thereby contributing to generate 137 heterogeneity in time varying effects at regional or local level. The main candidate of time 138",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "varying effects at local level is obviously represented by local mobility data that are made 139 available by Google platforms. One of the most interesting ones is the variation of presences 140",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "in \"transit stations\" as defined by subway, bus and train stations, sea ports, taxi stands, 141 highway rest stops and car rental agencies. Other equally relevant mobility variables are 142 those measuring changes of dwellers presence in urban parks or recreational premises. 143",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "Based on these considerations, the benchmark specification tested in multivariate analysis 144 takes the standard form as follows: 145 146 COVID-19 outcome tm = \u00df 0 + \u00df 1 Quality of air tm + \u03a3 r \u00df r Controls rm + u tm (1)  147  148 where observations are captured at time t in region m and the explanatory power of quality of 149 air is tested after controlling for other relevant concurring factors (Controls). An important 150 methodological issue here relates to the definition of the dependent variable. As it is well 151 known, COVID-19 recorded cases are highly endogenous as they depend from the number of 152 tests performed. 153",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 218,
+                    "end": 231,
+                    "text": "(1)  147  148",
+                    "ref_id": null
+                }
+            ],
+            "section": "122"
+        },
+        {
+            "text": "A more refined measure of contagion and intensity is therefore the ratio between positive 154 cases and total number of tests. COVID-19 deaths are also measured with underlying errors 155 and with highly heterogeneous methodologies across countries and regions for at least two 156",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "reasons. The first concerns the cause of death, that is whether patients died because of the 157 COVID-19 or with COVID-19 (patients dying for their own chronic conditions who just 158 tested positive at the time of death) and how the two types of situations are evaluated by each 159 local health authority, given that the distinction between the two concepts can be considered 160 arbitrary with not so clear cut. The problem of a correct diagnosis is particularly relevant also 161 because most of the people died with COVID-19 deaths suffered due to underlying 162 comorbidities. As a result, some recording approaches may register one of these comorbidity 163 -and not COVID-19 -as the cause of death. Because of the different registration approach, 164",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "we will observe over-or under-reporting of COVID-19 deaths. This makes comparison 165 across countries or provinces hard to perform. 166",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "A second problem is the lack of a proper diagnosis. When the epidemics is at peaks and 167",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "intensive therapy beds in hospitals are saturated, local health officials tend to delay 168",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "interventions and diagnosis even for the most serious cases. As a consequence, a remarkable 169 number of affected patients die at home without a proper diagnosis. Here again we have a 170",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "problem of under-reporting of COVID-19 deaths. A solution found by many researchers to 171",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "these measurement error problems is to use the \"excess deaths\" as dependent variable. 172",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "Excess deaths can be defined as the difference between any recorded deaths in a given period 173",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "(usually day or week) and the average of any deaths occurred within the same period in the 174 previous years. The use of excess deaths has the advantage of eliminating all problems 175 related to regional and country recording differences, because it is based on any deaths 176 regardless the cause of the death, which are homogeneously recorded by each municipality. 177",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "However, the advantage of this approach is traded off against the fact that only a measure of 178 the \"gross mortality effect\" due to COVID-19 is provided. COVID-19 outcome tm = \u00df 0 + \u00df 1 t +\u00df 2 t 2 + \u00df 3 t 3 + u tm (2) 197 198",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "The between air pollution and COVID-19 cases or deaths, the main candidate is air quality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "122"
+        },
+        {
+            "text": "Estimation approaches 207 The challenge between the two competing theories occurs in the domain of multivariate 208 analysis. A typical problem in multivariate analysis is the omitted variable bias. The problem 209",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 25,
+                    "text": "207",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "206"
+        },
+        {
+            "text": "is likely to become more severe when using finer and more disaggregated administrative 210 units (i.e. provinces or municipalities). partially solved by using non-synchronous regional time trends starting from the first day in 218 which contagions are more than 100 in a given region or, alternatively, by using region-week 219",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "206"
+        },
+        {
+            "text": "dummies. However, the most important time varying effect concerns mobility data, which 220 have been used in the studies discussed below (see Results section). These data are crucial 221 since they help to track the dynamic of contacts and interactions among individuals, one of 222 the main drivers of contagion. 223",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "206"
+        },
+        {
+            "text": "The significance of the \u00df 1 coefficient in the multivariate analysis estimating model (1) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "206"
+        },
+        {
+            "text": "Since early 2020, empirical findings rejecting the null of no incidence of quality of air on 267 negative COVID-19 outcomes have emerged from scholars located worldwide and refer to 268 evidences collected in different countries. Wu imputed parameters such as the mean incubation time in case of infection, the probability of 296 getting infected, the probability of detecting infected cases and the probability of isolating 297",
+            "cite_spans": [
+                {
+                    "start": 230,
+                    "end": 232,
+                    "text": "Wu",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "contacts of the infected case. All these parameters are subjects to uncertainty. Therefore, it is 298 highly likely that all these assumption scan create measurement errors, thereby producing 299 biased estimates. Even if it is nice to have such a robustness check, it is advisable to have 300 main estimates with simpler dependent variables 301",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "All the above mentioned studies test the first research hypothesis on the relevance of long 302 term exposure. However several other empirical contributions find a positive and significant 303 effect for time varying PM that is compatible also with the second research hypothesis of the 304 carrier effect. Among these studies Delnevo et al. [21] show that daily lagged PM 305",
+            "cite_spans": [
+                {
+                    "start": 342,
+                    "end": 346,
+                    "text": "[21]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "Granger-causes adverse COVID-19 outcomes in provinces in the region of Emilia-Romagna, 306",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "Italy. Becchetti et al. [22] find evidence of a significant association of lagged PM2.5 and 307",
+            "cite_spans": [
+                {
+                    "start": 24,
+                    "end": 28,
+                    "text": "[22]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "PM10 on confirmed cases and deaths in European regions using data from the Copernicus 308",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "Atmosphere Monitoring Service (CAMS) with significance peaking at 6-8 th lags for 309 contagions and at the 13 th lag for deaths. Significant findings on the time varying effect of 310 PM are also found by Isphording and Pestel [23] However, as explained in the methodological discussion, the first best counterfactual is not 366 available (and can be only imperfectly simulated). Similarly, the second best of randomized 367 experiments is out of reach when investigating a phenomenon that did not start after the 368 organization of the experimental setting (as in any randomized control trial with treatment 369 and control group). Therefore, we cannot confirm being one hundred percent sure the 370 causality nexus despite the fact that the evidence presented above is quite convincing. 371",
+            "cite_spans": [
+                {
+                    "start": 228,
+                    "end": 232,
+                    "text": "[23]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "This does not imply however that we cannot draw policy conclusions from the existing 372 literature, and the following analogy can be useful to understand why. Imagine you are at a 373 dinner and you are told that, with 90 percent probability, what you are going to eat can cause 374 you a serious illness. The instinctive, but also \"rational\", reaction of each of us would be that 375 or refusing to eat such a meal. The choice of refusing would represent our \"policy decision\". 376",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "The health effect of smoking is another example showing how policy interventions need to 377 be bold and differ from academic robustness, while in dialogue with the scientific 378 community. In fact, anti-smoking campaigns could have started before the last umpteenth 379 evidence. In a similar manner, it is not wise not to take policy action when you know that, 380",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "based on the available evidence, you are 90 percent (or almost as such) certain that quality of 381 air has a positive effect on COVID-19 contagions and deaths. 382",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "The suggestion to reduce PM concentration stemming from this literature is not new. The 383",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "266"
+        },
+        {
+            "text": "World Health Organization calculates that air pollution (to whom PM concentration gives 384 one of the main contributions) kills around 7 million people around the world. 1 Although the 385 sectors contributing more to pollutant emissions vary across regions, we know that overall 386 house heating is the main responsible of PM propagation, followed by traffic mobility, 387 energy production, industry and agriculture [28] . It is therefore urgent to replace polluting 388 production techniques with cleaner techniques in the most pollutant sectors. This policy 389 advice is not new but it is definitely reinforced by what found with the recent research on the 390 determinants of COVID-19 deaths. ",
+            "cite_spans": [
+                {
+                    "start": 171,
+                    "end": 172,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 420,
+                    "end": 424,
+                    "text": "[28]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "266"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Health effects of fine particulate air pollution: 406 lines that connect",
+            "authors": [
+                {
+                    "first": "Iii",
+                    "middle": [],
+                    "last": "Pope",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Dockery",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Journal of the air & waste management association",
+            "volume": "56",
+            "issn": "6",
+            "pages": "407--709",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Long 409 term exposure to ambient air pollution and risk of hospitalization with 410 community-acquired pneumonia in older adults",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Neupane",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jerrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Burnett",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Marrie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arain",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Loeb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "American Journal of Respiratory",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The effect of ozone and PM10 413 on hospital admissions for pneumonia and chronic obstructive pulmonary disease: a 414 national multicity study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Medina-Ramon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanobetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "American Journal of Epidemiology",
+            "volume": "163",
+            "issn": "6",
+            "pages": "579--588",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Spatial and 416 temporal variability of the PM2. 5/PM10 ratio in",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Air pollution and emergency admissions in Boston",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zanobetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Association 421 of ambient air pollution with respiratory hospitalization in a government-designated 422 \"area of concern\": the case of Windsor, Ontario. Environmental health 423 perspectives",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Luginaah",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Fung",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gorey",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Webster",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wills",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "113",
+            "issn": "",
+            "pages": "290--296",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Short-term 425 effects of fine particulate matter and temperature on lung function among healthy 426 college students in Wuhan",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shima",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "China. International journal of environmental research",
+            "volume": "427",
+            "issn": "7",
+            "pages": "7777--7793",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "How air pollution influences clinical management of respiratory diseases. A 430 case-crossover study in Milan",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Santus",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Russo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Madonini",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Allegra",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Blasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Centanni",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "."
+                    ],
+                    "last": "&amp;amaducci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Respiratory research",
+            "volume": "13",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Potential role of particulate matter in the spreading of COVID-19 in Northern 433 Italy: first observational study based on initial epidemic diffusion",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Setti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Passarini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "De Gennaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Di Gilio",
+                    "suffix": ""
+                },
+                {
+                    "first": "J\u2026",
+                    "middle": [],
+                    "last": "Palmisani",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Piscitelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Miani",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "BMJ open",
+            "volume": "434",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "436 SARS-Cov-2RNA found on particulate matter of Bergamo in Northern Italy: First 437 evidence",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Setti",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Passarini",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Gennaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Barbieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Piscitelli P &amp; Miani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ Res",
+            "volume": "188",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Exposure to 439 air pollution and COVID-19 mortality in the United States",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Nethery",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sabath",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Dominici",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Air pollution exposure and COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cole",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ozgen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "&amp;strobl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "How mobility habits influenced the 443 spread of the COVID-19 pandemic: Results from the Italian case study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carten\u00ec",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Di Francesco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Martino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of the 444 Total Environment",
+            "volume": "741",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "The determinants of COVID-19 case fatality rate (CFR) in the Italian 446 regions and provinces: an analysis of environmental, demographic, and healthcare 447 factors",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Perone",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of The Total Environment",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The effects of air pollution on COVID-19 related mortality in northern 450",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Assessing nitrogen dioxide (NO2) levels as a contributing factor to the 452 coronavirus (COVID-19) fatality rate. Science of The Total Environment",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ogen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Association between 454 short-term exposure to air pollution and COVID-19 infection: Evidence from",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yongjian",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jingu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fengming",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "&amp;liqing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Air pollution and Covid-19: 457 the role of particulate matter in the spread and increase of Covid-19's morbidity and 458 mortality",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Comunian",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dongo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Milani",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "&amp;palestini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International journal of environmental research and public health",
+            "volume": "17",
+            "issn": "12",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Understanding the 461 heterogeneity of adverse COVID-19 outcomes: the role of poor quality of air and lockdown 462 decisions",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Becchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Conzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Conzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Salustri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3572548"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Mathematical recommendations to fight 464 against COVID-19",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3551006"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Particulate Matter and COVID-19 Disease 466 Diffusion in Emilia-Romagna (Italy). Already a Cold Case",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Delnevo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mirri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "&amp;roccetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Computation",
+            "volume": "8",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Lagged particulate matter, contagions 468 and deaths: the relationship between quality of air and COVID-19 at European level",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Becchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Beccari",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De Santis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "469 Cefimsdp",
+            "volume": "159",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Pandemic meets pollution: poor air quality 471 increases deaths by COVID-19",
+            "authors": [
+                {
+                    "first": "Ingo",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Isphording",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nico",
+                    "middle": [],
+                    "last": "Pestel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "COVID-19 mortality and contemporaneous air pollution. No. 473 paper2016. International Center for Public Policy, Andrew Young School of Policy 474 Studies",
+            "authors": [
+                {
+                    "first": "Wes",
+                    "middle": [],
+                    "last": "Austin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Particulate matter and COVID-19 excess deaths: decomposing long-term 477 exposure and short-term effects",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Becchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Beccari",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Conzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Conzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De Santis",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Salustri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Park Municipalities and 479 Mortality during the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Becchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Conzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Conzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Salustri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Available at SSRN",
+            "volume": "480",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3625606"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The 482 health effect of living in park municipalities",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Becchetti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Beccari",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Conzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Conzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "De Santis",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Salustri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Air Pollution and Health: The 484 Need for a Medical Reading of Environmental Monitoring Data. International 485 journal of environmental research and public health",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Iriti",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Piscitelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Missoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Miani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "alternative model of the school of thought advocating the role of other factors beyond 199 non-linear epidemiological dynamics may be resumed by the assumption that these three 200 variables do not capture all the phenomenon under investigation and the model takes instead 201 the form of: 202 COVID-19 outcome tm = \u00df 0 + \u00df 1 t +\u00df 2 t 2 + \u00df 3 t 3 + \u03a3 r \u03b3 r Controls rm + u tm (2') 203 J o u r n a l P r e -p r o o f where there exists at least one \u03b3 r different from zero. In the literature investigating the link 204",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "the methodology performs pooled and fixed effect estimates where ex ante time 285 invariant PM exposure is interacted with epidemic time trends. Finally, the authors create an 286 artificial experiment by predicting the dynamics of the epidemics without lockdown 287 intervention and comparing it with what happens in the presence of the intervention. This 288 simulated counterfactual lockdown is highly significant in reducing negative adverse 289 outcomes and more so in provinces with poorer quality of air. Among robustness checks, the 290 authors smooth daily into weekly data, remove outlier provinces and use as alternative 291 dependent variable the estimated reproduction rate (R 0 ) of the virus. In this last case what 292 they measure is the effect of PM concentration on the epidemic dynamics. However, the 293 calculation of R 0 relies on a theoretical model (the authors follow the Susceptible Infected 294 Recovered methodology as proposed by Gu et al. [20] and on several ad hoc assumptions or 295",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "://www.who.int/news/item/02-05-2018-9-out-of-10-people-worldwide-breathe-polluted-air-but-more -countries-are-taking-action.J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Nonetheless, this measure is 179 interesting because it allows us to evaluate direct and indirect effects of the pandemic on 180 mortality. There are at least three important indirect effects to be considered. First, 181 concentration of hospital activities on the COVID-19 emergence slows down all other 182 activities such as, for instance, follow-up visits of cancer patients. This phenomenon may 183 eventually lead to deceases for other causes. Second, patients with other serious health 184 emergencies (e.g. strokes, heart attacks) may delay access to hospital because they fear to be 185 infected at hospital by COVID-19. Third, the sharp reduction of traffic during lockdown 186 periods reduces deaths like road or workplace fatalities, especially in big cities. This third 187factor that reduces mortality may partially offset the first two death-increasing factors 188 thereby making direction and sign of the difference between net and gross COVID-19 deaths",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "The second best would be a randomized controlled trial, where the effect of pre-defined",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Econometric findings show that both components are positive and 336 significant therefore supporting both hypotheses. An obvious caveat of this decomposition is 337 that the time varying component may proxy for both the carrier and the short term effect of 338 PM variation on lung inflammation. The issue remains open to debate and to further research. 339 The quality of natural capital is obviously a strong antidote against air pollution. Italy 340 represents an interesting case study because, according to data from the Ministry of the 341 Environment and Protection of Land and Sea processed by Ancitel, in 2020 there were 2,073 342 municipalities (around 25% of all municipalities) within protected natural areas. These are 343 areas located within national, regional, provincial or local parks, natural reserves and sea 344 natural areas. Around a quarter of municipalities (502) are located in natural parks, while 345 almost half share at least 45% of their surface area with parks, reserves or the so called 346 Environmental Economic Zone (EEZ). EEZ are areas defined in 2019 by a decree-law and 347 enjoy special economic support to preserve their natural resources. If we consider average 348 data from the last three years until end May 2020 (thereby including the first wave of the 349 pandemic), we find that park municipalities have on average 4 \u03bcg/m 3 less of PM2.5and PM10 350 and around one third of NO2. Becchetti et al. [26] calculate that, if we consider prudential 351 estimates from average data from epidemiological findings, people living in \"park 352 municipalities\" have around 8-10% lower mortality rate for this combined effect. Similarly, 353 Becchetti et al. [27] find that better air quality reduced incidence of COVID-19 contagions 354 and deaths in park municipalities during the first pandemic wave after controlling for all 5. Conclusions and policy implications 359 A number of researches in the few months after the onset of the COVID-19 pandemic have 360 produced robust evidence on the association between air pollution and COVID-19 adverse 361 outcomes (contagions and deaths). The set of methodologies adopted by the different 362 contributions are extremely rich and articulated. The contemporary emergence of significant 363 results from different researchers located worldwide provides evidence in favor of the 364 hypothesis of causation. 365",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

@@ -1,0 +1,61 @@
+{
+    "paper_id": "0a1e9861fd4c4dbcc14d1da9af629040928dc44a",
+    "metadata": {
+        "title": "Reviewer 2 v.1",
+        "authors": []
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "1. Abstract: the authors described some irrelevant information, such as the symptoms and information of COVID-19, which are the common knowledge now and the authors didn't directly study those issues in their study. Please delete. In abstract, authors need to mainly focus on their findings 2. Introduction: a. Paragraph one is general knowledge about ARDS, the relevance to this study is pretty low, suggest delete it.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "b. Likewise, paragraphs 2-4 also described lots of common knowledge about HFNC and CPAP, such as the rationale and indications, please shorten the 4 paragraphs and merge into one.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "c. There have been at least 4 publications on utilizing HFNC for COVID-19 patients, please review them and put the current study results in the introduction.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "3. Methods a. Study design is unclear, please state the study design as well as IRB approval at the beginning of this section b. The process of changing CPAP/NIV to HFNC is not clear. Did they change from CPAP/NIV to HFNC for whoever met the failure criteria? what's the failure criteria? if it is the criteria listed before this sentence \"A single attempt lasting a maximum of one hour was performed when SpO2 was less than 92%, RR higher than 28 acts/min, dyspnoea was present, and contraindications including cardiorespiratory arrest, signs of organ failure, hemodynamic instability, facial trauma, and upper airway obstruction were absent.11\" any of the contraindication listed here is definitely contraindication for HFNC, those patients need direct intubation, how can it be possible to switch to HFNC? if this is not the criteria, please list.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "c. From the description, I don't think it is a pre-planned prospective study 4. Results a. What do you mean by \"early HFNC treatment\"? b. Paragraph 2 is confusing, did you use HFNC for 2 patients directly and switched from conventional oxygen therapy to HFNC for 3 patients? Then you said \"CPAP treatment was tried in all 5 patients\", when did you use CPAP? Also, did you use CPAP or BiPAP? c. Flow plays a key role in the HFNC use, please report the flow settings as well.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "5. Discussion: please focus on the difference and similarities of your finding versus other studies with HFNC for COVID-19 patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "When an abbreviation is used in the first time, please list the full name",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {},
+    "back_matter": []
+}

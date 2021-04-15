@@ -1,0 +1,1485 @@
+{
+    "paper_id": "0a1be7339e987215a623091c2d30d0e635b08975",
+    "metadata": {
+        "title": "Temporal response of biochemical and biological sensors with bimodal surface adsorption from a finite sample",
+        "authors": [
+            {
+                "first": "Ivana",
+                "middle": [],
+                "last": "Joki\u0107",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Olga",
+                "middle": [],
+                "last": "Jak\u0161i\u0107",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Milo\u0161",
+                "middle": [],
+                "last": "Frantlovi\u0107",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zoran",
+                "middle": [],
+                "last": "Jak\u0161i\u0107",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [],
+                "last": "Koushik Guha",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [],
+                "last": "Karumuri",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Srinivasa",
+                "middle": [],
+                "last": "Rao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The importance of adsorption-based biochemical/biological sensors in biochemistry and biophysics is paramount. Their temporal response gives information about the presence of a biochemical/biological analyte, its concentration and its interactions with the adsorption sites (which may be an integral part of the surface itself or immobilized functionalizing molecules). Mathematical models of the temporal response taking into account as many relevant effects as possible are essential for obtaining reliable information. We present a novel model taking into account the bimodal affinity of a sensing surface (adsorption occurs on two distinct site types), and the adsorption-caused depletion of the analyte from the sample. We perform qualitative and quantitative analysis of the analyte depletion influence on the bimodal adsorption, and of the influence of the sensing surface inhomogeneity on the sensor temporal response, for different analyte concentrations and different fractions of two types of adsorption sites. Since the presented mathematical model deals with the realistic cases of the sensing surface non-uniformity and the finite amount of analyte present in the sensor reaction chamber, it enables improved accuracy in interpreting the measurement data. Our results are general, i.e. valid for any adsorption sensor (microcantilevers, plasmonics) and for arbitrary sensor dimensions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In the vast fields of biochemistry and biophysics, the devices intended for sensing of biochemical or biological analytes and their interactions play one of the crucial roles (Ram and Bhethanabotla 2018) . Among them are the affinity-based micro/nanosensors that make use of reversible adsorption of target analyte particles as a mechanism of the analyte recognition and sensor response generation (Rogers and Mulchandani 1998) . Examples include microcantilever or nanocantilever-based MEMS sensors (Hansen and Thundat 2005) and plasmonic devices that utilize evanescent surface electromagnetic waves (Choi and Choi 2011) . The affinity-based micro and nanosystem sensors ensure extremely sensitive, real-time, label-free, in situ and low-cost detection and measurement of the analyte concentrations in samples taken from the environment, food or living organisms (Ram and Bhethanabotla 2018; Zhou et al. 2017; Khanna 2012) . Owing to their small dimensions, such devices are suitable for sensor networks and portable sensors with wireless communication (Bhushan and Sahoo 2020) , in which the sensing element, electronic signal processing circuitry and a wireless transceiver can be integrated into a small volume (Eren 2018) . These features make the affinity-based micro/nanosensors promising tools for applications in environmental monitoring, agriculture, food industry, biomedical diagnostics and early warning systems for bioterrorism (Khanna 2012; Eren 2018; Kim and Lee 2020) . Even in this very moment, plasmonic biological sensors are used to enable rapid and massive testing of COVID-19 suspect individuals-e.g. (Qiu et al. 2020; Morales-Narv\u00e1ez and Dincer 2020) .",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 203,
+                    "text": "(Ram and Bhethanabotla 2018)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 398,
+                    "end": 427,
+                    "text": "(Rogers and Mulchandani 1998)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 500,
+                    "end": 525,
+                    "text": "(Hansen and Thundat 2005)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 602,
+                    "end": 622,
+                    "text": "(Choi and Choi 2011)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 865,
+                    "end": 893,
+                    "text": "(Ram and Bhethanabotla 2018;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 894,
+                    "end": 911,
+                    "text": "Zhou et al. 2017;",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 912,
+                    "end": 924,
+                    "text": "Khanna 2012)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1055,
+                    "end": 1079,
+                    "text": "(Bhushan and Sahoo 2020)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1216,
+                    "end": 1227,
+                    "text": "(Eren 2018)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1443,
+                    "end": 1456,
+                    "text": "(Khanna 2012;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1457,
+                    "end": 1467,
+                    "text": "Eren 2018;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1468,
+                    "end": 1485,
+                    "text": "Kim and Lee 2020)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1625,
+                    "end": 1642,
+                    "text": "(Qiu et al. 2020;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1643,
+                    "end": 1675,
+                    "text": "Morales-Narv\u00e1ez and Dincer 2020)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The information about the presence of the target biochemical/biological analyte in a sample, its concentration and its interaction with the surface adsorption sites (regardless of these being an integral part of the sensing surface itself or immobilized functionalizing molecules) is obtained by the analysis of the temporal response of the sensor. Thus the mathematical models of the sensor response which take into account a larger number of relevant effects ensure more reliable information.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "To analyze the measurement results a simple linear mathematical model of sensor temporal response is commonly applied (Mehand et al. 2015) , in which it is assumed that only adsorption-desorption (AD) process of analyte particles on the sensing surface influences the sensor response. Alternatively, a somewhat more comprehensive model is used that takes into account the coupling of AD process and mass transfer in the sensor microfluidic chamber (Myszka et al. 1998; Anderson et al. 2011 ). Some models have been presented in literature that include competitive adsorption of binary or multiple analytes (Jak\u0161i\u0107 et al. 2010 (Jak\u0161i\u0107 et al. , 2014a Frantlovi\u0107 et al. 2013) , dealing in such a manner with the limited sensor selectivity. There are also models that take into account multiple analyte adsorption and mass transfer (Frantlovi\u0107 et al. 2013) . In sensors with a closed reaction chamber, the depletion of analyte particles from the sample as a consequence of their adsorption over time can also be important, since it influences the sensor temporal response, especially at low analyte concentrations. This effect was taken into account in the non-linear mathematical model in Jak\u0161i\u0107 et al. (2014b Jak\u0161i\u0107 et al. ( , 2020 . The results presented in the quoted references have proven that a better agreement with experiments can be achieved by using the improved mathematical models of sensor temporal response.",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 138,
+                    "text": "(Mehand et al. 2015)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 448,
+                    "end": 468,
+                    "text": "(Myszka et al. 1998;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 469,
+                    "end": 489,
+                    "text": "Anderson et al. 2011",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 606,
+                    "end": 625,
+                    "text": "(Jak\u0161i\u0107 et al. 2010",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 626,
+                    "end": 648,
+                    "text": "(Jak\u0161i\u0107 et al. , 2014a",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 649,
+                    "end": 672,
+                    "text": "Frantlovi\u0107 et al. 2013)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 828,
+                    "end": 852,
+                    "text": "(Frantlovi\u0107 et al. 2013)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1186,
+                    "end": 1206,
+                    "text": "Jak\u0161i\u0107 et al. (2014b",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1207,
+                    "end": 1229,
+                    "text": "Jak\u0161i\u0107 et al. ( , 2020",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The above mentioned mathematical models of sensor response are based on the Langmuir model of single analyte or multiple analyte adsorption, which assume the uniformity of all adsorption sites on the sensing surface. However, the active surface of affinity-based sensors does not always consists of uniform adsorption sites to which the particles of the target analyte bind. The reason for that may be a non-uniform surface morphology, or uneven binding of functionalizing particles to the surface. Practical examples of non-uniform morphologies include metasurface-based plasmonic sensors, where the sensor active surface consists of ordered metal-dielectric patterns with the characteristic dimensions of the order of tens of nanometers or even less (Jak\u0161i\u0107 et al. 2011) . Another example are graphene biochemical sensors (Shivananju et al. 2017) where one has atomically thin flakes of graphene located on a semiconductor or dielectric surface. Whatever its underlying cause is, non-uniform adsorption can be described by different binding affinities of different binding sites.",
+            "cite_spans": [
+                {
+                    "start": 752,
+                    "end": 772,
+                    "text": "(Jak\u0161i\u0107 et al. 2011)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 824,
+                    "end": 848,
+                    "text": "(Shivananju et al. 2017)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this paper, we present a novel mathematical model of the sensor temporal response that takes into account two types of adsorption sites on the sensing surface, i.e. the case described as bimodal surface affinity. At the same time, our model simultaneously considers the change of analyte concentration in a closed reaction chamber, caused by analyte particles adsorption and ensuing depletion. We perform both qualitative and quantitative analysis of the influence of two different types of surface adsorption also taking into account analyte depletion on the sensor response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The output signal of adsorption-based sensors is generated by the process of analyte particles adsorption on the sensing surface, which changes a measurable electrical, mechanical or optical parameter of the sensor structure. The parameter can be the conductivity, electrical current, capacitance, mechanical strain, resonance frequency, mass, refractive index, etc. Therefore, the time response of the diverse group of adsorption-based sensors (such as resistive, FET, microcantilever, SAW-Surface Acoustic Wave, BAW-Bulk Acoustic Wave, plasmonic sensors) is determined by the number of analyte particles adsorbed on the sensing surface, so the mathematical model of their temporal response is based on the model of the time evolution of the number of adsorbed particles.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "If the binding of analyte particles to different sites on the sensing surface is characterized by two different affinities, the adsorption analysis can be performed assuming that there are two types of surface adsorption sites, as illustrated in Fig. 1 . Fig. 1 Schematic presentation of bimodal adsorption-desorption process of analyte particles on the sensing surface, characterized by two types of adsorption sites (here represented as surface patches with two different shades)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 246,
+                    "end": 252,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 255,
+                    "end": 261,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Let us assume that the total number of adsorption sites on the sensing surface is N a = N a1 ? N a2 , where N a1 is the number of sites of the first type, and N a2 is the number of sites of the second type. We also assume that only one particle adsorbs to a single binding site, and that interactions between the adsorbed particles do not occur. The surface sites binding affinity towards the given analyte is determined by the adsorption and desorption rate constants (k av and k dv , respectively), which are denoted by indices ''1'' and ''2'', according to the type of adsorption sites. The total number of analyte particles injected in the sensor's closed reaction chamber is N 0 = CV (C is the analyte concentration in the injected sample, and V is the chamber volume). If N 1 and N 2 are the numbers of particles adsorbed on the two types of adsorption sites at the moment t, their temporal change is determined by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "Here N 0t is the number of free particles in the chamber available for adsorption on the sensing surface at the moment t.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "If we neglect the change of N 0t during time, the number of analyte particles in the chamber, which are available for adsorption at any given moment will be equal to the number of particles in the sample injected into the chamber at the beginning of the experiment (the moment t = 0), so that N 0t = N 0 in the previous equations. Thus the obtained equations",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "constitute the linear binding model, which is known in the literature as the bi-Langmuir model (Umpleby et al. 2004) . In this simple model, the equations are not coupled, so it can be easily solved by N 1l and N 2l",
+            "cite_spans": [
+                {
+                    "start": 95,
+                    "end": 116,
+                    "text": "(Umpleby et al. 2004)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "and the time constants for achieving the steady state are",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "Assuming a linear relation between the sensor response and the number of adsorbed particles, the sensor temporal response is given by the expression",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "where w is the weight factor, representing the mean contribution of a single particle adsorption to the sensor response. In a general case, different weight factors may correspond to the adsorption on two types of binding sites (the response is then S l = w 1 N 1l ? w 2 N 2l ). A motivation for the use of Eq. (8) is its validity for many various adsorption-based sensors in the case when there are different types of adsorption sites. For instance, in the cases of resonant micro/nanocantilevers, surface acoustic wave and bulk acoustic wave sensors, particle adsorption changes the mass of the mechanical sensing structure, so that w is determined by the mass of a single analyte particle, thus it is independent on the type of the site where the particle was adsorbed. Also, in the case of plasmonic sensors it is reasonable to assume that the mean change of refractive index when an analyte particle is adsorbed is w = (nn e )/N a , where n is the refractive index value of the analyte and n e is the refractive index of the surrounding medium (Choy 2015) (the simple mixing rule). A more comprehensive model takes into account the change of the number of free particles in the chamber due to the AD processes on the surface. Thus, the number of particles available for adsorption at the moment t depends on the current numbers of particles adsorbed on both types of adsorption sites, and it equals N 0t = N 0 -N 1 -N 2 , so Eqs. (1, 2) become",
+            "cite_spans": [
+                {
+                    "start": 1049,
+                    "end": 1060,
+                    "text": "(Choy 2015)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "This system of nonlinear differential equations can be solved numerically for N 1 and N 2 . The numbers of adsorbed particles in the steady state, N 1s and N 2s , can be obtained by solving the equations",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "Here we introduced the equilibrium constants K d1 = k d1 / k av1 and K d2 = k d2 /k av2 . Equations (11) and (12) are obtained from Eqs. (9) and (10) for dN 1 /dt = 0 and dN 2 / dt = 0.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "The sensor time response is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "where N 1 and N 2 are the solutions of Eqs. (9) and (10), and w is defined earlier in this section. Equations (9)-(13) constitute the sensor time response mathematical model that takes into account bimodal nonuniformity of adsorption surface sites, and analyte depletion in the sensor reaction chamber.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "In order to investigate the influences of analyte depletion and the sensing surface bimodal affinity on the biosensor temporal response, we use two mathematical models for the time evolution of the numbers of adsorbed particles, given by Eqs. (3), (4), (9) and (10). An analysis of the number of the adsorbed particles gives one a complete insight into the behavior of the sensor response, applying Eqs. (8) and (13). Also, in this manner the generality of the analysis is thus improved, since its conclusions are applicable to different types of adsorption-based sensors, independently on the type of the measured parameter. The values of parameters (adsorption and desorption rate constants, concentration) that we use in numerical calculations are from the range of values corresponding to protein adsorption on a functionalized sensing surface (e.g. binding of an antibody and antigen) (Myszka et al. 1998) .",
+            "cite_spans": [
+                {
+                    "start": 890,
+                    "end": 910,
+                    "text": "(Myszka et al. 1998)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results and discussions"
+        },
+        {
+            "text": "We introduce the parameter v, which is the fraction of type 1 adsorption sites in the total number of adsorption sites, thus N a1 = vN a and N a2 = (1v)N a . Figures 2 and 3 show the time dependences of the numbers of adsorbed particles, N 1 , N 2 and N 1 ? N 2 , which determine the components of the sensor response originating from the adsorption of the analyte particles on two types of surface sites and also the total temporal response due to the adsorption on the bimodal affinity surface, when analyte depletion is taken into account. These curves are denoted in Figs. 2 and 3 as ''Depletion''. The results for the adsorbed amounts are governed by Eqs. (9) and (10). To solve them we used numerical method implemented in the MathWorks MATLAB environment R2013, the solver aimed for the nonstiff equations, based on the Runge-Kutta formula, or more concretely, on the Dormand-Prince pairs. Figures 2 and 3 also show N 1l , N 2l and N 1l ? N 2l (''No Depletion'' curves) . The AD process on the type 1 adsorption sites is characterized by the rate constants k av1 = 1.3 9 10 -12 1/s and k d1 = 0.04 1/s, while the reversible binding to the surface sites of the type 2 is characterized by k av2 = 1.3 9 10 -13 1/s and k d2 = 0.02 1/s. According to these values the type 1 sites have a 5 times higher affinity towards the target analyte than the type 2 sites (if the ratio k av /k d is defined as the measure of the affinity). The total number of adsorption sites is N a-= 6 9 10 10 , and v = 0.5. The number of the particles in the sample injected in the sensor reaction chamber is N 0 = 3 9 10 11 for the case shown in Fig. 2 , which corresponds to the analyte concentration C = 3 9 10 18 1/m 3 in the volume 10 -7 m 3 .",
+            "cite_spans": [
+                {
+                    "start": 951,
+                    "end": 976,
+                    "text": "(''No Depletion'' curves)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 158,
+                    "end": 173,
+                    "text": "Figures 2 and 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1625,
+                    "end": 1631,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and discussions"
+        },
+        {
+            "text": "A certain difference between the results obtained by the model that neglects the analyte depletion and those according to the model that takes into account the depletion can be seen in Fig. 2 . However, a significantly higher influence of the analyte depletion on the sensor response Fig. 2 The time change of the numbers of particles adsorbed on the surface sites of high affinity (i.e. type 1 sites), of low affinity (i.e. type 2 sites), and on both types of adsorption sites. The results are according to the two mathematical models: the one that neglects analyte depletion (''No Depletion'' curves) , and the other that takes it into account (''Depletion'' curves) Fig. 3 The same quantities as in Fig. 2 , but for a 5 times lower analyte concentration",
+            "cite_spans": [
+                {
+                    "start": 577,
+                    "end": 602,
+                    "text": "(''No Depletion'' curves)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 185,
+                    "end": 191,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 284,
+                    "end": 290,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 669,
+                    "end": 675,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 702,
+                    "end": 708,
+                    "text": "Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results and discussions"
+        },
+        {
+            "text": "can be observed in Fig. 3 , which shows the adsorption of the analyte present in 5 times lower concentration: the total response is decreased by about 20% compared to the value predicted by the model that assumes a negligible change of the amount of free analyte particles in the reaction chamber during adsorption. Figures 2 and 3 also show that adsorption on lowaffinity sites contributes more to the sensor response at higher analyte concentrations: for C = 3 9 10 18 1/m 3 (Fig. 2) this component amounts to about 43% of the steady-state sensor response, compared to about 25% response at a 5 times lower concentration (Fig. 3) . It is observed that the duration of the transient regime response, and thus the response time of the sensor itself, may be significantly longer than it would correspond to adsorption on higher affinity sites. Figures 2 and 3 illustrate that improper modeling, which neglects the depletion in the analyte concentration and the surface inhomogeneity, could give false results in both the transient and the steady state sensor response analysis. Figure 4 shows the steady-state number of particles adsorbed on each of the two types of adsorption sites (N 1s , N 2s ), as well as the total number of the particles adsorbed on the sensing surface (N s = N 1s ? N 2s ) for various values of the fraction of type 1 adsorption sites, v, when analyte depletion is taken into account. The parameters of the bimodal surface affinity are the same as before, and the analyte concentration is C = 6 9 10 17 m -3 (corresponds to a number of N 0 = 6 9 10 10 particles in a chamber of volume 10 -7 m 3 ). Figure 4 enables one to get quantitative insight into the influence of the nonuniformity of the binding sites to the sensor response in the steady state. The domination of the adsorption at the high affinity sites over the low affinity sites adsorption, starts already with fractions of the type 1 sites near 0.26. One can also observe in Fig. 4 a fast decrease of the sensor response with an increase of the fraction of the type 2 sites, from the maximum response (when all the sites are type 1, and the number of the adsorbed particles is 3 9 10 10 ). For instance, at v = 0.6 the response is about 20% lower. By comparing the curves obtained using the two models and shown in the same diagram, one can observe the influence of analyte depletion on response for different values of v. It can be seen that with an increase of the fraction of sites of the given type the error in the number of adsorbed particles at this type of sites increases, if the number is determined by the model neglecting analyte depletion.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 19,
+                    "end": 25,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 316,
+                    "end": 331,
+                    "text": "Figures 2 and 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 477,
+                    "end": 485,
+                    "text": "(Fig. 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 623,
+                    "end": 631,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 843,
+                    "end": 858,
+                    "text": "Figures 2 and 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1077,
+                    "end": 1085,
+                    "text": "Figure 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1622,
+                    "end": 1630,
+                    "text": "Figure 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1961,
+                    "end": 1967,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "As seen in Fig. 5 , at a higher analyte concentration (C = 6 9 10 18 m -3 , i.e. N 0 = 6 9 10 11 particles in 10 -7 m 3 ), the two models give results that are close to each other. Adsorption on the high affinity sites dominates after v exceeds the value of about 0.43, according to both models. A seemingly counter-intuitive high percentage of the adsorption on the low-affinity sites is explained by a high coverage of the high-affinity sites (near to 95%), which decreases the probability of adsorption on them. This high percentage of adsorption at the low affinity (type 2) sites is the key reason for a lower than expected decrease of the sensor response at high analyte concentrations. So Fig. 4 Steady-state numbers of particles adsorbed on surface sites of high affinity (i.e. type 1 sites), of low affinity (i.e. type 2 sites), and on both types of adsorption sites, for different fractions of sites of the two types, which is characterized by the parameter v (the fraction of sites of type 1), according to the model that neglects analyte depletion (''No Depletion'' curves) , and the other that takes it into account (''Depletion'' curves). The arrows point out to the values of v for which the type of sites with dominant adsorption changes Fig. 5 The same parameters as in Fig. 4 , but for 10 times lower analyte concentration for instance when 40% of the adsorption sites are type 2 (v = 0.6), the response is decreased by about 5% (compared to a 20% decrease for the same value of v, as shown in Fig. 4 for a ten times lower concentration). Figure 6 shows the same variables as presented in Figs. 4 and 5, but for different analyte concentrations, when the percentage of the low affinity sites is higher that that of the high affinity sites (v = 0.35). The more accurate model, which takes into account analyte depletion, shows that at concentrations below about 1.6 9 10 18 m -3 a majority of the adsorbed particles are those bound to the higher affinity sites, although those comprise 35% of the total number of sites. At higher concentrations, the response becomes dominantly determined by adsorption at low-affinity sites.",
+            "cite_spans": [
+                {
+                    "start": 1060,
+                    "end": 1085,
+                    "text": "(''No Depletion'' curves)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 11,
+                    "end": 17,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 696,
+                    "end": 702,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1254,
+                    "end": 1260,
+                    "text": "Fig. 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1287,
+                    "end": 1293,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1512,
+                    "end": 1518,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1557,
+                    "end": 1565,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Microsystem Technologies"
+        },
+        {
+            "text": "We considered the temporal response of biochemical/biological adsorption-based micro or nanosensors with inhomogeneous sensing surface characterized by two types of adsorption sites with different affinities towards the given analyte. Two mathematical models of the sensor response are presented and compared: one that takes into account the depletion of the analyte from the finite sample contained in a closed chamber, and the other that neglects it. Using these two models we analyzed qualitatively and quantitatively the influence of different fractions of high-and low-affinity sites on the sensor response.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The results of the analysis have shown a significant change of the response kinetics when the analyte concentration within the chamber was insufficiently high to keep the depletion negligible. The depletion modifies more strongly adsorption on the more abundant sites, regardless of the fact if these are with high or with low binding affinity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "It was shown that for a given ratio of the fractions of the two types of sites, the steady-state response of a bimodal adsorption system is determined by the adsorption on the higher affinity sites at lower concentrations, while with an increasing analyte concentration the influence of adsorption at the low affinity sites not only increases, but it may become dominant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "It can be concluded that improper modeling, which neglects the depletion in the analyte concentration and the surface inhomogeneity, could give false results from both the transient and the steady state sensor response analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "The presented results are valid for any type of adsorption-based sensors and for any dimensions of such sensors. However, they could also find applications outside the sensor field, for instance in prediction of the behavior of various micro or nanosystems whose operation can be affected by adsorption of a gas or liquid from the surroundings. The smaller the physical features of the device are, the stronger will be the influence of adsorption phenomena on its performance, since the same number of the adsorbed particle will make the larger relative change of the overall properties of the features. Fig. 6 Numbers of adsorbed particles on the sites of high affinity (type 1 sites), of low affinity sites (sites of the type 2), and the total number of adsorbed particles in steady state, for different analyte concentrations, nd v = 0.35 (v is the fraction of high-affinity sites in the total number of the binding sites at the sensing surface). The results are obtained by using the two mathematical models: the one neglects analyte depletion (''No Depletion'' curves) , and the other takes it into account (''Depletion'' curves). The arrows point out to the values of C for which the type of sites with dominant adsorption changes",
+            "cite_spans": [
+                {
+                    "start": 1048,
+                    "end": 1073,
+                    "text": "(''No Depletion'' curves)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 604,
+                    "end": 610,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Systematic investigation of biomolecular interactions using combined frequency and motional resistance measurements",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wingqvist",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Weissbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wallinder",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Katardjiev",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ingemarsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "153",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.snb.2010.10.019"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Requirements, protocols, and security challenges in wireless sensor networks: an industrial perspective. Handbook of computer networks and cyber security",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bhushan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sahoo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "683--713",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-3-030-22277-2_27"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Plasmonic nanosensors: review and prospect",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "IEEE J Sel Top Quant Electr",
+            "volume": "18",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1109/JSTQE.2011.2163386"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Effective medium theory: principles and applications",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Choy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/acprof:oso/9780198705093.001.0001"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Wireless sensors and instruments: networks, design, and applications",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Eren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1201/9781315220512"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Analysis of the competitive adsorption and mass transfer influence on equilibrium mass fluctuations in affinity-based biosensors",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frantlovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Joki\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Djuri\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Radulovi\u0107",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "189",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.snb.2012.12.080"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Microcantilever biosensors",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Thundat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Methods",
+            "volume": "37",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ymeth.2005.05.011"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Adsorption-desorption noise in plasmonic chemical/biological sensors for multiple analyte environment",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Matovi\u0107",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00542-010-1043-7"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Negative refractive index metasurfaces for enhanced biosensing",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vukovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Matovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tanaskovi\u0107",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Materials",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ma4010001"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Fluctuations in transient response of adsorption-based plasmonic sensors",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u017d",
+                    "middle": [],
+                    "last": "Randjelovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kolar-Ani\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "190",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.snb.2013.08.084"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Adsorption-induced fluctuations and noise in plasmonic metamaterial devices",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Joki\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u017d",
+                    "middle": [],
+                    "last": "Kolar-Ani\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Phys Scr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1088/0031-8949/2014/T162/014047"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The time response of plasmonic sensors due to binary adsorption: analytical versus numerical modeling",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Joki\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jak\u0161i\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mladenovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Radulovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Frantlovi\u0107",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Appl Phys A",
+            "volume": "126",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00339-020-03524-3"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Nanosensors: physical, chemical, and biological",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Khanna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1201/b11289"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Balanced detection method using optical affinity sensors for quick measurement of biomolecule concentrations",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Anal Chem",
+            "volume": "92",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.analchem.0c00637"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Optimizing multiple analyte injections in surface plasmon resonance biosensors with analytes having different refractive index increments",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mehand",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Srinivasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Crescenzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Sci Rep",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/srep15855"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The impact of biosensing in a pandemic outbreak: COVID-19",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Morales-Narv\u00e1ez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Dincer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biosens Bioelectron",
+            "volume": "163",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bios.2020.112274"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Extending the range of rate constants available from BIACORE: interpreting mass transport-influenced binding data",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Myszka",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dembo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Morton",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Goldstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Biophys J",
+            "volume": "75",
+            "issn": "",
+            "pages": "77549--77555",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0006-3495(98)77549-6"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Dual-functional plasmonic photothermal biosensors for highly accurate severe acute respiratory syndrome coronavirus 2 detection",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schmitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kullak-Ublick",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Nano",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acsnano.0c02439"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Sensors for chemical and biological applications",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ram",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Bhethanabotla",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1201/9781420005042"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Affinity biosensors: techniques and protocols",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mulchandani",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1385/0896035395"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The roadmap of graphene-based optical biochemical sensors",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Shivananju",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Characterization of the heterogeneous binding site affinity distributions in molecularly imprinted polymers",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Umpleby",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baxter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rampey",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Rushton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shimizu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Chromatogr B",
+            "volume": "804",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jchromb.2004.01.064"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Carbon nanotubes for sensing applications",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Industrial applications of carbon nanotubes",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/B978-0-323-41481-4.00005-8"
+                ]
+            }
+        }
+    },
+    "ref_entries": {},
+    "back_matter": [
+        {
+            "text": "Conflict of interest All authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with ethical standards"
+        }
+    ]
+}

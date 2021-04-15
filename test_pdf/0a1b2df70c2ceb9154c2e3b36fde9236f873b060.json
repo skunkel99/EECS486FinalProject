@@ -1,0 +1,2371 @@
+{
+    "paper_id": "0a1b2df70c2ceb9154c2e3b36fde9236f873b060",
+    "metadata": {
+        "title": "Increased mortality and worse cardiac outcome of acute myocardial infarction during the early COVID-19 pandemic",
+        "authors": [
+            {
+                "first": "Uwe",
+                "middle": [],
+                "last": "Primessnig",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Charit\u00e9-Universit\u00e4tsmedizin Berlin",
+                    "location": {
+                        "addrLine": "Campus Virchow-Klinikum, Augustenburger Platz 1",
+                        "postCode": "13353",
+                        "settlement": "Berlin",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Burkert",
+                "middle": [
+                    "M"
+                ],
+                "last": "Pieske",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Charit\u00e9-Universit\u00e4tsmedizin Berlin",
+                    "location": {
+                        "addrLine": "Campus Virchow-Klinikum, Augustenburger Platz 1",
+                        "postCode": "13353",
+                        "settlement": "Berlin",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mohammad",
+                "middle": [],
+                "last": "Sherif",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Charit\u00e9-Universit\u00e4tsmedizin Berlin",
+                    "location": {
+                        "addrLine": "Campus Virchow-Klinikum, Augustenburger Platz 1",
+                        "postCode": "13353",
+                        "settlement": "Berlin",
+                        "country": "Germany"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Aims This study aimed to evaluate the impact of coronavirus disease 2019 (Covid-19) outbreak on admissions for acute myocardial infarction (AMI) and related mortality, severity of presentation, major cardiac complications and outcome in a tertiarycare university hospital in Berlin, Germany. Methods and results In a single-centre cross-sectional observational study, we included 355 patients with AMI containing ST-elevation or non-ST-elevation myocardial infarction (STEMI or NSTEMI), admitted for emergency cardiac catheterization between January and April 2020 and the equivalent time in 2019. During the early phase of the Covid-19 pandemic (e-COV) in Berlin (March and April 2020), admissions for AMI halved compared with those in the pre-Covid-19 time (January and February 2020; pre-COV) and with those in the corresponding months in 2019. However, mortality for AMI increased substantially from 5.2% pre-COV to 17.7% (P < 0.05) during e-COV. Severity of presentation for AMI was more pronounced during e-COV [increased levels of cardiac enzymes, reduced left ventricular ejection fraction (LVEF), an increase in the need of inotropic support by 25% (P < 0.01)], while patients' demographic and angiographic characteristics did not differ between pre-COV and e-COV. Time from symptom onset to first medical contact was prolonged in all AMI during e-COV (presentation > 72 h +21% in STEMI, p = 0.04 and presentation > 72 h in NSTEMI +22%, p = 0.02). Door to balloon time was similar in STEMI patients, while time from first medical contact to revascularization was significantly delayed in NSTEMI patients (p = 0.02). Major cardiac complications after AMI occurred significantly more often, and cardiac recovery was worse in e-COV than in pre-COV, demonstrated by a significantly lower LVEF (39 \u00b1 16 vs. 46 \u00b1 16, p < 0.05) at hospital discharge and substantially higher NTproBNP levels.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Conclusions The Covid-19 outbreak affects hospital admissions for acute coronary syndromes. During the first phase of the pandemia, significantly less patients with AMI were admitted, but those admitted presented with a more severe phenotype and had a higher mortality, more complications, and a worse short-term outcome. Therefore, our data indicate that Covid-19 had relevant impact on non-infectious disease states, such as acute coronary syndromes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The coronavirus disease 2019 (Covid-19) pandemic has a significant impact on the health care systems with an enormous socio-economic burden worldwide. 1 Since December 2019, the novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has spread around the globe starting from Wuhan, China. 2, 3 The World Health Organization (WHO) confirmed mid of May 2020 that there are >5 million people infected with SARS-CoV-2 and over 340 000 deaths worldwide. 4 Because of the exponential growth of infections in the early phase of the pandemia, hospitals from countries all over the world including China, the USA, Spain, and Italy were struggling to cope with Covid-19 patients. 5, 6 In many places, there was a lack of intensive care unit resources including mechanical ventilators, personal protective equipment supplies, and medical staff. 7, 8 As a result of the experience from these Covid-19 hotspots, many countries decreed a lockdown of public life with the goal of social distancing to control the expansion of the virus. 9, 10 In this context, hospitals in Germany and other countries were obliged by national and local health care authorities to create Covid-19 resources, focus on the management of Covid-19 related aspects including hospital-wide implementation of rigorous hygiene rules, and postponement of all non-emergency procedures including coronary angiography for stable coronary artery disease (CAD). 8, 11 Guideline-recommended emergency interventions for acute coronary syndromes were never restricted during the Covid-19 outbreak. 12-14 Nevertheless, cardiologists and other health care professionals all over the world reported a remarkable reduction in the number of patient admitted for acute coronary syndromes. 8, [15] [16] [17] [18] Therefore, we investigated the impact of the Covid-19 outbreak on hospital admissions for acute coronary syndromes, in-hospital death, major cardiac complications, patient characteristics, severity of presentation, and cardiac outcome for all patients who presented at the cardiac catheterization lab (CCL) starting from 1 March to 30 April 2020 ('early-Covid-19 pandemic = e-COV') and compared them with those of all patients admitted before, starting from 1 January to 29 February ('pre-Covid-19 time = pre-COV').",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 152,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 301,
+                    "end": 303,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 304,
+                    "end": 305,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 682,
+                    "end": 684,
+                    "text": "5,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 685,
+                    "end": 686,
+                    "text": "6",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 846,
+                    "end": 848,
+                    "text": "7,",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 849,
+                    "end": 850,
+                    "text": "8",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1034,
+                    "end": 1036,
+                    "text": "9,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1037,
+                    "end": 1039,
+                    "text": "10",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1427,
+                    "end": 1429,
+                    "text": "8,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1430,
+                    "end": 1432,
+                    "text": "11",
+                    "ref_id": null
+                },
+                {
+                    "start": 1745,
+                    "end": 1747,
+                    "text": "8,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1748,
+                    "end": 1752,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1753,
+                    "end": 1757,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1758,
+                    "end": 1762,
+                    "text": "[17]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1763,
+                    "end": 1767,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We performed a single-centre cross-sectional observational analysis of all patients admitted with acute coronary syndrome [either ST-elevation or non-ST-elevation myocardial infarction (STEMI or NSTEMI)] to the Department of Internal Medicine and Cardiology at Charit\u00e9 University Medicine Berlin, Campus Virchow-Klinikum between 1 January to 30 April 2020. For comparison, data were also obtained for January to April 2019. Our centre is a tertiary-care cardiovascular centre with cardiovascular surgery on site, offering 24/7 coronary intervention availability according to current guidelines. 12 A total of 355 patients were included (208 on January-April 2019; 96 on January-February 2020; and 51 on March and April 2020). The Covid-19 pandemic has reached Germany on 27 January. In consequence, federal and state authorities implemented a stepwise strategy to reduce mobility and motivate the community to social distancing in order to control the outbreak and prevent exhaustion of the health care system. The Robert Koch Institute (RKI) provided the country with daily actual information about the new SARS-CoV-2 referring to the official WHO numbers. 4 In cooperation with Humboldt University of Berlin, the RKI analysed anonymized mobility flows in Germany, which were gathered from mobile phone data. 19 It could be demonstrated that mobility dramatically dropped in Germany starting from the beginning of March with a peak between mid of March to mid of April (time of the so-called lockdown in Germany 19 ). Besides largely reduced mobility due to the countrywide lockdown and reduced availability of general practitioner and cardiology outpatient services, patients were concerned of SARS-CoV-2 infection by getting in contact with the health care system. In consequence, reduced availability of non-emergent medical care, as well as individual concerns on the risks of health care contacts, may have impact on the clinical course of CAD from stable to unstable. The main aim of the study was to demonstrate the impact of the Covid-19 pandemic on hospitalization and in-hospital death for acute myocardial infarction (AMI). A time delay in admissions for AMI (time from symptom onset to first medical contact) with consecutive prolonged ischaemic time should be evaluated with biomarkers for myocardial injury [high-sensitivity troponin (troponin hs) and creatine kinase (CK)]. Additionally, the persistent myocardial damage -represented as the maximum of CK and its myocardial isoform (CK-MB)-should be investigated during Covid-19 in all AMIs. Furthermore, we investigate the time from symptom onset to first medical contact in all AMI patients as well as the door to balloon time in STEMI patients and the time from first medical contact to revascularization in NSTEMI patients. The impact of the Covid-19 pandemic on major cardiac complications, as a composite endpoint of cardio-pulmonary resuscitation, cardiogenic shock-defined by systolic blood pressure < 90 mmHg for at least 30 min with evidence of poor tissue perfusion after correction of non-myocardial factors and life-threating arrhythmias [sustained ventricular tachycardia or fibrillation (VT/VFib)]-should be investigated in all AMIs. Finally, to evaluate cardiac outcome, we measured the left ventricular ejection fraction (LVEF, %) with echocardiography as an important parameter for cardiac function and additionally determined a specific biomarker for heart failure incidence [N-terminal pro-brain natriuretic peptide (NTproBNP)] in all AMI patients during the Covid-19 pandemic. The collection of clinical and laboratory data was performed using an electronic data storage software and was cross-checked by the investigators.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Continuous variables were reported as mean \u00b1 standard deviation (SD) or median with inter-quartile range. Categorical values were presented as absolute values or percentages. Comparison of continuous variables was performed by Student t-test or Mann-Whitney test. The \u03c7 2 tests were used for comparison of categorical values. A two-sided P-value of 334 U. Primessnig et al.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": ".05 was considered statistically significant. All statistical analyses were performed using GraphPad Prism (GraphPad Software, Inc., La Jolla, CA, USA).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "<0"
+        },
+        {
+            "text": "Altogether, 355 AMIs, including STEMI and NSTEMI, were analysed in this study. There was a remarkable decrease in AMI patients during the Covid-19 outbreak in March and April 2020 compared to January and February 2020, as well as to the previous year 2019, who presented at the CCL at the Department of Cardiology Charit\u00e9 University Hospital Berlin -Campus Virchow in Germany.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Reduced hospitalization for acute myocardial infarction and increased mortality during early COVID-19 pandemic Between 1 January 2020 and 30 April 2020, a total number of 147 AMIs were registered at the CCL. We analysed the AMIs in the pre-Covid-19 time (determined 1 January to 29 February 2020 = 'pre-COV') and compared them with the AMIs during the early-Covid-19 outbreak in Berlin (determined 1 March to 30 April 2020 = 'e-COV'). There was an enormous decrease in the hospitalization for AMI of 47% (absolute numbers: 96 to 51 AMI) during the COVID-19 outbreak in Berlin. However, case fatality rate for AMI increased significantly from 5.2% to 17.7% (+12.5% with P < 0.05) during the same time. See Figure 1 and Table S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 705,
+                    "end": 713,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 718,
+                    "end": 726,
+                    "text": "Table S1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Furthermore, we analysed the AMIs during January and April 2019 and compared the numbers of AMIs and deaths with those in the respective months in 2020. A total number of 208 AMIs were registered during the first 4 months in 2019 (41% more compared with the same time in 2020). In January and February, there was no difference in terms of the admission rate for AMI, while starting in March (reduction around 47% in 2020 compared with 2019) and especially in April (decrease of 56% in 2020 to 2019), there was a substantial decrease in hospitalization for AMI. Mortality was in the same range in January and February 2020 and 2019 (rather a small reduction on February 2020 to 2019 of 4.2% to 8%). Indeed, the case fatality rate on March 2020 substantially increased from 7.4% in 2019 to 17.9% in 2020 (+10.5%) and on April 2019 from 5.6% to 17.4% in 2020 (+ 11.8%). See Figure 2 and Table S2 . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 871,
+                    "end": 879,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 884,
+                    "end": 892,
+                    "text": "Table S2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "No differences were registered in patient age [age: 70 (56.5-76) vs. 64 (58-72), P = ns] or sex (male: 69% vs. 70%, P = ns). Most of the patients presented with AMI had arterial hypertension (90% in pre-COV vs. 92% in e-COV, P = ns) and dyslipidaemia (74% in pre-COV vs. 78% in e-COV, p = ns). Fifty per cent, % of the patients were smokers and had been diagnosed with CAD with prior percutaneous coronary intervention (PCI). Thirty per cent had prior MI, and 10% had prior coronary artery bypass graft surgery with no significant differences between the groups. Obesity, diabetes, heart failure, chronic kidney disease, and chronic lung disease were similar in both groups. More details are listed in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 702,
+                    "end": 709,
+                    "text": "Table 1",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Patient characteristics, clinical and angiographic presentation"
+        },
+        {
+            "text": "In the e-COV group, 51 AMIs were registered compared with 96 AMIs in the pre-COV group, which marks a decrease of 47%. In the e-COV group, 51% were STEMI and 49% were NSTEMI patients (compared with 36% STEMI and 64% NSTEMI in the pre-COV group). From patients in the e-COV group, 29% presented after resuscitation (compared with 22% in the pre-COV group, +7%), and 33% had initial cardiogenic shock (compared with 24% in the pre-COV group, +9%). Furthermore, 31% had life-threatening arrhythmias including VT and Vfib in the e-COV group (compared with 25% in the pre-COV group, +6%). After cardiac catheterization in 96% in the e-COV group and in 95% in the pre-COV group, a relevant stenosis of coronary arteries was responsible for the admission to the hospital. In 4%, a Takotsubo cardiomyopathy was diagnosed in the early-Covid-19 group compared with 2% in the pre-Covid-19 group. Finally, 3% of the patients in the pre-Covid-19 group were diagnosed with a relevant myocarditis. For details, see Table 2 . The analysis of coronary angiography showed no difference regarding the culprit vessel, in either STEMI or NSTEMI patients during the e-COV and pre-COV time. Right coronary artery (RCA) was identified in 41% in e-COV and in 44% in pre-COV as culprit lesion; left anterior descending artery (LAD) was the culprit vessel in 33% in e-COV and in 29% in pre-COV and ramus circumflexus (RCx) was affected in 16% in e-COV and pre-COV. Moreover, successful revascularization of the culprit vessel was unchanged between pre-COV (96%) and e-COV (90%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1000,
+                    "end": 1007,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Patient characteristics, clinical and angiographic presentation"
+        },
+        {
+            "text": "Patients with AMI presented with a more pronounced phenotype in e-COV compared with pre-COV. Markers for myocardial necrosis were significantly increased at first medical contact in e-COV time (troponin hs and CK, p < 0.0001). Initially measured LVEF (%) was more often reduced in patients with AMI in e-COV (p = 0.03). An interesting finding was that in the e-COV group, 51% need inotropic support (compared with 26% in the pre-COV group, +25%, p = 0.001), and 22% need mechanical haemodynamic support with extracorporeal membrane oxygenation (va-ECMO), Impella\u00ae, or both (compared with 10% in the pre-COV group, +12%, p = 0.1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Severity of presentation with acute myocardial infarction during COVID-19 pandemic"
+        },
+        {
+            "text": "Invasive ventilation was needed in 35% of the AMIs in the e-COV group (compared with 23% in the pre-COV group, +12%). See Table 3 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 122,
+                    "end": 129,
+                    "text": "Table 3",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Severity of presentation with acute myocardial infarction during COVID-19 pandemic"
+        },
+        {
+            "text": "Time from symptom onset to first medical contact was substantially delayed in STEMI and NSTEMI patients during e-COV compared with pre-COV. Forty-three per cent of STEMI patients presented within the first 12 h from symptom onset to first medical contact in the pre-COV time, while only 23% of STEMI patients did that in the e-COV period. However, in pre-COV, only 6% of STEMI patients presented after 72 h, while in e-COV, 27% did, which was an increase of 21% (p = 0.04). In NSTEMI patients, 33% presented within the first 12 h to the hospital in pre-COV, while only 16% of them did in e-COV. Indeed, 28% of NSTEMI patients presented after 72 h during e-COV compared with only 6% in pre-COV, which was again an increase of >20% (p = 0.02) ( Figure 3A and B). Door to balloon time in STEMI patients was not significantly changed during e-COV compared with pre-COV ( Figure 3C ). In NSTEMI patients, the time from first medical contact to revascularization was significantly delayed during e-COV (p = 0.03) compared with pre-COV ( Figure 3D ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 743,
+                    "end": 752,
+                    "text": "Figure 3A",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 867,
+                    "end": 876,
+                    "text": "Figure 3C",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1031,
+                    "end": 1040,
+                    "text": "Figure 3D",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Time delay in presentation with acute myocardial infarction during early COVID-19 pandemic"
+        },
+        {
+            "text": "Major complications were defined as cardio-pulmonary resuscitation, cardiogenic shock, and life-threatening arrhythmias (VT/Vfib) after initial successful revascularization of the culprit lesion. We noticed a significant increase of 11.3% in major complications in the early-Covid-19 group regarding cardio-pulmonary resuscitation (CPR), cardiogenic shock (CS), and VT/Vfib [pre-COV: 6.3% (9/96) and e-COV: 17.6% (10/51), p = 0.02] (Figure 4) . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 432,
+                    "end": 442,
+                    "text": "(Figure 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Increased major complications in COVID-19 pandemic"
+        },
+        {
+            "text": "In our study, we determined an increase in the maximum of the cardiac-specific CK (CK-MB max, p = 0.05) and the maximum of CK (CK max, p = 0.04) during the early-Covid-19 pandemic as substantially increased markers for sustained myocardial damage. Additionally, we evaluated cardiac outcome using echocardiographic measured LVEF (%) and Increased measured high-sensitivity troponin (troponin hs, ng/L) and creatine kinase (CK, U/L) at first medical contact during early-Covid-19 (e-COV = 1 March to 30 April) pandemic compared with the pre-Covid-19 time (pre-COV = 1 January to 29 February) as a marker for myocardial injury and potentially caused through a prolonged myocardial ischaemic time. Higher percentage of reduced measured left ventricular ejection fraction (LVEF < 45%) during e-COV compared with pre-COV at first medical contact. Higher use of inotropic support including dobutamine, epinephrine, norepinephrine, enoximone, and milrinone. Haemodynamic support including veno-arterial extracorporeal membrane oxygenation system (va-ECMO) and/or left ventricular microaxial pump system (Impella\u00ae). Data are absolute numbers or percentage. Statistical analysis was performed with \u03c7 2 tests or Mann-Whitney test. Statistical significance was reached with a P < 0.05. NTproBNP as a relevant clinical biomarker for heart failure. We could demonstrate that LVEF (39 \u00b1 16 vs. 46 \u00b1 16, p = 0.01) after AMI was significantly lower during the early-Covid-19 pandemic and that NTproBNP levels (NTproBNP, ng/L: 9935 \u00b1 12 922 vs. 5347 \u00b1 8670, p = 0.03) were substantially increased, indicating a worse cardiac outcome and a higher incidence of heart failure after AMI during the early-Covid-19 pandemic. Days in hospital were unchanged for AMI during e-COV and pre-COV ( Figure 5 and Table S3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1769,
+                    "end": 1777,
+                    "text": "Figure 5",
+                    "ref_id": null
+                },
+                {
+                    "start": 1782,
+                    "end": 1790,
+                    "text": "Table S3",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Worse cardiac outcome in COVID-19 pandemic"
+        },
+        {
+            "text": "In our study, we could clearly demonstrate a dramatically reduced hospitalization for AMI and a significantly increased mortality for admitted AMI patients during the early-Covid-19 pandemic in a tertiary-care university hospital in Berlin, Germany. Furthermore, we observed a time delay from symptom onset to first medical contact in STEMI and NSTEMI patients during e-COV. While door to balloon time in STEMI patients was not significantly changed, the time from first medical contact to revascularization in NSTEMI patients during the early-Covid-19 pandemic was significantly delayed. Consequently, time delay in admission with AMI was associated with a prolonged ischaemic time, leading to a more pronounced myocardial injury and damage at first medical contact represented as relevantly increased cardiac enzymes, reduced LVEF, and higher use of inotropic support. Moreover, major cardiac complications including cardiac arrest, cardiogenic shock, and life-threatening arrhythmias occurred substantially more often during the early-Covid-19 pandemic. Finally, it could be reported for the first time that patients admitted with AMI during the early-Covid-19 pandemic have a significantly worse cardiac short-term outcome in terms of lower LVEF and higher NTproBNP levels as a marker for heart failure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In fact, admissions for AMI were halved in the 2 months after the Covid-19 outbreak starting on 1 March in Berlin compared with January and February 2020 where no Covid-19 infection was recognized. However, case fatality rate of AMI significantly increased about 12.5% during the same time in the Covid-19 pandemic. A relation of the first 4 months (January to April) in 2020 to 2019 showed that hospitalization for AMI was not different in January and February of both years, while on March and April 2020, the admissions for AMI decreased nearly 50% in comparison with those in 2019. In the equivalent period, the mortality of AMI increased substantially about 10% in 2020 compared with 2019, while in the first 2 months, mortality was unchanged between the years. These findings are in line with other studies from Hong Kong, 15, 16 Italy, 20 Spain, 21 and the USA, 8, 18 where a decrease in AMI was reported. The potential mechanism leading to the reduction in admissions for MI during the early-Covid-19 pandemic is multifactorial. The recommendation of social distancing and avoiding congregation of people led to a substantial decrease in mobility on March and April 2020 compared with January and February 2020 as well as with the equivalent period in 2019. The RKI and the Humboldt University of Berlin analysed anonymized mobility flows in Germany, which are gathered from mobile phone data ('Covid-19-mobility project' 19 ). There was an initial drop in mobility up to \u00c039% in mid-March 2020 until mid-April 2020 compared with the year 2019, recognized as representing the time of 'lockdown in Germany'. 19 The majority of hospitals and other health care services have postponed elective surgeries and cardiac procedures, including coronary angiography during the Covid-19 pandemic, to be prepared and have enough medical resources including intensive care units, personal protective equipment, and medical stuff. 8 Emergency response measurements, which are necessary and important for infection control, were implemented in the regular hospital operation procedures Figure 4 Major cardiac complications after acute myocardial infarction (AMI) during Covid-19 pandemic: major cardiac complications after AMI represented as a composite endpoint of cardio-pulmonary resuscitation, cardiogenic shock, and life-threatening arrhythmias (including ventricular tachycardia and ventricular fibrillation) were significantly higher in early-Covid-19 (black bars: e-COV = 1 March to 30 April) pandemic compared with the pre-Covid-19 time (white bars: pre-COV = 1 January to 29 February). Data are percentage. Statistical analysis was performed with \u03c7 2 tests. Statistical significance was reached with a P < 0.05. including regular temperature measurements, more common testing of suspected SARS-CoV-2 cases, and the early isolation of suspected infected patients. 15, 16, 20 Many patients with severe medical problems, including chest pain, tried to endure their symptoms until intolerance and did not seek out a hospital, because they are in fear of an infection with SARS-CoV-2 in the clinics. All these factors together potentially increased time to first medical contact and caused a further delay in adequate medical therapy. Regarding the treatment of AMI with PCI as recommended by the guidelines, this could lead to a prolonged ischaemic time and therefore an increased mortality and worse cardiac outcome. [11] [12] [13] [14] 22 We could not observe any differences in our patients during the Covid-19 pandemic regarding age, sex, or medical history including arterial hypertension, dyslipidaemia, known CADs with prior MI, PCI or CAGB, diabetes, obesity, heart failure, chronic kidney disease, and chronic obstructive pulmonary disease. Although the total number of AMI substantially decreased during the early-Covid-19 pandemic in Berlin (\u00c047%), we recognized a small relative increase in STEMI (+15%) patients in our study. Studies from US CCLs 8 estimated 38% reduction in MI activations, while in Spain, 21 a 40% reduction was noticed. A multicentre analysis from Northern California even showed a decrease of 48% in AMI (including STEMI and NSTEMI patients) during the early phase of the Covid-19 outbreak in the USA. 18 Furthermore, there was a small increase in patients admitted to our CCL after cardio-pulmonary resuscitation (+7), with cardiogenic shock (+9%) or with initial life-threatening arrhythmias including VT or Vfib (+6%). Coronary angiography evaluation of the culprit vessel could not show any differences between the pre-COV and e-COV periods. Additionally, initial successful revisualization of the culprit vessel was similar in all patients. There are previous studies that investigated the time delay between symptom onset and hospital admissions for STEMI patients 8 as well as the substantially increased time from first medical contact to coronary revascularization. 15, 20 In our study, we could demonstrate a relevant time delay from symptom onset to first medical contact for STEMI and NSTEMI patients. However, door to balloon time was unchanged in STEMI during e-COV. Time from first medical contact to revascularization in NSTEMI patients on the other hand was significantly prolonged during e-COV. These delays consecutively lead to a prolongation of the total ischaemic time after MI. As a potential result of the prolonged ischaemic time, patients with AMI during e-COV presented with a substantially more pronounced phenotype to the hospitals. The severity of the presentation was reflected by a significant increase in initial measured troponin and CK at first medical contact. Furthermore, in 45% of the patients in e-COV, the measured LVEF was mild to severely reduced compared with 20% in the pre-COV period. Additionally, patients who presented with AMI during the early-Covid-19 pandemic needed substantially more inotropic support compared with the pre-COV time. Furthermore, we could report that the total damage of myocardium after AMI was higher during the early-Covid-19 pandemic, which was represented as significantly higher amount of maximum values for CK and CK-MB. Besides these findings, we evaluated cardiac function with echocardiographic measured LVEF during hospitalization. We could demonstrate a significantly lower LVEF as marker for a more impaired cardiac function after AMI during the early-Covid-19 pandemic. Moreover, we recognized a significant increase of the biomarker NTproBNP in AMI during the early-Covid-19 pandemic, which led us to the conclusion that patients with AMI during the Covid-19 pandemic have a worse cardiac outcome and a higher incidence of heart failure. In accordance with previous reports, 15, 16, 20 we observed a significantly higher rate of major cardiac complications including CPR, CS, and VT in AMI during the Covid-19 pandemic.",
+            "cite_spans": [
+                {
+                    "start": 829,
+                    "end": 832,
+                    "text": "15,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 833,
+                    "end": 835,
+                    "text": "16",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 843,
+                    "end": 845,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 869,
+                    "end": 871,
+                    "text": "8,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 872,
+                    "end": 874,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1615,
+                    "end": 1617,
+                    "text": "19",
+                    "ref_id": null
+                },
+                {
+                    "start": 1925,
+                    "end": 1926,
+                    "text": "8",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 2866,
+                    "end": 2869,
+                    "text": "15,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 2870,
+                    "end": 2873,
+                    "text": "16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 2874,
+                    "end": 2876,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 3417,
+                    "end": 3421,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 3422,
+                    "end": 3426,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 3427,
+                    "end": 3431,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 3432,
+                    "end": 3436,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 3437,
+                    "end": 3439,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 4235,
+                    "end": 4237,
+                    "text": "18",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 4908,
+                    "end": 4911,
+                    "text": "15,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 4912,
+                    "end": 4914,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 6694,
+                    "end": 6697,
+                    "text": "15,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 6698,
+                    "end": 6701,
+                    "text": "16,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 6702,
+                    "end": 6704,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2079,
+                    "end": 2087,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "To summarize, in our study, we could demonstrate a substantially reduced hospitalization for AMI as well as a significant increase in mortality and major cardiac complications during the early phase of the Covid-19 outbreak in a tertiary university care hospital in Berlin, Germany. Time delay in admission and medical treatment for AMI resulted in the prolongation in myocardial ischaemic time. We could demonstrate that a prolonged myocardial ischaemic time was reflected by a significant increase in cardiac enzymes like troponin hs and CK at first medical contact after AMI during Covid-19 outbreak. Furthermore, we recognized a substantially higher use of inotropic support after AMI during the Covid-19 pandemic as an expression of worse cardiac function. Moreover, we were able to show that patients who suffered from an AMI during the Covid-19 pandemic had a more pronounced myocardial damage represented as higher CK max and CK-MB max values. Finally, patients had worse cardiac short-term outcome represented as lower LVEF and higher incidence of heart failure represented as increased NTproBNP levels in the early phase of COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The Covid-19 outbreak has a substantial impact on reduced admission rates and may cause treatment delay in AMI related to a prolonged ischaemic time. This leads to a higher mortality, more severe cardiac complications, and a worse cardiac short-term outcome of AMI patients during the Covid-19 outbreak in a tertiary-care university hospital in Berlin, Germany. Our data indicate that Covid-19 impacts on non-infectious disease states, such as acute coronary syndromes. Therefore, it is important that health care professionals including cardiologists, do not forget their actual patient population and treat them in compliance with recent guidelines besides the fight against the SARS-CoV-2 infection all over the world.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Clinical data collection during a pandemic emergency is challenging, and resources are restricted. Most of in-hospital processes underwent reorganization with the focus on patient care and infection protection. Nevertheless, we collected data to investigate the impact of the early-Covid-19 pandemia on the admission and mortality rate of AMI in a tertiary-care university hospital in Berlin, Germany. To avoid losing important and relevant patient information, we cross-checked reports from our CCL with the emergency room and intensive care unit Myocardial infarction during Covid-19 pandemic reports. Extensive data collection during the initial phase of a pandemia was not possible. Therefore, we had to focus on the most important and available facts that we can obtain from our patient population and have to leave out nonessential but potentially interesting variables like clinical risk scores in all STEMI and NSTEMI patients. For the same reason, the study period was limited to the early phase of the Covid-19 outbreak in Berlin. The short time period of 2 months for data collection represents a source for potential bias. Finally, as this study was a single-centre observational study, we just described a phenomenon, and no demonstration of a clear cause can be drawn. Table S1 . Hospitalization and case fatality rate for acute myocardial infarction during Covid-19 pandemic Reduced number of admissions for acute myocardial infarction (AMI) during early-Covid-19 (e-COV = March 1st to April 30th) pandemic compared to the pre-Covid-19 time (pre-COV = January 1st to February 29th). Increased mortality rate in Covid-19 outbreak compared to pre-Covid-19 time: Absolute number of admissions for AMI during e-COV (N = 51) and pre-COV (N = 96). Data are absolute values or percentage. Statistical significance was reached with a P < 0.05. Table S2 . Admission for acute myocardial infarction and mortality between January and April 2020 compared to the previous year 2019: There were no differences in hospitalizations for AMI in January and February 2020 and 2019, while in March and April 2020 admissions for AMI halved compared to 2019. Absolute number of admissions. Mortality was unchanged in January and February 2020 and 2019, however in March mortality rate increased by 10.5% and in April by 11.8% in 2020 (Covid-19 outbreak) compared to 2019. Case fatality rate among patients admitted for AMI in percentage. Table S3 . Marker for cardiac injury, damage and cardiac outcome: High sensitive troponin (Troponin hs, ng/L) and creatine kinase (CK, U/L) at first medical contact during Covid-19 pandemic as marker for myocardial injury. Myocardial subunit of creatine kinase (CK-MB, U/L) and maximum measured creatine kinase (CKmax, U/L) as marker for total myocardial damage after AMI during Covid-19 outbreak. Left ventricular ejection fraction (LVEF,%). NTproBNP (ng/L) as biomarker for heart failure. Data are mean\u00b1SD. Statistical significance was reached with a P < 0.05.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1283,
+                    "end": 1291,
+                    "text": "Table S1",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 1851,
+                    "end": 1859,
+                    "text": "Table S2",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 2431,
+                    "end": 2439,
+                    "text": "Table S3",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Limitations"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "WHO declares COVID-19 a pandemic",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cucinotta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Vanelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Biomed",
+            "volume": "91",
+            "issn": "",
+            "pages": "157--160",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Feng Z. Early transmission dynamics in",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ksm",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ehy",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xing",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tty",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jtk",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "382",
+            "issn": "",
+            "pages": "1199--1207",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "China Medical Treatment Expert Group for Covid-19. Clinical characteristics of coronavirus disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dsc",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Zhong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "1708--1720",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Case-fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Onder",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rezza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brusaferro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1775--1776",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The outbreak of COVID-19 in Italy: fighting the pandemic",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Indolfi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Spaccarotella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JACC Case Rep",
+            "volume": "2",
+            "issn": "",
+            "pages": "1414--1418",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Critical organizational issues for cardiologists in the COVID-19 outbreak: a frontline experience from",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Stefanini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Azzolini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Condorelli",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Circulation",
+            "volume": "141",
+            "issn": "",
+            "pages": "1597--1599",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Reduction in ST-segment elevation cardiac catheterization laboratory activations in the United States during COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Albaghdadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Meraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Garberich",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dixon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rade",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tannenbaum",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chambers",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Am Coll Cardiol",
+            "volume": "75",
+            "issn": "",
+            "pages": "2871--2872",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "WHO Novel Coronavirus-19 Mass Gatherings Expert Group. Mass gathering events and reducing further global spread of COVID-19: a political and public health dilemma",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mccloskey",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zumla",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ippolito",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blumberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Arbon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cicero",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Endericks",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Borodina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1096--1099",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "2019-ncov's epidemic in middle province of northern Italy: impact, logistic & strategy in the first line hospital",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gagliano",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Villani",
+                    "suffix": ""
+                },
+                {
+                    "first": "&apos;",
+                    "middle": [],
+                    "last": "Co",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Fm",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Manelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Paglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pag",
+                    "middle": [],
+                    "last": "Bisagni",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Perotti",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Storti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lombardo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Disaster Med Public Health Prep",
+            "volume": "24",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "ESC guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yildirir",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Parkhomenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gale",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Eur Heart J",
+            "volume": "39",
+            "issn": "",
+            "pages": "119--177",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Management of acute myocardial infarction during the COVID-19 pandemic: A Consensus Statement from the Society for Cardiovascular Angiography and Interventions (SCAI), the American College of Cardiology (ACC), and the American College of Emergency Physicians (ACEP)",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mahmud",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dauerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fgp",
+                    "middle": [],
+                    "last": "Welt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Messenger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Grines",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mattu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kirtane",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jauhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Meraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Rokos",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rumsfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Catheter Cardiovasc Interv",
+            "volume": "96",
+            "issn": "",
+            "pages": "336--345",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Management of acute myocardial infarction during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mahmud",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Dauerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Welt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Messenger",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Grines",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mattu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kirtane",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jauhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Meraj",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Rokos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Am Coll Cardiol",
+            "volume": "76",
+            "issn": "",
+            "pages": "1375--1384",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Impact of coronavirus disease 2019 (COVID-19) outbreak on ST-segment-elevation myocardial infarction care in Hong Kong",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sze",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tsui",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tse",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Siu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Circ Cardiovasc Qual Outcomes",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Impact of coronavirus disease 2019 (COVID-19) outbreak on outcome of myocardial infarction in Hong Kong, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cheung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sze",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tse",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Siu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Catheter Cardiovasc Interv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ccd.28943"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "ST-elevation myocardial infarction in patients with COVID-19: clinical and angiographic outcomes",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Stefanini",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Montorfano",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Trabattoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Andreini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ferrante",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ancona",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Metra",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Curello",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Maffeo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pero",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cacucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Assanelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bellini",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Russo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ielasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tespili",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Danzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vandoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bollati",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Barbieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Oreglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lettieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cremonesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Carugo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Reimers",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Condorelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chieffo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Circulation",
+            "volume": "141",
+            "issn": "",
+            "pages": "2113--2116",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The Covid-19 pandemic and the incidence of acute myocardial infarction",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Solomon",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcnulty",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rana",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Leong",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ambrosy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sidney",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Go",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "691--693",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Reduction of hospitalizations for myocardial infarction in Italy in the COVID-19 era",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Rosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Spaccarotella",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Basso",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Calabr\u00f2",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Curcio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Filardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mancone",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mercuro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Muscoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nodari",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pedrinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur Heart J",
+            "volume": "41",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "en nombre de todos los participantes del Registro de Codigo Infartode la ACI-SEC. Impacto de la pandemia de COVID-19 sobre la actividad asisten-cial en cardiologia intervencionista en Espana",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Rodriguez-Leor",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Cid-Alvarez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ojeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martin-Moreiraa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rumoroso",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lopez-Palop",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Serrador",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cequier",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Romaguera",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perez De Prado",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moreno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "REC Interv Cardiol",
+            "volume": "2",
+            "issn": "",
+            "pages": "96--105",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Reperfusion delay in patients with high-risk ST-segment elevation myocardial infarction: every minute counts, much more than suspected",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wijns",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Naber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Eur Heart J",
+            "volume": "39",
+            "issn": "",
+            "pages": "1075--1077",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Myocardial infarction during Covid-19 pandemic",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Hospitalization and case fatality rate for acute myocardial infarction during Covid-19 pandemic: (A) reduced number of admissions for acute myocardial infarction (AMI) during early-Covid-19 (black bars: e-COV = 1 March to 30 April) pandemic compared with the pre-Covid-19 time (white bars: pre-COV = 1 January to 29 February). (B) Increased mortality rate in Covid-19 outbreak compared with pre-Covid-19 time: absolute number of admissions for AMI during e-COV (n = 51) and pre-COV (n = 96). Data are absolute values or percentage. Statistical analysis was performed with \u03c7 2 tests. Statistical significance was reached with a P < 0.05. COV e-COV Pre-COV e-COV",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Admission for acute myocardial infarction and mortality between January and April 2020 compared with the previous year 2019: (A) There were no differences in hospitalizations for acute myocardial infarction (AMI) on January and February 2020 and 2019, while on March and April 2020, admissions for AMI halved compared with those in 2019. Absolute number of admissions. Grey bars = January to April 2019. White bars = pre-COV (January to February 2020). Black bars = e-COV (March to April 2020). (B) Mortality was unchanged in January and February 2020 and 2019; however, in March, mortality rate increased by 10.5% and, in April, by 11.8% in 2020 (Covid-19 outbreak) compared with 2019. Case fatality rate among patients admitted for AMI in percentage.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Time delay in presentation with acute myocardial infarction (AMI) during COVID-19 pandemic: a higher percentage of ST-elevation myocardial infarction (STEMI) (A) and non-ST-elevation myocardial infarction (NSTEMI) (B) patients presented with a delayed time from symptom onset to first medical contact in e-COV compared with pre-COV. (C) Door to balloon time was not significantly changed in STEMI patients during e-COV compared with pre-COV. (D) Time from first medical contact to revascularization was significantly prolonged in NSTEMI patients during e-COV. Black bars: e-COV = 1 March to 30 April. White bars: pre-COV = 1 January to 29 February. Data are percentage or minutes. Statistical analysis was performed with \u03c7 2 tests or Mann-Whitney test. Statistical significance was reached with a P < 0.05.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Myocardial injury and cardiac outcome of acute myocardial infarction (AMI) during Covid-19 pandemic: (A) creatine kinase with its myocardial isoform (CK-MB, U/L) and (B) maximum measured creatine kinase (CKmax, U/L) as a marker for total myocardial injury and damage after AMI were elevated during early-Covid-19 (black circles: e-COV = 1 March to 30 April) pandemic compared with the pre-Covid-19 time (white circles: pre-COV = 1 January to 29 February). (E) Significant lower left ventricular ejection fraction (LVEF,%) after AMI during hospitalization and (F) higher levels of NTproBNP (ng/L) as marker for heart failure in e-COV. Data are mean \u00b1 SD. Statistical analysis was performed with Mann-Whitney test. Statistical significance was reached with a P <",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": "Patient characteristics CABG, coronary artery bypass graft surgery; CAD, coronary artery disease; CKD, chronic kidney disease; COPD, chronic obstructive pulmonary disease; MI, myocardial infarction; PCI, percutaneous coronary intervention. Absolute number of admissions for acute myocardial infarction during early-Covid-19 (e-COV: (n = 51) = 1 March to 30 April) and pre-Covid-19 pandemic [pre-COV: (n = 96) = 1 January to 29 February]. Data are median with inter-quartile range, absolute values, or percentage. Statistical analysis was performed with Mann-Whitney test or \u03c7 2 test. Statistical significance was reached with a P < 0.05.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Clinical presentation and diagnosis",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Severity of presentation",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors would like to thank all health care workers for their tireless effort in the current Covid-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The authors declare no conflict of interest in relationship with manuscript content.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of interest"
+        },
+        {
+            "text": "Additional supporting information may be found online in the Supporting Information section at the end of the article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supporting information"
+        }
+    ]
+}

@@ -1,0 +1,1522 @@
+{
+    "paper_id": "0a1ad2593dec298e6d75d424e4ace0be1fb4ea70",
+    "metadata": {
+        "title": "Perceived declining physical and cognitive fitness during the COVID-19 state of emergency among community-dwelling Japanese old-old adults",
+        "authors": [
+            {
+                "first": "Hyuma",
+                "middle": [],
+                "last": "Makizako",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kagoshima University",
+                    "location": {
+                        "settlement": "Kagoshima",
+                        "country": "Japan"
+                    }
+                },
+                "email": "makizako@health.nop.kagoshima-u.ac.jp"
+            },
+            {
+                "first": "Yuki",
+                "middle": [],
+                "last": "Nakai",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kagoshima University",
+                    "location": {
+                        "settlement": "Kagoshima",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daijo",
+                "middle": [],
+                "last": "Shiratsuchi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kagoshima University",
+                    "location": {
+                        "settlement": "Kagoshima",
+                        "country": "Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tomomi",
+                "middle": [],
+                "last": "Akanuma",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kagoshima University",
+                    "location": {
+                        "addrLine": "8-35-1 Sakuragaoka",
+                        "postCode": "890-8544",
+                        "settlement": "Bibai, Kagoshima",
+                        "country": "Japan, Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kaori",
+                "middle": [],
+                "last": "Yokoyama",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kagoshima University",
+                    "location": {
+                        "addrLine": "8-35-1 Sakuragaoka",
+                        "postCode": "890-8544",
+                        "settlement": "Bibai, Kagoshima",
+                        "country": "Japan, Japan"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuriko",
+                "middle": [],
+                "last": "Matsuzaki-Kihara",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hiroto",
+                "middle": [],
+                "last": "Yoshida",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The coronavirus disease 2019 (COVID- 19) pandemic has caused sudden changes in lifestyle. Several data regarding the effects of the COVID-19 state of emergency or lockdown on physical activity levels have been presented worldwide. 1, 2 For instance, a worldwide decrease in step counts has been reported post-COVID- 19 . 3 Countries that implemented lockdowns, such as the UK and France, have had relatively high COVID-19 infection rates and showed rapidly decreasing step counts. In contrast, although countries that did not implement lockdowns, such as Japan and Taiwan, have had relatively low COVID-19 infection rates, overall step counts have decreased in June 2020. These direct and indirect effects might be strong in older adults. Among Japanese older adults aged \u226565 years, total physical activity time per week decreased by 65 min (\u221226.5%) from January to April 2020. 4 Physical activity in older adults has great impacts on future health conditions. It decreases mortality, delays the onset of dementia, prevents frailty and leads to improved self-rated health. [5] [6] [7] [8] In older adults, good exercise habits could be especially important for decreasing the risk of disability onset and lowering mortality. 9 Lifestyle before the COVID-19 pandemic and lifestyle changes during the state of emergency might affect perceived health status, which usually negatively affects future health conditions among older adults. 10 In particular, old-old adults will be easily affected by activity limitations due to the COVID-19 pandemic. Crosssectional and longitudinal associations between older adults' selfrated health (e.g. perceptions of physical and cognitive health status) and corresponding objective functions have been reported. 11, 12 In addition, activities including physical exercise and cognitive stimulation (e.g. using a computer) seem to determine perceived positive fitness changes in older adults. 13 Older adults with advancing age might have a greater risk of perceived poor health status on adverse events. Thus, changes in perceived physical and cognitive fitness during the COVID-19 pandemic could implicate future health status among old-old adults.",
+            "cite_spans": [
+                {
+                    "start": 37,
+                    "end": 40,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 231,
+                    "end": 233,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 234,
+                    "end": 235,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 316,
+                    "end": 318,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 321,
+                    "end": 322,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 878,
+                    "end": 879,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1073,
+                    "end": 1076,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1077,
+                    "end": 1080,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1081,
+                    "end": 1084,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1085,
+                    "end": 1088,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1225,
+                    "end": 1226,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1434,
+                    "end": 1436,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1746,
+                    "end": 1749,
+                    "text": "11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1750,
+                    "end": 1752,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1925,
+                    "end": 1927,
+                    "text": "13",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "It is unknown how many old-old adults have perceived declining physical and cognitive fitness as a result of the COVID-19 pandemic. The present study examined the associations of participation in an exercise class before the COVID-19 pandemic and the exercise habits and disruption to the rhythms of daily life during the state of emergency with perceived declining physical and cognitive fitness among community-dwelling old-old adults.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We carried out a mail survey of community-dwelling older adults living in Bibai, Hokkaido, Japan. The flow chart of participants is presented in Figure 1 . In this study, we mailed a paper-based questionnaire to 1112 older adults who had participated in a health check program for older adults aged \u226575 years in 2018. Of those 1112 old-old adults, 889 responded to this survey. Individuals with a history of stroke, dementia and Parkinson's disease were excluded. Respondents who had missing values for medical history, and perceived declining physical and cognitive fitness were also excluded. Finally, data from 774 respondents were analyzed (Fig. 1 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 145,
+                    "end": 153,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 644,
+                    "end": 651,
+                    "text": "(Fig. 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Participants"
+        },
+        {
+            "text": "A self-administered questionnaire was mailed to eligible participants. The survey was carried out in July 2020 after obtaining approval to survey Bibai City, Hokkaido. Bibai city is a rural area that in 2020 had a population of 20 839 and an aging rate of 42.5%. Since the first case of infection was confirmed in Hokkaido on 28 January 2020, the infection has widely spread in the area. On 28 February 2020, the governor of Hokkaido declared a state of emergency to control the spread of the infection and avoid a health system collapse. The state of emergency continued until 19 March, requesting that people refrain from going out on weekends, and that they avoid crowded places, close-range conversations and poorly ventilated spaces when going out. The present study was carried out with the approval of the ethics committee of the Faculty of Medicine, Kagoshima University (No. 200065). Informed consent was obtained from all participants before their inclusion in the study, and sufficient ethical considerations were given based on the Declaration of Helsinki.",
+            "cite_spans": [
+                {
+                    "start": 578,
+                    "end": 580,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Procedures"
+        },
+        {
+            "text": "The questionnaire asked about personal characteristics (i.e. age, sex, whether a participant lived alone or with others), medical history and polypharmacy (\u22655 drugs). Polypharmacy was defined as the use of at least five drugs. 14 The five-item version of the Geriatric Depression Scale (GDS-5) was used to assess depressive symptoms. The GDS-5 consists of five items, and has a \"yes/no\" response format with a two-point rating scale (0 or 1) and a final score ranging from 0-5 points. 15 Higher scores in the GDS-5 (scores of \u22652) indicate depressive symptoms. 16 We investigated the participants' perceived decline in physical and cognitive fitness. Participants were asked to answer \"yes\" or \"no\" to the following questions: (i) \"Do you perceive a decline in physical fitness after the state of emergency?\"; and (ii) \"Do you perceive a decline in cognitive fitness after the state of emergency?\" Participants who answered \"yes\" to these questions were classified as perceived declining physical and cognitive fitness.",
+            "cite_spans": [
+                {
+                    "start": 485,
+                    "end": 487,
+                    "text": "15",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 560,
+                    "end": 562,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Instruments and measures"
+        },
+        {
+            "text": "Participants were also asked about their participation status before the declaration of the state of emergency in the community-based self-management exercise class, which consisted mainly of muscle strength training. They chose an answer among the following three choices: (i) continuously attended classes before the state of emergency declaration; (ii) attended, but not continuously; and (iii) never attended. We surveyed the habit of exercising at least twice a week for >30 min and disruption to the rhythms of daily life during the state of emergency. Participants were asked to answer \"yes\" or \"no\" to the following questions: (i) \"Did you have any exercise habits that you continued during the state of emergency, more than twice a week, more than 30 min?\"; and (ii) \"Did you have any disruption to your daily life during the state of emergency?\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instruments and measures"
+        },
+        {
+            "text": "Participants' characteristics are described using mean AE SD and count (%), as appropriate. The differences between individuals who perceived declining physical and cognitive fitness and those who did not were examined using the t-test or \u03c7 2 -test, as appropriate. Effect size (ES) was estimated using Cohen's d or Cram\u00e9r's V to assess the degree of difference. Logistic regression models were carried out with the perception of declining physical and cognitive fitness as the dependent variable. The independent variables were participation in a community-based self-management exercise class before the COVID-19 pandemic, exercise habits and disruption to the rhythms of daily life during the COVID-19 state of emergency. Potential covariates included age, sex, living alone, medical history (i.e. hypertension, heart disease and diabetes mellitus), polypharmacy (\u22655 drugs) and depressive symptoms (GDS-5 \u22652).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Of the 774 respondents who satisfied the inclusion criteria, 339 (43.8%) participants reported a decline in physical fitness, 259 (33.5%) perceived declining cognitive fitness, and 220 (28.4%) perceived declines in both physical and cognitive fitness during the state of emergency. Comparisons of characteristics between old-old people with perceived declining physical or cognitive fitness during the state of emergency and those without are presented in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 456,
+                    "end": 463,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "\u00a9 2021 Japan Geriatrics Society",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Univariate analyses using the t-test or \u03c7 2 -test showed that participants with a perception of declining physical fitness were older, more likely to be women, and had higher rates of heart disease and polypharmacy compared with those without this perception. The perception of declining physical fitness was also associated with a higher rate of participation in a community-based self-management exercise class before the COVID-19 pandemic (ES = 0.085, P = 0.020), a lower rate of physical exercise (ES = 0.145, P < 0.001) and a higher rate of disruption to the rhythms of daily life during the COVID-19 state of emergency (ES = 0.232, P < 0.001). Old-old adults with perceptions of declining cognitive fitness were older, and had higher rates of participation in a community-based self-management exercise class before the COVID-19 pandemic (ES = 0.086, P = 0.018) and higher rate of disruption to the rhythms of daily life during the state of emergency (ES = 0.172, P < 0.001).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Associations between participation in a community-based selfmanagement exercise class before the COVID-19 pandemic and a perception of declining physical and cognitive fitness were observed in the crude model of the logistic regression analysis, but not in an adjusted model for age, sex, living alone, medical history (i.e. hypertension, heart disease and diabetes mellitus), polypharmacy (\u22655 drugs), depressive symptoms (GDS-5 \u22652), exercise habits and disruption to the rhythms of daily life during the COVID-19 state of emergency. In a multivariate logistic regression model adjusted for potential confounders, exercise habits during the state of emergency were significantly associated with a lower perception of declining physical fitness (OR 0.59, 95% CI 0.40-0.86; P = 0.007). Disruption to the rhythms of daily life during the state of emergency was significantly associated with a higher perception of declining physical (OR 3.42, 95% CI 2.03-5.76; P < 0.001) and cognitive fitness (OR 2.12, 95% CI 1.29-3.49; P = 0.003) ( Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1032,
+                    "end": 1039,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The present study examined perceived declining physical and cognitive fitness during the state of emergency caused by the COVID-19 pandemic in community-dwelling old-old adults. Approximately half and more than one-third of communitydwelling old-old adults perceived declining physical and cognitive fitness, respectively. In addition, approximately 30% of participants perceived declines in both physical and cognitive fitness during the state of emergency. Lower rates of exercise during the state of emergency were associated with perceived declining physical fitness, and disruption to the rhythms of life during the state of emergency was associated with perceived declines in both physical and cognitive fitness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In a Japanese government policy for health promotion among older people, community-dwelling older adults are provided opportunities to promote social interactions with other community members in so-called \"community salons\". 17 These activities including social participations were confirmed to decrease the risk of disability onset. 18 Furthermore, community-based selfmanagement groups are effective in preventing new long-term care service requirement certification. 19 However, we were forced to discontinue these activities in the community due to the COVID-19 state of emergency. Contrary to expectations, the present study indicated that old-old adults who had participated in the exercise class before the COVID-19 pandemic showed a tendency for higher perception of declining physical and cognitive fitness during the state of emergency compared with those who did not participate. The loss of opportunities to exercise in community-based self-management groups might lead to a sudden and unexpected increase in the perception of poor health status.",
+            "cite_spans": [
+                {
+                    "start": 225,
+                    "end": 227,
+                    "text": "17",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 470,
+                    "end": 472,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Decreasing physical activity trends likely reflects a combination of changes to physical activity (e.g. walking and exercising) and activities of daily living (e.g. commuting and shopping) due to social distancing efforts. In the present study, 36.8% of community-dwelling old-old adults had exercise habits, exercising at least twice a week for >30 min at a time during the declaration of an emergency. A previous Japanese national survey showed that 40.3% of people aged \u226575 years had exercise habits, exercising at least twice a week for >30 min for >1 year. 20 In the present study, ",
+            "cite_spans": [
+                {
+                    "start": 562,
+                    "end": 564,
+                    "text": "20",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "| \u00a9 2021 Japan Geriatrics Society although many respondents might be considered health conscious, approximately one-third of community-dwelling old-old adults showed exercise behaviour during the state of emergency. Several studies showed that physical activity (especially exercise habits) was related to mental health in older adults. 21 Several mechanisms manifesting at psychological (e.g. mood, feelings of mastery, self-efficacy) and neurophysiological (e.g. hippocampal neurogenesis, hypothalamic-pituitary adrenal axis regulation) levels would contribute to mental health, such as by reducing depression and anxiety. 22 A recent study showed that PA levels were related to mental health, such as depressive symptoms and anxiety, in older adults during the COVID-19 pandemic. 23 In particular, older adults who regularly engaged in vigorous and moderate-to-vigorous PA meeting the World Health Organization's global recommendations for health during the quarantine reported lower depressive symptoms. 23 The intensity and frequency of exercise and physical activity could be important factors that influence health. Moderate-intensity physical activity is recommended to improve or maintain physical and mental health among older adults, 24 but effects on physical and mental health from light-intensity physical activity have also been reported in older adults. 25 In the current study, measurements of physical activity levels and continued exercise habits could be lacking. In addition, the intensity and frequency of exercise were unclear. An adequate instrument (e.g. the International Physical Activity Questionnaire) should be considered in future studies.",
+            "cite_spans": [
+                {
+                    "start": 337,
+                    "end": 339,
+                    "text": "21",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 625,
+                    "end": 627,
+                    "text": "22",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 783,
+                    "end": 785,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1008,
+                    "end": 1010,
+                    "text": "23",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1370,
+                    "end": 1372,
+                    "text": "25",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "In contrast, 14% of respondents reported disruption to the rhythms of daily life during the state of emergency. The maintenance of daily routines, such as sleep behaviour, activities of daily living, taking three meals a day and leisure activities, could improve the health status of old-old adults. For example, sleep disturbance in older adults is associated with poor health, such as depression and limitations in activities of daily living. 26 Exposure to artificial light at night has a negative impact on metabolic health. 27 Additionally, meal skipping lowers energy and nutrient intake. 28 Therefore, lifestyle habits, exercise habits and daily life rhythms during the COVID-19 state of emergency would be associated with the maintenance of health status in old-old adults.",
+            "cite_spans": [
+                {
+                    "start": 445,
+                    "end": 447,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 529,
+                    "end": 531,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 595,
+                    "end": 597,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "We consider that self-perceived physical and cognitive fitness might be a good indicator to assess functional health among older adults. Previous studies have suggested that a self-reported measure of physical fitness was moderately correlated to objectively measured physical fitness in healthy older adults. 29 Furthermore, older adults' subjective perceptions of a decline in cognition predicted future mild cognitive impairment and dementia. 30 However, we applied simpler questions to assess self-perceived physical and cognitive fitness during the state of emergency related to the COVID-19 pandemic. Validation is required to confirm this approach.",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 312,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 446,
+                    "end": 448,
+                    "text": "30",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "Although the present findings provide additional knowledge regarding the effects of the COVID-19 state of emergency on perceived health status and preventive behaviour factors, several limitations should be noted. COVID-19 state-of-emergency data differ by region, and the effects might differ depending on the epidemic situation. This study was carried out in a specific city located in Hokkaido, Japan. The COVID-19 pandemic is without precedent worldwide, and the situation changes day-by-day. In such a socially disorienting situation, self-reported answers might differ depending on the time of data collection. Additionally, the study sample was not randomly selected. Although participants with dementia, Parkinson's disease and a history of stroke were excluded, additional exclusionary criteria might be required, such as a history of diabetes, and cardiovascular and neuropsychiatric diseases. There was a relatively high response rate (79.9%); however, non-responders (n = 223; mean age 84.0 AE 4.4 years) were older than responders (mean age 83.3 AE 4.4 years; P = 0.020). There was no significant difference in the proportion of women between responders (55.7%) and non-responders (60.5%; P = 0.191). In addition, the current study sample included old-old adults who had participated in a health check program in 2018, but the characteristics of participants versus non-participants in the 2018 health checkup were not compared. Therefore, it is difficult to generalize the current findings to other areas and situations. Finally, causal relationships should be reconsidered, as this was a transversal study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "In conclusion, approximately half and more than one-third of community-dwelling old-old adults perceived declining physical and cognitive fitness, respectively, during the state of emergency caused by the COVID-19 pandemic. During the state of emergency, exercise habits were positively correlated with perceived health status among community-dwelling old-old adults, whereas disruption to the rhythms of daily life was negatively correlated. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "4"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disclosure statement"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Obesity, eating behavior and physical activity during COVID-19 lockdown: a study of UKadults",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Boyland",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chisholm",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Appetite",
+            "volume": "156",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The COVID-19 outbreak limits physical activities and increases sedentary behavior: a possible secondary public health crisis for the elderly",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yamaguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fuji",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ohe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Orthop Sci",
+            "volume": "25",
+            "issn": "",
+            "pages": "1093--1094",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Worldwide effect of COVID-19 on physical activity: a descriptive study",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tison",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Avram",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kuhar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "173",
+            "issn": "",
+            "pages": "767--770",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Effect of the COVID-19 epidemic on physical activity in community-dwelling older adults in Japan: a cross-sectional online survey",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ishiyama",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Nutr Health Aging",
+            "volume": "24",
+            "issn": "",
+            "pages": "948--950",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Physical activity and other determinants of survival in the oldest adults",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Muscari",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bianchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Forti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Am Geriatr Soc",
+            "volume": "65",
+            "issn": "",
+            "pages": "402--406",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The role of physical activity in the relationship between self-perceptions of ageing and self-rated health in older adults",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Beyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wolff",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Warner",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schuz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wurm",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Psychol Health",
+            "volume": "30",
+            "issn": "",
+            "pages": "671--685",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Evidence on physical activity and the prevention of frailty and sarcopenia among older people: a systematic review to inform the World Health Organization physical activity guidelines",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Oliveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pinheiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Fairhall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Phys Act Health",
+            "volume": "17",
+            "issn": "",
+            "pages": "1247--1258",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Physical activity, cognitive decline, and risk of dementia: 28 year follow-up of Whitehall II cohort study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sabia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dugravot",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Dartigues",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "BMJ",
+            "volume": "357",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Effect of exercising with others on incident functional disability and all-cause mortality in community-dwelling older adults: a five-year follow-up survey",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fujii",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Fujii",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jindo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "What is self-rated health and why does it predict mortality? Towards a unified conceptual model",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jylha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Soc Sci Med",
+            "volume": "69",
+            "issn": "",
+            "pages": "307--316",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Genetic risk, vascular function, and subjective cognitive complaints predict objective cognitive function in healthy older adults: results from the brain in motion study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Tyndall",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Longman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Sajobi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Integr Neurosci",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Older adults' perceptions of ageing and their health and functioning: a systematic review of observational studies",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Warmoth",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tarrant",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Abraham",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Psychol Health Med",
+            "volume": "21",
+            "issn": "",
+            "pages": "531--550",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Activity experiences shape perceived fitness trajectories: results from a 6-month randomized controlled trial in older women",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Klusmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Evers",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Schwarzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Heuser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Neuropsychol Dev Cogn B Aging Neuropsychol Cogn",
+            "volume": "18",
+            "issn": "",
+            "pages": "328--339",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Geriatric management of older patients with multimorbidity",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kojima",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mizokami",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Akishita",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Geriatr Gerontol Int",
+            "volume": "20",
+            "issn": "",
+            "pages": "1105--1111",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Development and testing of a five-item version of the geriatric depression scale",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hoyl",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Alessi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Harker",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "J Am Geriatr Soc",
+            "volume": "47",
+            "issn": "",
+            "pages": "873--878",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The validity of the hospital anxiety and depression scale and the geriatric depression scale-5 in home-dwelling old adults in Norway",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Eriksen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bjorklof",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Helvik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Larsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Engedal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Affect Disord",
+            "volume": "256",
+            "issn": "",
+            "pages": "380--385",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "What types of activities increase participation in community \"salons",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nakagawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kawachi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Soc Sci Med",
+            "volume": "238",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Effect of a community intervention programme promoting social interactions on functional disability prevention for older adults: propensity score matching and instrumental variable analyses, JAGES Taketoyo study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hikichi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kondo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kondo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aida",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Takeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kawachi",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Epidemiol Community Health",
+            "volume": "69",
+            "issn": "",
+            "pages": "905--910",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Self-management group exercise extends healthy life expectancy in frail community-dwelling older adults",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yamada",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Arai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Japan Ministry of Health",
+            "authors": [],
+            "year": 2018,
+            "venue": "Nutrition Survey in Japan",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Physical activity and mental health: current concepts",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Paluska",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schwenk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Sports Med",
+            "volume": "29",
+            "issn": "",
+            "pages": "167--180",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A meta-meta-analysis of the effect of physical activity on depression and anxiety in non-clinical adult populations",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rebar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Stanton",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Geard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Short",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Duncan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vandelanotte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Health Psychol Rev",
+            "volume": "9",
+            "issn": "",
+            "pages": "366--378",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "COVID-19, psychological well-being and physical activity levels in older adults during the nationwide lockdown in Spain",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carriedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cecchini",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fernandez-Rio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mendez-Gimenez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Geriatr Psychiatry",
+            "volume": "28",
+            "issn": "",
+            "pages": "1146--1155",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Physical activity and public health in older adults: recommendation from the American College of Sports Medicine and the American Heart Association",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rejeski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Blair",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Med Sci Sports Exerc",
+            "volume": "39",
+            "issn": "",
+            "pages": "1435--1445",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Health benefits of light-intensity physical activity: a systematic review of accelerometer data of the National Health and nutrition examination survey (NHANES)",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fuzeki",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Engeroff",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Banzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Sports Med",
+            "volume": "47",
+            "issn": "",
+            "pages": "1769--1793",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Sleep disturbance, psychosocial correlates, and cardiovascular disease in 5201 older adults: the cardiovascular health study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Newman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Enright",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Manolio",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Haponik",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wahl",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J Am Geriatr Soc",
+            "volume": "45",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Metabolic implications of exposure to light at night: lessons from animal and human studies",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fleury",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Masis-Vargas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kalsbeek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Obesity",
+            "volume": "28",
+            "issn": "1",
+            "pages": "18--28",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Understanding meal patterns: definitions, methodology and impact on nutrient intake and diet quality",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leech",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Worsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Timperio",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcnaughton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nutr Res Rev",
+            "volume": "28",
+            "issn": "",
+            "pages": "1--21",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Self-reported vs measured physical fitness in older women",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kasovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stefan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zvonar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Interv Aging",
+            "volume": "15",
+            "issn": "",
+            "pages": "425--430",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Risk of dementia and mild cognitive impairment in older people with subjective memory complaints: meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Beaumont",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yadegarfar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Stubbs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Acta Psychiatr Scand",
+            "volume": "130",
+            "issn": "",
+            "pages": "439--451",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Perceived declining physical and cognitive fitness during the COVID-19 state of emergency among community-dwelling Japanese old-old adults",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Shiratsuchi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Flow",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Comparisons of characteristics between old-old people with perceived declining physical or cognitive fitness",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Associations of perceived declining physical fitness and brain function during the COVID-19 state of emergency with lifestyle before or during the COVID-19 state of emergency Perceived declining physical fitness during the COVID-19 state of emergency Perceived declining cognitive fitness during the COVID-19 state of emergency Adjusted for age, sex, living alone, medical history (hypertension, heart disease and diabetes mellitus), polypharmacy (\u22655 drugs), depressive symptoms (Geriatric Depression Scale \u22652), participation in the community-based self-management exercise class before the coronavirus disease 2019 (COVID-19) pandemic, exercise habits during the COVID-19 state of emergency and disruption to the rhythm of life during the COVID-19 state of emergency.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

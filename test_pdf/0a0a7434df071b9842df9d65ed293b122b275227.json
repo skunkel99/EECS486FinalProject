@@ -1,0 +1,3405 @@
+{
+    "paper_id": "0a0a7434df071b9842df9d65ed293b122b275227",
+    "metadata": {
+        "title": "Repositioning HIV protease inhibitors and nucleos(t)ide RNA polymerase inhibitors for the treatment of SARS-CoV-2 infection and COVID-19",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "Aims SARS-CoV-2 is a single-stranded RNA virus which is part of the \u00df-coronavirus family (like SARS 2002 and MERS 2012). The high prevalence of hospitalization and mortality, in addition to the lack of vaccines and therapeutics, forces scientists and clinicians around the world to evaluate new therapeutic options. One strategy is the repositioning of already known drugs, which were approved drugs for other indications. Subject and method SARS-CoV-2 entry inhibitors, RNA polymerase inhibitors, and protease inhibitors seem to be valuable targets of research. At the beginning of the pandemic, the ClinicalTrials.gov webpage listed n=479 clinical trials related to the antiviral treatment of SARS-CoV-2 (01.04.2020, \"SARS-CoV-2,\" \"COVID-19,\" \"antivirals,\" \"therapy\"), of which n=376 are still accessible online in January 2021 (10.01.2021). Taking into account further studies not listed in the CTG webpage, this narrative review appraises HIV protease inhibitors and nucleos(t)ide RNA polymerase inhibitors as promising candidates for the treatment of COVID-19. Results Lopinavir/ritonavir, darunavir/cobicistat, remdesivir, tenofovir-disoproxilfumarate, favipriravir, and sofosbuvir are evaluated in clinical studies worldwide. Study designs show a high variability and results often are contradictory. Remdesivir is the drug, which is deployed in nearly 70% of the reviewed clinical trials, followed by lopinavir/ritonavir, favipiravir, ribavirine, and sofosbuvir. Discussion This review discusses the pharmacological/clinical background and questions the rationale and study design of clinical trials with already approved HIV protease inhibitors and nucleos(t)ide RNA polymerase inhibitors which are repositioned during the SARS-CoV-2 pandemic worldwide. Proposals are made for future study design and drug repositioning of approved antiretroviral compounds.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Since November 2019, the severe acute respiratory syndrome (SARS) and the coronavirus disease 2019 (COVID- 19) caused by the new coronavirus (CoV-2) is the most severe pandemic of the past 50 years.",
+            "cite_spans": [
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "19)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "CoV-2 is a single-stranded RNA virus which is part of the \u00df-coronavirus family (like SARS 2002 and MERS 2012). The high prevalence of hospitalization and mortality, in addition to the lack of vaccines and therapeutics, forces scientists and clinicians around the world to evaluate new therapeutic options. One strategy is the repositioning of already known drugs, which were approved drugs for other indications [1] .",
+            "cite_spans": [
+                {
+                    "start": 412,
+                    "end": 415,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this case, targets for research would be the receptor used by SARS to enter the cells to be infected, ACE2, the RNA polymerase or the virus protease (Mpro), needed for fusion, replication, and embudding of new viruses in the host cells. Thus, entry inhibitors, RNA polymerase inhibitors, and protease inhibitors seem to be valuable targets of research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The ClinicalTrials.gov webpage currently (10.01.2021) lists 376 clinical trials related to the treatment of SARS-CoV-2 of which 15 are found to be completed, although this might not be the real number due to the fact that investigators often do report final study data with time delay. Taken together with a small number of further studies not listed in the CTG webpage, the current evidence of drug treatment of COVID-19 is scarce. Thus, the majority of studies is planned or currently recruiting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This review discusses the pharmacological/clinical background and rationale for clinical trials with already approved HIV protease inhibitors and other nucleos(t)ide RNA polymerase inhibitors which are repositioned during the SARS-CoV-2 pandemic worldwide.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Nucleoside analogs have been already studied as potential therapeutic options against SARS infection. In general, these drugs are taken as prodrugs and have to be phosphorylated in the target cells to be active false components used by RNA polymerase leading to the abruption of viral RNA replication. This principle has been used as part of antiretroviral therapies for decades [2] .",
+            "cite_spans": [
+                {
+                    "start": 379,
+                    "end": 382,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principles of treatment"
+        },
+        {
+            "text": "A number of in silico and in vitro studies evaluated the binding of drugs to RNA polymerase and protease [3] [4] [5] [6] .",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 108,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 109,
+                    "end": 112,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 113,
+                    "end": 116,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 117,
+                    "end": 120,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principles of treatment"
+        },
+        {
+            "text": "The proteinase processing polyprotein and virus maturation is called main protease (Mpro) and has already been evaluated as an approach towards SARS treatment [7, 8] . We also know from HIV treatment, that HIV-1 protease inhibitors are highly able to deactivate Mpro by inactivating the active center of the protease being nominated as a potential drug against SARS infection [9] . Therefore, studies have been designed to evaluate the molecular interaction of HIV-1 protease inhibitors with Mpro, which are discussed later on.",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 163,
+                    "end": 165,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 376,
+                    "end": 379,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Principles of treatment"
+        },
+        {
+            "text": "Sofosbuvir, remdesivir, and tenofovir-DF (TDF) are nucleos(t)ide analogs and thus prodrugs, which are 2-3\u00d7 phosphorylated in the target cells in order to become active false components used by RNA polymerase leading to the abruption of viral RNA replication. Sofosbuvir is a uridineanalog, remdesivir is an adenosine-analog and tenofovirdisoproxilfumarate is a thymidine-analog. Most of the chainterminating drugs are nucleoside-analogs missing a functional 3'OH-group (e.g., tenofovir, aciclovir or azidothymidin). Sofosbuvir is an exemption, because it is modified at the 2'OH-group for better antiviral activity against HCV. All of these can cause a premature chain termination by steric inhibition of the viral polymerase [10, 11] . Of these, ribavirin showed the highest binding energy to RNA polymerase (7.8 ckal/mol), but is followed by remdesivir (7.6), sofosbuvir (7.5), galidesvir (7.0), and tenofovir-DF (6.9) [10] .",
+            "cite_spans": [
+                {
+                    "start": 726,
+                    "end": 730,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 731,
+                    "end": 734,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 921,
+                    "end": 925,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Remdesivir was found to be active against Ebola, although the results were not as encouraging as expected [12] .",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 110,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Analyses of patients (n=66, US, EU, and China) who received remdesivir in a compassionate use program showed, that Remdesivir standard dosing can improve the pulmonary status, help clear the virus and decrease fever in patients with severe COVID-19, especially those who had an O 2 -saturation <94% and who were oxygenated [13] .",
+            "cite_spans": [
+                {
+                    "start": 323,
+                    "end": 327,
+                    "text": "[13]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Remdesivir is now tested in trials worldwide. The two biggest trials, SOLIDARITY and DISCOVERY, initiated by the WHO and the French ANSM plan to enroll thousands of patients worldwide, of which 3200 will be included in countries of the European Union under the guidance of the French National Agency for Medicines and Health Products Safety (ANSM). The SOLIDARITY trial is an open randomized adaptive controlled trial, where patients are either assigned to receive remdesivir intravenously 100 mg daily for the duration of the hospitalization and up to 10 days total course, including a loading dose of 200 mg at inclusion or hydroxychloroquine will be given orally (in the ICU in gastrointestinal tubes) with 800 mg loading dose followed by 400 mg every day for a total of 10 days, plus standard of care treatment (SOC) in each arm [14] .",
+            "cite_spans": [
+                {
+                    "start": 833,
+                    "end": 837,
+                    "text": "[14]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "The manufacturer of remdesivir, Gilead Sciences Inc., also announced the initiation of two phase 3 clinical studies in March 2020 to evaluate the safety and efficacy of remdesivir in adults diagnosed with COVID-19. These randomized, open-label, multicenter studies will enroll approximately 1000 patients at medical centers primarily across Asian countries, as well as other countries globally with high numbers of diagnosed cases. The studies will assess two dosing durations of remdesivir, administered intravenously.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Recently, remdesivir has been approved by the FDA and EMA for the treatment of severely ill COVID-19 patients, being hospitalized and O 2 -ventilated. Data on remdesivir were assessed in an exceptionally short timeframe through a socalled rolling review, an approach used by EMA during public health emergencies to assess data as they become available. From April 30, 2020, the CHMP began assessing data on quality and manufacturing, non-clinical data, preliminary clinical data, and supporting safety data from compassionate use programs, well in advance of the submission of the marketing authorization application on the 5th of June 2020. The recommendation was mainly based on data from study NIAID-ACTT-1. Preliminary results of this study indicate that hospitalized patients with severe COVID-19 who received remdesivir had a 31% faster time to recovery than those who received placebo (p<0.001). Specifically, the median time to recovery was 11 days for patients treated with remdesivir compared with 15 days for those who received placebo. Results also suggested a survival benefit, with a mortality rate of 8.0% for the group receiving remdesivir versus 11.6% for the placebo group (p=0.059) [15] .",
+            "cite_spans": [
+                {
+                    "start": 1201,
+                    "end": 1205,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "ClinicalTrials.gov lists a total number of 10 trials with remdesivir against SARS-CoV-2 infection (01.08.2020, https://clinicaltrials.gov/ct2/results?cond=COVID-19&term= remdesivir&cntry=&state=&city=&dist=&Search=Search) Also, two substantial reviews came to the conclusion that remdesivir is the foremost candidate for the treatment of COVID-19 patients who receive mechanical ventilation [16, 17] .",
+            "cite_spans": [
+                {
+                    "start": 391,
+                    "end": 395,
+                    "text": "[16,",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 396,
+                    "end": 399,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "In Italy, a multi-center, randomized, double-blind, placebocontrolled (1:1) clinical study to explore the efficacy and safety of favipiravir in the treatment of adult subjects with COVID-19-moderate type started in July 2020. Subjects within 10 days of COVID-19 onset will be screened and be randomized as early as possible within 24 h following screen success. It is planned to randomize 100 subjects in a 1:1 ratio. Subjects in the test group will receive supportive care recommended in the current guidelines + favipiravir, and subjects in the control group will receive supportive care recommended in the current guidelines + placebo control; the efficacy and safety of favipiravir versus the placebo in the treatment of COVID-19-moderate type will be compared [18] .",
+            "cite_spans": [
+                {
+                    "start": 765,
+                    "end": 769,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "A Chinese multicenter interventional trial evaluates the combination of Favipiravir combined with tocilizumab. 150 participants will be assigned to receive either the combination of favipiravir or favipiravir or tocilizumab alone, each plus SOC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Favipiravir will be given 1600mg BID on the 1st day and 600 mg BID from day 2 to 7, p.o.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "The first dose of tocilizumab is 4~8 mg/kg as i.v. infusion and the recommended dose is 400 mg. For fever patients, an additional application (the same dose as before) is given if there is still fever within 24 h after the first dose and the interval between two medications \u2265 12 h. The maximum cumulative number is two, and the maximum single dose is up to 800 mg [19] .",
+            "cite_spans": [
+                {
+                    "start": 365,
+                    "end": 369,
+                    "text": "[19]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Finally, an 8-armed study with planned 320 participants will test various combinations of HIV-1 protease inhibitors, oseltamivir, favipiravir, and hydroxychloroquine for the treatment COVID-19 (THDMS-COVID-19) in Bangkok, Thailand. (01.08.2020, https://clinicaltrials.gov/ct2/show/NCT04303299? term=favipiravir&cond=COVID-19&draw=2&rank=3).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "There are no current studies listed for sofosbuvir in ClinicalTrials.gov.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Four Trials are listed for oseltamivir, a drug against influenza infection, inhibiting the neuraminidase and thus, the viral spreading after infection of a patient. They do neither eliminate the virus nor are they able to substantially shorten the course of flu disease in patients. Oseltamivir is considered to be helpful in case of a pandemic in order to decrease the viral spread in society. [20, 21] However, an effect against SARS-CoV-2 has never been proven in vitro or in vivo. (https:// clinicaltrials.gov/ct2/results?cond=COVID-19&term= oseltamivir&cntry=&state=&city=&dist=&Search=Search) Ribavirin was tested in vitro 2004 against SARS-CoV and revealed a limited effect on the elimination of SARS-CoV-1; however, the authors concluded that from their pk-data it must be expected that effective concentrations in humans will not be reached by approved human doses [20] . However, ribavirin revealed a higher binding capacity to SARS-CoV-2 RNA Polymerase than remdesivir in recent in silico and in vitro studies [10] .",
+            "cite_spans": [
+                {
+                    "start": 395,
+                    "end": 399,
+                    "text": "[20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 400,
+                    "end": 403,
+                    "text": "21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 874,
+                    "end": 878,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1021,
+                    "end": 1025,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "One RCT in Sichuan, China, should be reported evaluating the combination of tenofovir-alafenamide/emtricitabine (TAF/ FTC). Although there are no in silico or in vitro data for the binding of TAF to SARS-CoV-2 RNA, the Chinese study plans to evaluate the combination of LPV/r+TAF/FTC vs. LPV/r alone in 60 patients each for the early treatment of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Recruiting is still pending due to the International Clinical trials Registry Platform of the WHO (01.08.2020, https://apps.who.int/ trialsearch/Trial2.aspx?TrialID=ChiCTR2000029468).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "Finally, there are two new studies, already recruiting, listed in the FDA ClinicalTrials.gov database, accessed 10.01.2021: A French trial (AR0-CORONA) evaluates the Effect of Tenofovir/ Emtricitabine Short Course on Viral Clearance in Patients Recently Infected With SARS-COV2 (covid-19) Not Requiring Hospitalization. The investigators propose a multicenter, openlabel, phase 2B/3 randomized trial of a 7-day treatment with TDF/FTC (2 tablets on day 1, then 1 tablet/day for 6 days) according to the dosage used in pre-exposure prophylaxis for HIV. This study is ought to include 60 outpatients (phase 2B) and 120 additional outpatients (phase III) who are diagnosed with SARS-CoV2-positive and have no contraindication to TDF/FTC, without criteria for hospitalization. The primary endpoint of the phase 2B is the SARS-CoV2 antiviral efficacy, quantified by RT-PCR nasopharyngeal sample CT-value increase on day 4 compared to baseline. The primary endpoint of phase 3 will be the rate of noncontagious RT-PCR on day 4 from a nasopharyngeal sample. Secondary endpoints will be tolerance, symptoms resolution, percentage of hospitalization, and the rate of non-contagious RT-PCR on day 7 from a nasopharyngeal sample. This is one of the first studies evaluating an antiviral treatment of SARS-CoV-2 in an outpatient setting, something the ambulatory sector of especially general practitioners are waiting for, since they are currently treating over 90% of all COVID-19 cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "(10.01.2021, https://www.clinicaltrials.gov/ct2/show/ NCT04685512?term=tenofovir&cond=covid-19&draw= 2&rank=1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "The second RCT from Colombia refers to the evaluation of the effectiveness and safety of pharmacological therapies used to treat adult patients with COVID-19. Adults aged 18 years or over with a positive RT-PCR or with high suspicion of SARS CoV-2 infection and diagnosis of mild, severe, or critical pneumonia, requiring hospital management at six hospitals in Colombia will be treated with either (1) emtricitabine/tenofovir, (2) colchicine plus rosuvastatin, (3) Emtricitabine/tenofovir plus colchicine plus rosuvastatin, and (4) standard od care (SOC). The study aims to recruit n=400 patients in the first step to select the most effective and safe treatments, listed above, and 1200 patients in a second phase evaluating the effectiveness of the selected treatments. The primary outcome is mortality at days 7 and 28. Furthermore, serious adverse events, intensive care unit (ICU) admission, requirement of respiratory support, time to death, number of participants cured, and any adverse event related to treatment will be assessed. Variables for statistical adjustment are sociodemographic and clinical at recruitment, i.e., comorbidities, need for therapeutic support, grade of invasion at admission. ( ",
+            "cite_spans": [
+                {
+                    "start": 1210,
+                    "end": 1211,
+                    "text": "(",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Nukleos(t)ide polymerase inhibitors"
+        },
+        {
+            "text": "In general, the nucleoside analogs can affect the bone marrow and blood cell count, causing hemolytic anemia, decreased hemoglobin and thrombocytopenia. Tenofovir-DF can also decrease bone density and alter kidney function with increased creatinine values. Proteinuria is a symptom of a possible Fanconi-syndrome. Nucleoside analogs also may cause mitochondrial toxicity with peripheral subcutaneous fat loss. However, these side effects usually occur after a long-term intake of NAs, in short periods of treatment such as against SARS-CoV, these side effects only play a minor role. The foremost side effects in the first weeks of treatment are nausea, dizziness, headache, and diarrhea.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Side effects/tolerability of nucleosides"
+        },
+        {
+            "text": "As there is a similarity in the nucleotide sequence of SARS-CoV to SARS-CoV-2 of 79% and to MERS-CoV of 51.8%, and protease is a key enzyme for the replication of coronaviruses, there are data from previous studies in these earlier endemics, which are translated now into therapy concepts for SARS-CoV-2 and COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "HIV-protease inhibitors"
+        },
+        {
+            "text": "Lopinavir/r was one of four FDA-approved drugs, which were effective against SARS-CoV in cell lines [21] , but later investigations revealed contradictory results [3, 5, 22, 23] and the question occurs why this could be. The EC 50 of Lopinavir was 8\u03bcM [21] which is usually reached by BID dosing of Lopinavir/Ritonavir (Kaletra\u00ae) 400/100mg in vivo [24] , if the drug concentrations in plasma are measured as entire concentration; however, the unbound fraction of Lopinavir is much lower in the plasma due to its protein binding capacity of 98-99%.",
+            "cite_spans": [
+                {
+                    "start": 100,
+                    "end": 104,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 163,
+                    "end": 166,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 167,
+                    "end": 169,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 170,
+                    "end": 173,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 174,
+                    "end": 177,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 228,
+                    "end": 230,
+                    "text": "50",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 252,
+                    "end": 256,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 348,
+                    "end": 352,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "HIV-protease inhibitors"
+        },
+        {
+            "text": "Dayer et al. have tested the inhibitory potency of HIV-1 protease inhibitors to coronavirus protease and found the inhibitory potency represented by the similarity of the tested d r u g s t o t h e c e r t a i n b i n d i n g s i t e o f M p r o o f LPV>RTV>APV>TPV>SQV>ATV>DRV>NFV>IDV, so that in this case, LPV was the most powerful inhibitor of coronavirus protease. The inhibitory potency of Lopinavir in a molecular dynamic simulation was represented by the binding site similarity of 66.67%, whereas the second-generation PI Darunavir/Cobicistat (DRV/COBI) revealed a binding site similarity of 33, 3% [25] . In addition, Nukoolkarn et al. have found in their molecular dynamics simulations, that the active site SARS-CoV 3CL pro is binding to lopinavir/ritonavir through hydrogen bonds [5] .",
+            "cite_spans": [
+                {
+                    "start": 608,
+                    "end": 612,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 793,
+                    "end": 796,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "HIV-protease inhibitors"
+        },
+        {
+            "text": "In a retrospective cohort study, n=33 adults with laboratory-confirmed COVID-19 without invasive ventilation were given either oral umifenavir (Arbidol\u00ae) + LPV/r in the combination group (n=16) or oral LPV/r only in the monotherapy group (n=17) for 5-21 days. The primary endpoint was a negative conversion rate of coronavirus from the date of COVID-19 diagnosis (day 7, day 14), and it was assessed whether the pneumonia was progressing or improving by chest CT (day 7). Baseline clinical, laboratory, and chest CT characteristics were similar between groups. The SARS-CoV-2 could not be detected for 12 (75%) of 16 patients' nasopharyngeal specimens in the combination group after 7 days, compared with 6 (35%) of 17 in the monotherapy group (p < 0.05). After 14 days, 15 (94%) of 16 and 9 (52.9%) of 17, respectively, SARS-CoV-2 could not be detected (p < 0.05). The chest CT scans were improving for 11 (69%) of 16 patients in the combination group after 7 days, compared with 5 (29%) of 17 in the monotherapy group (p < 0.05) [26] .",
+            "cite_spans": [
+                {
+                    "start": 1031,
+                    "end": 1035,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "HIV-protease inhibitors"
+        },
+        {
+            "text": "In a randomized, open-label trial involving hospitalized adult patients with confirmed SARS-CoV-2 infection, and an oxygen saturation (SaO 2 ) of 94% or less, patients were randomly assigned in a 1:1 ratio to receive either LPV/r (LPV/r, 400 mg, and 100 mg, respectively) twice a day for 14 days, in addition to standard care, or standard care alone. The primary endpoint was the time to clinical improvement, defined as the time from randomization to either an improvement of two points on a seven-category ordinal scale or discharge from the hospital, whichever came first. A total of 199 patients with laboratory-confirmed SARS-CoV-2 infection and COVID-19 underwent randomization; 99 were assigned to the LPV/r group, and 100 to the standard-care group. Treatment with LPV/r was not associated with a difference from standard care in the time to clinical improvement (hazard ratio for clinical improvement, 1.24; 95% confidence interval [CI], 0.90 to 1.72). Mortality at 28 days was similar in the LPV/r group and the standard-care group (19.2% vs. 25.0%; difference,\u22125.8 percentage points; 95% CI, \u221217.3 to 5.7). The percentages of patients with detectable viral RNA at various time points were similar. In a modified intention-to-treat analysis, LPV/r led to a median time to clinical improvement that was shorter by 1 day than that observed with standard care (hazard ratio, 1.39; 95% CI, 1.00 to 1.91). Gastrointestinal adverse events were more common in the LPV/r group, but serious adverse events were more common in the standard care group. LPV/r treatment was stopped early in 13 patients (13.8%) because of adverse events [27] .",
+            "cite_spans": [
+                {
+                    "start": 1635,
+                    "end": 1639,
+                    "text": "[27]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "HIV-protease inhibitors"
+        },
+        {
+            "text": "LPV/r was also tested in human cell lines and a mouse model against MERS-CoV and revealed lesser therapeutic effects than previously reported. Antiviral activity (EC 50 ) in a human lung cell line at concentrations of 8.5\u03bcM was low. LPV/r did not stop weight loss or improve hemorrhage, but LPV/r improved pulmonary function in vivo, measured by accessing the FEV1 (Sheahan et al. 2020 Nature).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "HIV-protease inhibitors"
+        },
+        {
+            "text": "The side effects of HIV-PI are well known and have been extensively studied over the past two decades. The most limiting side effects occur during long-term treatment and include especially lipodystrophy [28] and cardiovascular side effects, which can be life-threatening. But one has to take into account that treatment against COVID-19 will be of very limited duration, so that most probably only short-term side effects will occur, especially headache, dizziness, and diarrhea, well known from the early days of HIV-1 treatment. The University of Liverpool Drug Interaction Database also evaluated contraindications and potential drug-drug interactions between DAAs and antiretrovirals. It was stated that the least contraindications/interactions were found with Sofosbuvir (0.2%/0%) [29, 30] .",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 208,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 787,
+                    "end": 791,
+                    "text": "[29,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 792,
+                    "end": 795,
+                    "text": "30]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Side effects/tolerability of HIV-protease inhibitors"
+        },
+        {
+            "text": "The interaction potential of ritonavir-boosted HIV-protease inhibitors unfortunately is quite high, so that it is a challenge to combine LPV/r with other currently taken drugs in multimorbid elderly patients, who are the most vulnerable to COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Drug-drug interactions"
+        },
+        {
+            "text": "Cytochrome oxidases (CYP) are involved in human drug metabolism, especially during the intestinal absorption and hepatic first-pass metabolism. Around 60% of all drugs are metabolized via CYP-isoenzymes. Of these~40% via CYP3A, 25% via CYP2C, 18% via CYP1A, and another 18% via other CYPs. The most important human cytochrome oxidases are CYP1A2, CYP2C19, CYP2C9, CYP2D6, CYP2E1, and CYP3A4. Other important metabolizing hepatic enzymes are transferases, e.g., UDP-glucuronyltransferase (UGT) and Nacetyltransferase (NAT).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hepatic metabolism"
+        },
+        {
+            "text": "Regarding the complexity and number of potential DDIs between, especially LPV/RTV and co-medication, the author refers to the package inserts and EMA-INN. Also, the University of Liverpool drug-drug interaction webpage gives a very comprehensive overview (Tables 1, 2, 3 and 4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 255,
+                    "end": 277,
+                    "text": "(Tables 1, 2, 3 and 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hepatic metabolism"
+        },
+        {
+            "text": "On their way into target cells, drugs have to overcome different cellular barriers. This can happen by passive diffusion but in many cases also by means of active transport proteins. Most familiar is P-glycoprotein (P-gp), called ABCB1 transporter in new nomenclature, a transmembrane glycoprotein efflux transporter, encoded by the MDR1 gene. This membranelocated ATP-dependent transport mechanism is used by human cells to discharge toxins or drugs identified as toxins.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "P-Glykoprotein (ABCB1)"
+        },
+        {
+            "text": "In humans, P-gp is located in excretory tissues like the intestine, liver, and kidney, but also in the pancreas, heart, and brain or, e.g., tumor cells. The overexpression in tumor cells, e.g., is one reason for the decreased response to cytostatics, known as multidrug resistance. The spectrum of substrates of P-gp is broad and includes drugs, food constitutes, environmental toxins, hormones, amino acids, sugar, or peptides, i.e., molecules from 400 to 2000 Da. P-gp can be either inhibited or induced, whereas substrates of P-gp often are also substrates of CYP3A4 (Table 5) . Obviously, the expression and activity of both are regulated via the same pathways. Thus, the differentiation of effects caused by each is complicated.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 570,
+                    "end": 579,
+                    "text": "(Table 5)",
+                    "ref_id": null
+                }
+            ],
+            "section": "P-Glykoprotein (ABCB1)"
+        },
+        {
+            "text": "A number of drugs discussed in this editorial are substrates and/or inhibitors of P-gp (Table 5 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 87,
+                    "end": 95,
+                    "text": "(Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "P-Glykoprotein (ABCB1)"
+        },
+        {
+            "text": "The number of ongoing studies regarding the treatment of COVID-19 is impressive:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "ClinicalTrials.gov lists 469 studies worldwide (01.10. 2020), of which 376 are still active (10.01.2021), but current evidence for the treatment of COVID 19 still is quite low.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "There are reasonable arguments from in vitro and drug modeling studies as well as small open trials or case reports supporting the repurposing of already available drugs and possible combinations of such.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, some turn out to cause more problems in real life than possibly expected. In Sweden, recently all studies with hydroxychloroquine were stopped due to the accumulation of severe side effects in patients (International Press). A pilot study of hydroxychloroquine in the treatment of patients with common coronavirus disease-19 revealed expected side effects: Four cases (26.7%) of the HCQ group and 3 cases (20%) of the control group had transient diarrhea and abnormal liver function (p>0.05). The authors conclude that the prognosis of common COVID-19 patients is good. However, the results are neither valid nor very encouraging for hydroxychloroquine [47] .",
+            "cite_spans": [
+                {
+                    "start": 662,
+                    "end": 666,
+                    "text": "[47]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A 200-mg oral dose of hydroxychloroquine has a half-life of 537 h or 22.4 days in the blood, and 2963 h or 123.5 days in the plasma. Patients experiencing an overdose may present with headache, drowsiness, visual disturbances, cardiovascular collapse, convulsions, hypokalemia, rhythm, and conduction disorders including QT prolongation, torsade de pointes, ventricular tachycardia, and ventricular fibrillation [48, 49] (FDA-Approved Drug Products: Hydroxychloroquine Oral Tablets). This may progress to sudden respiratory and cardiac arrest. Another concern is irreversible retina damage, when taken over a longer period. Although these side effects are rare, the result can be dramatic. [50] The use of the anti-malarial drug chloroquine to treat COVID-19 patients has recently been halted at several Swedish hospitals due to reported side effects such as cramps and loss of peripheral vision. (01.07.2020, https://www.webmd. com/lung/news/20200407/side-effects-halt-use-of-chloroquinevs-COVID- 19) .",
+            "cite_spans": [
+                {
+                    "start": 412,
+                    "end": 416,
+                    "text": "[48,",
+                    "ref_id": null
+                },
+                {
+                    "start": 417,
+                    "end": 420,
+                    "text": "49]",
+                    "ref_id": null
+                },
+                {
+                    "start": 690,
+                    "end": 694,
+                    "text": "[50]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 998,
+                    "end": 1001,
+                    "text": "19)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Remdesivir seems to be the most promising candidate for the treatment of SARS-CoV-2 infection and COVID-19, but as 68.5% of all studies investigate Remdesivir + X, this could cause problems if the drug reveals either less efficacy than expected or side effects which were not obvious in the past in the very limited number of patients treated because of Ebola infection. In this case, trials and alternative treatments with other comparators would be missing. In addition, remdesivir is produced by one single manufacturer, so that production capacities' supply chains may not match with the worldwide requirement of COVID-19 treatment, the more as the USA already bought 500.000 doses of remdesivir in July, which represents the entire worldwide production July-September 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In addition, the results of the WHO guided Solidarity trial, recently published in BMJ, could not reproduce these findings, as neither overall mortality nor severe courses of COVID-19 were decreased in patients receiving remdesivir (n=2570). The WHO Living Guidelines now refrains from recommending remdesivir as the primary treatment of COVID-19 in severely ill patients and states that further studies should be conducted regarding this issue [17] .",
+            "cite_spans": [
+                {
+                    "start": 445,
+                    "end": 449,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although a number of case reports from Europe and China are showing heterogeneous results regarding the outcome of HIV-1 and SARS-CoV-2 co-infected patients [51] [52] [53] [54] [55] [56] [57] , a final conclusion that HIV-protease inhibitors and nucleoside reverse transcriptase inhibitors are inefficient in the treatment of COVID-189 cannot be drawn, as the limitations of these reports are quite clear: The reported outcomes refer to smaller, retrospective, and uncontrolled case series of only symptomatic patients. Asymptomatic cases may have been missed and [26, 34, [36] [37] [38] data were partially incomplete, such as information about the onset, duration, and intensity of symptoms [53] ; the plasma concentrations of TDF; or HIV-protease inhibitors, which might influence the efficacy of treatment against COVID-19. Furthermore, bacterial coinfections which were reported from a study in the USA [56] were a major reason for mortality in hospitalized patients with HIV and COVID-19. One study even reported a smaller proportion of patients with HIV and COVID-19 compared to the entire hospitalized population due to COVID-19 [57] . However, the data from NEAT indicate n=903 cases of reported HIV-1 and SARS-CoV-2 co-infection in Europe until January 25, 2021, with a high rate of hospitalizations (n=374) and deaths (n=68, https://neat-id.knack.com/neat-id-COVID-19# home/). Taken the number of 85279 patients being treated in the reporting sites with an incidence of 1.06%, this corresponds to an incidence of 0.024% in the entire population of people living with HIV and AIDs in Europe (https://www.who.int/hiv/data/ en/), the incidence of SARS-CoV-2-positive tested subjects in Europe in the entire population is 0.4%. (https://de.statista. com/), and the prevalence of PLWH in Europe ranges from 0. 1% (e.g., Germany) up to 1.2% (Russia) (https://cfs.hivci.org/). Although reports in the NEAT database may be missing and we actually do not know the true rate of infections in people living with or without HIV and AIDS, the difference seems to be significant. There have been also reports from South Africa that ",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 161,
+                    "text": "[51]",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 162,
+                    "end": 166,
+                    "text": "[52]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 167,
+                    "end": 171,
+                    "text": "[53]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 172,
+                    "end": 176,
+                    "text": "[54]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "[55]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 182,
+                    "end": 186,
+                    "text": "[56]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "[57]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 569,
+                    "end": 572,
+                    "text": "34,",
+                    "ref_id": null
+                },
+                {
+                    "start": 573,
+                    "end": 577,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 578,
+                    "end": 582,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 583,
+                    "end": 587,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 693,
+                    "end": 697,
+                    "text": "[53]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 908,
+                    "end": 912,
+                    "text": "[56]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1137,
+                    "end": 1141,
+                    "text": "[57]",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In summary, it becomes quite clear that (1) the majority of all discussed trials are conducted as monotherapy studies, partially vs. placebo. (2) Only a small number of trials are evaluating dual combination regimens, in doing so testing also unusual or even contraindicated combinations (e.g., Darunavir/ Cobicistat/Hydroxychloroquin). (3) Currently, no triple/ multiple therapy regimens are evaluated in RTCs. (4) Ribavirin, the nucleoside analog with the highest binding capacity to SARS-CoV-2 RNA, is only part of two small trials. (5) Tenofovir/DF/AF, a nucleotide analog, which is available worldwide at a reasonable price as a generic drug, is evaluated in only two currently recruiting RCTs as part of COVID-19 therapy. (6) Lopinavir/ritonavir is only tested as monotherapy in seriously ill COVID-19 patients and in this case did not reveal sufficient efficacy [59] , as already seen in the past [27, 60] ; Lopinavir/ritonavir is not evaluated as part of a combination therapy [26] . Alternative approaches and up-to-date study designs which deploy the currently available medication in reasonable ways are scarce.",
+            "cite_spans": [
+                {
+                    "start": 412,
+                    "end": 415,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 728,
+                    "end": 731,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 869,
+                    "end": 873,
+                    "text": "[59]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 904,
+                    "end": 908,
+                    "text": "[27,",
+                    "ref_id": null
+                },
+                {
+                    "start": 909,
+                    "end": 912,
+                    "text": "60]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 985,
+                    "end": 989,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outlook"
+        },
+        {
+            "text": "(A) There are no head-to-head studies of promising candidates, such as remdesivir vs. RBV vs. TDF/FTC vs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outlook"
+        },
+        {
+            "text": "FPV + X. TDF shows structural similarity to remdesivir, its binding energy to RNA polymerase is little less [10] and it is available worldwide as a generic drug, storage, and supply doesn't need cooling, application orally QD. The binding capacity of RBV is even higher than that of RDV and favipiravir already showed a comparable efficacy in smaller pilot studies.",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 112,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outlook"
+        },
+        {
+            "text": "(B) There are no double or triple combination studies, as established in the treatment of HBV, HCV, or HIV, e.g., RDV + X or TDF/FTC + X or TDF/FTC+LPV/r or Favipiravir + X, LPV/r + X. (C) There is only one study evaluating the repositioning of tenofovir in an outpatient setting as early antiviral treatment against SARS-CoV-2. More studies for the ambulant antiviral treatment are warranted as the capacities of hospital care are exhausted worldwide.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outlook"
+        },
+        {
+            "text": "The repurposing or repositioning of drugs for the new indication of SARS-CoV-2 and COVID-19 treatment is more than reasonable. It can be the fastest way to treatment of COVID-19 and the embankment of the pandemic. But this approach needs international concerted policies regarding science, production, supply, and access of/to drugs. These are federal responsibilities, questions of independent science and marketing independent supply, and finally the general access to the best available treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outlook"
+        },
+        {
+            "text": "Studies should be conducted coordinated and have comparable study designs to allow meta-analyses. Smaller trials can provide a basis for the generation of new hypotheses or therapeutic approaches and should be very carefully appraised regarding their necessity, ethical, and scientific concerns. All of these cannot be committed to either the manufacturer's side or single academic research units. The final aim must be finding the most effective therapy in the shortest time, assuring worldwide access to treatment, independent from production capacities or market power.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outlook"
+        },
+        {
+            "text": "RDV Remdesivir LPV/r Lopinavir/Ritonavir, RBV Ribavirin; RCT randomized controlled trial Trial/arm stopped, SOC standard of care, TAF tenofovir alafenamide, TDF tenofovir disoproxilfumarate, FTC emtricitabine, LPV/r lopinavir/ritonavir, RDV remdesivir, *Pre-Exposure trials non-therapeutic TDF tenofovir disoproxilfumarate, FTC emtricitabine, LPV/r lopinavir/ritonavir, RDV remdesivir, HCLQ hydroxychloroquine, NPI Nucleos(t)ide polymerase inhibitor (SARS-CoV-2), NRTI nucleos(t)ide reverse transcriptase inhibitor (HIV-1), PI protease inhibitor (SARS-CoV-2 Mpro or ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outlook"
+        },
+        {
+            "text": "Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. Life Sci 117592 Table 5 Pharmacological characteristics of currently tested HIV protease inhibitors and nucleos(t)ide polymerase inhibitors drugs against SARS-CoV-2 Do not combine with PI 2 monitor QTc-prolongation; IC intracellular, t 1/2 half-life, n.a. not available, n.k. not known",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 867,
+                    "end": 874,
+                    "text": "Table 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conflict of interest None"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Compounds with therapeutic potential against novel respiratory 2019 coronavirus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Martinez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Antimicrob Agents Chemother",
+            "volume": "64",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "NRTI backbone in HIV treatment: will it remain relevant?",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Tressler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Godfrey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Drugs",
+            "volume": "72",
+            "issn": "16",
+            "pages": "2051--2062",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "In vitro susceptibility of 10 clinical isolates of SARS coronavirus to selected antiviral compounds",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tsui",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Clin Virol",
+            "volume": "31",
+            "issn": "1",
+            "pages": "69--75",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Computational studies of drug repurposing and synergism of lopinavir, oseltamivir and ritonavir binding with SARS-CoV-2 protease against COVID-19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Muralidharan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sakthivel",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Velmurugan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gromiha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Biomol Struct Dyn",
+            "volume": "",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Molecular dynamic simulations analysis of ritonavir and lopinavir as SARS-CoV 3CL(pro) inhibitors",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Nukoolkarn",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Malaisree",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Aruksakulwong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hannongbua",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Theor Biol",
+            "volume": "254",
+            "issn": "4",
+            "pages": "861--867",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Broad-spectrum coronavirus antiviral drug discovery",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Totura",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bavari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Expert Opin Drug Discovery",
+            "volume": "14",
+            "issn": "4",
+            "pages": "397--412",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Molecular docking identifies the binding of 3-chloropyridine moieties specifically to the S1 pocket of SARS-CoV Mpro",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Vederas",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "James",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Bioorg Med Chem",
+            "volume": "16",
+            "issn": "1",
+            "pages": "293--302",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Structure and dynamics of SARS coronavirus main proteinase (Mpro)",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Anand",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mesters",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Adv Exp Med Biol",
+            "volume": "581",
+            "issn": "",
+            "pages": "585--591",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Structure of M(pro) from COVID-19 virus and discovery of its inhibitors",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "582",
+            "issn": "",
+            "pages": "289--293",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Ribavirin, Remdesivir, Sofosbuvir, Galidesivir, and Tenofovir against SARS-CoV-2 RNA dependent RNA polymerase (RdRp): A molecular docking study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elfiky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical manifestations and outcome of SARS-CoV-2 infection during pregnancy",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Inf Secur",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Muyembe-Tamfum JJ, the PALM Writing Group (2019) A randomized, controlled trial of ebola virus disease therapeutics",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mulangu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dodd",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Davey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tshiani",
+                    "middle": [],
+                    "last": "Mbaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Proschan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mukadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lusakibanza",
+                    "middle": [],
+                    "last": "Manzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nzolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tshomba",
+                    "middle": [],
+                    "last": "Oloma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ibanda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Coulibaly",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Levine",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Grais",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lane",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "N Engl J Med",
+            "volume": "381",
+            "issn": "24",
+            "pages": "2293--2303",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "NIH clinical trial shows remdesivir accelerates recovery from advanced COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Effect of remdesivir on patients with COVID-19: a network metaanalysis of randomized control trials",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yokoyama",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Briasoulis",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Takagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kuno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Virus Res",
+            "volume": "288",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Remdesivir for severe COVID-19: a clinical practice guideline",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rochwerg",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Agarwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Appiah",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Agoritsas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "370",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Clinical study to evaluate the performance and safety of favipiravir in COVID-19",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rizzardini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clinical Trials. gov",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Favipiravir combined with tocilizumab in the treatment of corona virus disease",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shanghai",
+                    "middle": [],
+                    "last": "Uo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Inhibition of SARS coronavirus infection in vitro with clinically approved antiviral drugs",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ooi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Emerg Infect Dis",
+            "volume": "10",
+            "issn": "4",
+            "pages": "581--586",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Screening of an FDA-approved compound library identifies four small-molecule inhibitors of Middle East respiratory syndrome coronavirus replication in cell culture",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "De Wilde",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jochmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Posthuma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zevenhoven-Dobbe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Nieuwkoop",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bestebroer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Van Den Hoogen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Neyts",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Snijder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Antimicrob Agents Chemother",
+            "volume": "58",
+            "issn": "8",
+            "pages": "4875--4884",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Baric RS (2020) Comparative therapeutic efficacy of remdesivir and combination lopinavir, ritonavir, and interferon beta against MERS-CoV",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sheahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sims",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Leist",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sch\u00e4fer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Won",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hogg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Babusis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Clarke",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Spahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sellers",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Porter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cihlar",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Denison",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Commun",
+            "volume": "11",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Treatment of severe acute respiratory syndrome with lopinavir/ritonavir: a multicentre retrospective matched cohort study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Hong Kong Med J",
+            "volume": "9",
+            "issn": "",
+            "pages": "399--406",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Lopinavir/ritonavir: appraisal of its use in HIV therapy",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Von Hentig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Drugs Today (Barc)",
+            "volume": "43",
+            "issn": "4",
+            "pages": "221--247",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Lopinavir; A Potent Drug against Coronavirus Infection: Insight fromMolecular Docking Study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dayer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Taleb-Gassabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dayer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Arch Clin Infect Dis",
+            "volume": "12",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Arbidol combined with LPV/r versus LPV/r alone against corona virus disease 2019: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Inf Secur",
+            "volume": "81",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Evaluation of the HIV lipodystrophy case definition in a placebo-controlled, 144-week study in antiretroviral-naive adults",
+            "authors": [
+                {
+                    "first": "Mpr",
+                    "middle": [],
+                    "last": "Law",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Carr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Antivir Ther",
+            "volume": "11",
+            "issn": "2",
+            "pages": "179--186",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Drug-drug interactions in patients co-infected with HCV and HIV-reply",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Osinusi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Townsend",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kottilil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "JAMA",
+            "volume": "314",
+            "issn": "2",
+            "pages": "186--187",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Potential for drug-drug interactions between antiretrovirals and hcv direct acting antivirals in a large cohort of HIV/HCV coinfected patients",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Poizot-Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Naqvi",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Obry-Roguet",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Valantin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cuzin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Billaud",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cheret",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rey",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jacomet",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Duvivier",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pugliese",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Pradat",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cotte",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hepadat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "AIDS Study Group",
+            "volume": "10",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Potential therapeutic agents against COVID-19: What we know so far",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Chin Med Assoc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Adverse effects of ribavirin and outcome in severe acute respiratory syndrome: experience in two medical centers",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Chiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Buttrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Chest",
+            "volume": "128",
+            "issn": "1",
+            "pages": "263--272",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Clinical presentations and outcome of severe acute respiratory syndrome in children",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fok",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Lancet",
+            "volume": "361",
+            "issn": "9370",
+            "pages": "1701--1703",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Short-term outcome of critically ill patients with severe acute respiratory syndrome",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Gomersall",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Joynt",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yap",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Buckley",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jjy",
+                    "middle": [],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Antonio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ahuja",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Intensive Care Med",
+            "volume": "30",
+            "issn": "3",
+            "pages": "381--387",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "A systematic review of therapeutic agents for the treatment of the Middle East respiratory syndrome coronavirus (MERS-CoV)",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Momattin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Al-Ali",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al-Tawfiq",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Travel Med Infect Dis",
+            "volume": "30",
+            "issn": "",
+            "pages": "9--18",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Post-exposure prophylaxis for Middle East respiratory syndrome in healthcare workers",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Son",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ko",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Peck",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Joo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Eom",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Hosp Infect",
+            "volume": "101",
+            "issn": "1",
+            "pages": "42--46",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Treatment of Middle East Respiratory Syndrome with a combination of lopinavir-ritonavir and interferon-beta1b (MIRACLE trial): study protocol for a randomized controlled trial",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Arabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alothman",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Balkhy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Al-Dawood",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aljohani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al",
+                    "middle": [],
+                    "last": "Harbi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Trials",
+            "volume": "19",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Sovaldi\u00ae Summary of Product Characteristics",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ltd",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Sovaldi\u00ae US Prescribing Information",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ltd",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "The effect of hepatic impairment on the pharmacokinetics and antiviral activity of PSI-7977 in hepatitis C infected subjects treated for seven days 47th EASL",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lawitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rodriguez-Torres",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cornpropst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "18--22",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "14th International Workshop on",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Session5",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Application for inclusion of Harvoni\u00aetablets in the WHO Model List of Essential Medicines",
+            "authors": [],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Intracellular metabolism of favipiravir (T-705) in uninfected and influenza A (H5N1) virus-infected cells",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Smee",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hurst",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Egawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Takahashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kadota",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Furuta",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Antimicrob Chemother",
+            "volume": "64",
+            "issn": "4",
+            "pages": "741--746",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "A pilot study of hydroxychloroquine in treatment of patients with common coronavirus disease-19 (COVID-19)",
+            "authors": [
+                {
+                    "first": "Chen J",
+                    "middle": [],
+                    "last": "Liu D",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Liu L",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Liu P",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Xu Q",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Xia L",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Zhejiang Univ (Med Sci)",
+            "volume": "49",
+            "issn": "1",
+            "pages": "0--0",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Monitoring for retinal toxicity in patients taking hydroxychloroquine and chloroquine",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Yusuf",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ledingham",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Macphie",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lotery",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Galloway",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Rheumatology (Oxford)",
+            "volume": "58",
+            "issn": "1",
+            "pages": "3--4",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "COVID-19 in patients with HIV -Authors' reply",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Miro",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ambrosioni",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Blanco",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet HIV",
+            "volume": "7",
+            "issn": "6",
+            "pages": "383--384",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "COVID-19 in patients with HIV: clinical case series",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Blanco",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ambrosioni",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Martinez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Soriano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mallolas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet HIV",
+            "volume": "7",
+            "issn": "5",
+            "pages": "314--316",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "COVID-19 in people living with human immunodeficiency virus: a case series of 33 patients",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Harter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Spinner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Roider",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bickel",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Krznaric",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Grunwald",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infection",
+            "volume": "48",
+            "issn": "",
+            "pages": "681--686",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Patterns of HIV and SARS-CoV-2 co-infection in Wuhan China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Ming",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Int AIDS Soc",
+            "volume": "23",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Recovery from the coronavirus disease-2019 (COVID-19) in two patients with coexisted (HIV) infection",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "2325--2327",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "2020) outcomes among HIV-positive patients hospitalized with COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Karmen-Tuohy",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Carlucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Zervou",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zacharioudakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rebick",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Reich",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rahimian",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Acquir Immune Defic Syndr",
+            "volume": "85",
+            "issn": "1",
+            "pages": "6--10",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Clinical features and outcomes of HIV patients with coronavirus disease",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gervasoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Meraviglia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Riva",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Giacomelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Oreni",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Minisci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Risk factors for COVID-19 death in a population cohort study from the Western Cape Province, South Africa. In: Risk factors for COVID-19 death in a population cohort study from the Western Cape Province",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Boulle",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hussey",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ismail",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Morden",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Vundle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "COVID-19: a brief overview of the discovery clinical trial",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Vanden Eynde",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Pharmaceuticals (Basel)",
+            "volume": "2020",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Lopinavir/ritonavir combination therapy amongst symptomatic coronavirus disease 2019 patients in India: protocol for restricted public health emergency use. Indian J Med Res Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bhatnagar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Murhekar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Soneja",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Giri",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Poizot-Martin et al. simulated the interaction potential of DAAs with an antiretroviral therapy (ART) in 2500 HIV/ HCV co-infected patients of the French Dat\u00b4AIDS cohort during the years 2012-2015: 97.1% of patients received a cART with NRTIs, in 43.6% of cases combined with a boosted PI, in 17.3% with NNRTI, 15.4% with INI, and 23.7% of different combinations of these.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "10.01.2021, https://www.clinicaltrials.gov/ct2/show/ NCT04359095?term=tenofovir&cond=covid-19&draw= 2&rank=4)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Medication evaluated in clinical trials. Repurposing of HIV protease inhibitors and nucleos(t)ide polymerase inhibitors for the treatment of SARS-CoV-2 infection and COVID-19",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "A selection of current clinical trials",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Combination therapies Remdesivir + LPV/r NPI + PI Favorable, scarce data, monitor DDI of LPV/r Remdesivir + HCLQ NPI + Antimalarial Possible, monitor HCLQ side effects TDF/FTC + LPV/r NRTI + PI Possible, moderate side effects, monitor DDI of LPV/r Favipiravir + LPV/r NPI + PI Favorable, scarce but encouraging data, monitor DDI of LPV/r DRV/COBI + HCLQ PI + Antimalarial Unfavorable due to DDI a Source https://ClinicalTrials.gov/ b The combination of DRV/COBI and HCLQ is not really reasonable due to the expected DDIs HIV protease), DRV darunavir, COBI cobicistat, DDI drugdrug-interaction Author's contributions None Funding Open Access funding enabled and organized by Projekt DEAL.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "65% Cathepsin A (CatA), (CES1) und (Hint1). UMP/CMP/NDP-Kinases P-gp Substrate , BCRP Prodrug; intracellular phosphorylation to uridintriphosphate-analog Remdesivir Nucleotide analog polymerase inhibitor Source: https://www.drugbank.ca/; DA Dalton, 1",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

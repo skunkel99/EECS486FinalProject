@@ -15,6 +15,7 @@ import sys
 import os
 import math
 import string
+import json
 from preprocess import tokenizeText, removeStopwords, stemWords, getDocs
 
 
@@ -26,8 +27,9 @@ def main():
     sentence_lengths = {}
     max_sentence_freqs = {}
     #path1 = sys.argv[1]
-    query = str(' '.join(sys.argv[3:]))
-
+#    query = str(' '.join(sys.argv[3:]))
+    ground_truth = open(sys.argv[3], "r")
+    queries = json.load(ground_truth)
     #for file in os.listdir(path):
         #file_list.append(os.path.join(path, file))
     #documents, return_ID = processFolder(file_list, 0, documents)
@@ -57,22 +59,27 @@ def main():
             for term, frequency in term_freqs.items():
                 sum += (.5 + (.5 * frequency / max_frequency)) ** 2
             sentence_lengths[current_ID] = math.sqrt(sum)
+    
+    output_dict = {}
+    for query in queries:
+        # Find the list of relevant sentences and their similarity scores
+        similarities = list(retrieveSentences(query, inverted_index, sentence_lengths, max_sentence_freqs).items())
+        similarities = sorted(similarities, reverse=True, key=lambda sentence:sentence[1])
 
-    # Find the list of relevant sentences and their similarity scores
-    similarities = list(retrieveSentences(query, inverted_index, sentence_lengths, max_sentence_freqs).items())
-    similarities = sorted(similarities, reverse=True, key=lambda sentence:sentence[1])
-
-    # TODO - change to however we want to output the answer
-    if (len(similarities) > 0):
-        answer_loc = str(similarities[0][0]).split("-")
-        doc_ID = int(answer_loc[0])
-        sentence_ID = int(answer_loc[1])
-        print(("\n" + documents[doc_ID][sentence_ID].raw).strip())
-        print("\nAnswer found in document " + str(doc_ID) + " in sentence " + str(sentence_ID) + "\n")
-    else:
-        print("No answer could be found in the database.\n")
-
-
+        # TODO - change to however we want to output the answer
+        if (len(similarities) > 0):
+            answer_loc = str(similarities[0][0]).split("-")
+            doc_ID = int(answer_loc[0])
+            sentence_ID = int(answer_loc[1])
+            output_dict[query] = (documents[doc_ID][sentence_ID].raw).strip()
+#            print(("\n" + documents[doc_ID][sentence_ID].raw).strip())
+#            print("\nAnswer found in document " + str(doc_ID) + " in sentence " + str(sentence_ID) + "\n")
+        else:
+            output_dict[query] = ""
+#            print("No answer could be found in the database.\n")
+    
+    with open("output_answers.json", "w") as file:
+        json.dump(output_dict, file)
 
 ''' Adds a sentence to the inverted_index '''
 def indexSentence(sentence, ID, inverted_index):

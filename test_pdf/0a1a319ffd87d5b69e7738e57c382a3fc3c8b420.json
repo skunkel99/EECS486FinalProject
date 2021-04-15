@@ -1,0 +1,1477 @@
+{
+    "paper_id": "0a1a319ffd87d5b69e7738e57c382a3fc3c8b420",
+    "metadata": {
+        "title": "Journal Pre-proof Demographics, laboratory parameters and outcomes of 1061 patients with COVID-19: A report from Tehran, Iran Demographics, laboratory parameters and outcomes of 1061 patients with COVID-19: A report from Tehran, Iran Running Title: Characteristics of COVID-19 in Iran",
+        "authors": [
+            {
+                "first": "Mihan",
+                "middle": [
+                    "Pourabdollah"
+                ],
+                "last": "Toutkaboni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elham",
+                "middle": [],
+                "last": "Askari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": "dr_elham_askari@yahoo.com"
+            },
+            {
+                "first": "Nastaran",
+                "middle": [],
+                "last": "Khalili",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tehran University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Payam",
+                "middle": [],
+                "last": "Tabarsi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Clinical TB and epidemiology Research Center",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hamidreza",
+                "middle": [],
+                "last": "Jamaati",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ali",
+                "middle": [
+                    "Akbar"
+                ],
+                "last": "Velayati",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Atosa",
+                "middle": [],
+                "last": "Dorudinia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mitrasadat",
+                "middle": [],
+                "last": "Rezaei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Assistant Professor of Pathology, Chronic Respiratory Diseases Research Center, National Research Institute of Tuberculosis and Lung Diseases (NRITLD)",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alireza",
+                "middle": [],
+                "last": "Nadji",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Abdolreza",
+                "middle": [],
+                "last": "Mohamadnia",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Neda",
+                "middle": [],
+                "last": "Khalili",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tehran University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": "nedakhalili44@gmail.com"
+            },
+            {
+                "first": "Seyed",
+                "middle": [
+                    "Alireza"
+                ],
+                "last": "Nadji",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Assistant Professor of Pathology, Chronic Respiratory Diseases Research Center, National Research Institute of Tuberculosis and Lung Diseases (NRITLD)",
+                    "institution": "Shahid Beheshti University of Medical Sciences",
+                    "location": {
+                        "settlement": "Tehran",
+                        "country": "Iran"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "In December 2019, the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) was 23 identified in Wuhan City, Hubei province, China (1). The disease caused by this highly 24 contagious viral pathogen, which was later named as the novel coronavirus disease 2019 25 (COVID-19) by the World Health Organization (WHO), spread rapidly to other countries, 26 including Iran, South Korea, and Italy. As of May 13, 2020, 188 countries have reported 27 confirmed cases of COVID-19 with more than 293,241 deaths having occurred worldwide (2).",
+            "cite_spans": [
+                {
+                    "start": 356,
+                    "end": 358,
+                    "text": "26",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "22"
+        },
+        {
+            "text": "Patients infected with this novel betacoronavirus mostly manifest with fever, cough, dyspnea, 29 headache and fatigue (3, 4) . In a minority of patients, SARS-CoV-2-associated pneumonia can 30 lead to severe complications such as, acute respiratory distress syndrome, multiple organ failure 31 and even death (3-6).",
+            "cite_spans": [
+                {
+                    "start": 118,
+                    "end": 121,
+                    "text": "(3,",
+                    "ref_id": null
+                },
+                {
+                    "start": 122,
+                    "end": 124,
+                    "text": "4)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "28"
+        },
+        {
+            "text": "According to literature, patients with COVID-19 are prone to developing lymphopenia, increased 33 neutrophil count and thrombocytopenia (4, 7, 8) . More recently, neutrophil-to-lymphocyte ratio 34 (NLR) and platelet-to-lymphocyte ratio (PLR) were proposed as potential predictors of mortality 35 in confirmed cases of . Higher levels of infection-related markers, including C-36 reactive protein (CRP), erythrocyte sedimentation rate (ESR), D-dimer, serum ferritin, and 37 proinflammatory cytokines (IL-6, IL1B, IFN\u03b3, TNF\u03b1) have also been suggested as markers of 38 disease progression in several studies (12) (13) (14) . 39 The vast majority of studies describing the demographics and clinical characteristics, as well as computed tomography (CT) findings, were included in this study. Demographic data including 54 age, sex, date of admission, and laboratory findings were collected from patients' electronic 55 medical records. One researcher reviewed the data collection forms for quality control. No age 56 limitation was considered in our study; however, approximately all included patients were adults.",
+            "cite_spans": [
+                {
+                    "start": 136,
+                    "end": 139,
+                    "text": "(4,",
+                    "ref_id": null
+                },
+                {
+                    "start": 140,
+                    "end": 142,
+                    "text": "7,",
+                    "ref_id": null
+                },
+                {
+                    "start": 143,
+                    "end": 145,
+                    "text": "8)",
+                    "ref_id": null
+                },
+                {
+                    "start": 194,
+                    "end": 196,
+                    "text": "34",
+                    "ref_id": null
+                },
+                {
+                    "start": 293,
+                    "end": 295,
+                    "text": "35",
+                    "ref_id": null
+                },
+                {
+                    "start": 605,
+                    "end": 609,
+                    "text": "(12)",
+                    "ref_id": null
+                },
+                {
+                    "start": 610,
+                    "end": 614,
+                    "text": "(13)",
+                    "ref_id": null
+                },
+                {
+                    "start": 615,
+                    "end": 619,
+                    "text": "(14)",
+                    "ref_id": null
+                },
+                {
+                    "start": 622,
+                    "end": 624,
+                    "text": "39",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "32"
+        },
+        {
+            "text": "Final follow-up date was May 1, 2020. Patients were divided into three main groups: patients 58 who were admitted to the ward, patients who were admitted to the intensive care unit (ICU) and 59 those who died until follow-up. It should be noted that patients who had died by the end of final 60 follow-up but had also received care in the ICU/ward during hospitalization were included in the 61 'expired' group, and all the patients in the 'ward' and 'ICU' groups had survived until final 62 follow-up date. This study was approved by the ethics committee of Shahid Beheshti University respectively. The Kolmogorov-Smirnov test was conducted to assess the distribution normality.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "57"
+        },
+        {
+            "text": "To compare the continuous variables between the groups, one-way ANOVA and Kruskal Wallis 84 tests were used for parametric and non-parametric data, respectively. Chi-square test was used 85 for comparing categorical data between groups. Subgroup analysis was also performed for 86 patients who had a positive RT-PCR test. Pearson's correlation test was used for assessing the 87 J o u r n a l P r e -p r o o f correlation between mortality and variables. Patients were divided into two categories for this 88 analysis; those who were admitted to the ICU or ward were grouped as survivors and those 89 patients who died during the study period formed the non-survivors group. All statistical 90 analyses were performed with SPSS software version 23.0 (IBM corp., Chicago, IL, USA). P-91 values less than 0.05 were considered as statistically significant. Three age groups were defined: 92 patients less than 21 years old, patients aged 21-64 years, and those older than or equal to 65 93 years.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "83"
+        },
+        {
+            "text": "Total study population 96 A total of 1061 hospitalized patients were included in this study. Among these, 129 (12.2%) 97 patients died at some point during hospitalization in the ward or intensive care unit (ICU). From 98 the remaining 932 survivors, 46 (5.0%) patients were admitted to the ICU and 886 (95.0%) 99 patients were hospitalized in the ward. The median age of all patients was 55 (44-66) years, and 100 65.2% of the cases were males. Also, the median age of those who died was 65 years and no 101 significant difference in age was seen between patients who died and those who received ICU 102 care (p=0.064); however, patients who died were significantly older than those hospitalized in 103 the ward (p<0.001). Although all patients were considered as COVID-19 positive cases, only 104 53.6% had a positive RT-PCR test. The laboratory findings of patients within each group are 105 demonstrated in Table 1 . As shown, 126 (12.3%) patients had leukopenia and 708 (66.7%) had 106 lymphopenia at baseline. The median absolute number of lymphocytes was 1.2 \u00d7 10 3 per 107 microliter (IQR, 0.9-1.6 \u00d7 10 3 per microliter). Among laboratory tests, only hemoglobin level, performing a subgroup analysis, we found that results were similar to that of the total population 131 except for ALT and serum ferritin, which did not vary significantly between the three groups 132 J o u r n a l P r e -p r o o f (p=0.307 and p=0.135, respectively), and PTT, which was found to be statistically different 133 across groups (p=0.047) ( Table 2) .",
+            "cite_spans": [
+                {
+                    "start": 23,
+                    "end": 25,
+                    "text": "96",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 911,
+                    "end": 918,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1530,
+                    "end": 1538,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "95"
+        },
+        {
+            "text": "Correlation between mortality and study variables 135 As shown in Table 3 (Table 3) . follow-up date but had received ICU care prior to death were not included in the 'ICU' group.",
+            "cite_spans": [
+                {
+                    "start": 50,
+                    "end": 53,
+                    "text": "135",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 66,
+                    "end": 73,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 74,
+                    "end": 83,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "134"
+        },
+        {
+            "text": "Many studies have investigated laboratory findings in COVID-19 that are associated with disease 168 severity. Generally, patients with COVID-19 tend to have abnormal blood counts, coagulopathy, 169 and liver and kidney dysfunction (4, 8). Higher serum CRP, D-dimer, LDH, creatine kinase and 170 procalcitonin levels have been found among patients with severe disease (17, 18, 23, 24) . In this 171 study, D-dimer, serum ferritin and albumin had the strongest correlation with mortality.",
+            "cite_spans": [
+                {
+                    "start": 367,
+                    "end": 371,
+                    "text": "(17,",
+                    "ref_id": null
+                },
+                {
+                    "start": 372,
+                    "end": 375,
+                    "text": "18,",
+                    "ref_id": null
+                },
+                {
+                    "start": 376,
+                    "end": 379,
+                    "text": "23,",
+                    "ref_id": null
+                },
+                {
+                    "start": 380,
+                    "end": 383,
+                    "text": "24)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "167"
+        },
+        {
+            "text": "Although albumin has a half-life of 15 to 19 days, it is more rapidly decreased than expected 173 during the course of COVID-19 infection. Elevated levels of inflammatory cytokines, 174 particularly IL-6, increase vascular permeability during an acute-phase response and result in the 175 redistribution of albumin into the interstitial space (25). In addition, increased IL-6 may induce 176 apoptosis in lymphocytes, leading to lymphopenia in patients with . Of note, our 177 J o u r n a l P r e -p r o o f study failed to show a significant difference in IL-6 levels between the three groups; however, in 178 contrast to patients admitted to the ward or ICU, the median IL-6 level (10.1 pg/ml) was higher 179 than the upper limit of normal (5.9 pg/ml) in patients who died. Another finding of this study 180 was that patients who died had significantly increased ESR and serum ferritin levels and a higher 181 proportion of positive CRP compared with those admitted to the ward. These results suggest that 182 patients with severe disease have an increased activity of the innate immune system. As ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "172"
+        },
+        {
+            "text": "Among all patients, approximately 67% had lymphopenia; this is in accordance with previous 203 reports that have indicated a diagnostic value for lymphopenia in patients with COVID-19 on 204 admission (12, 17, 28, 33, 34) . According to our results, patients who died were more likely to 205 have WBC count of more than 10.0 \u00d7 10 3 per microliter compared with patients who received 206 care in the ward. In a single-center study by Qu and colleagues, a higher PLR was proposed as a 207 prognostic indicator of prolonged hospitalization in confirmed cases of COVID-19. They also 208 found that patients with a peak in the absolute count of platelets during the disease course had 209 poor outcomes (11). Likewise, in our study, PLR values were markedly lower in the ward 210 patients compared with those who died. Interestingly, only lymphocyte percentages were 211 significantly lower in patients admitted to the ICU compared with those hospitalized in the ward. In this study, we included 1061 patients who were treated as COVID-19 patients; however, 223 nearly half of these patients had a positive RT-PCR test while the remaining patients tested 224 negative. Since the current gold standard test for the diagnosis of COVID-19 is RT-PCR, we 225 performed a subgroup analysis among patients with laboratory-confirmed Notwithstanding, the results were relatively similar to those of the total population.",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 205,
+                    "text": "(12,",
+                    "ref_id": null
+                },
+                {
+                    "start": 206,
+                    "end": 209,
+                    "text": "17,",
+                    "ref_id": null
+                },
+                {
+                    "start": 210,
+                    "end": 213,
+                    "text": "28,",
+                    "ref_id": null
+                },
+                {
+                    "start": 214,
+                    "end": 217,
+                    "text": "33,",
+                    "ref_id": null
+                },
+                {
+                    "start": 218,
+                    "end": 221,
+                    "text": "34)",
+                    "ref_id": null
+                },
+                {
+                    "start": 288,
+                    "end": 291,
+                    "text": "205",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "202"
+        },
+        {
+            "text": "Our study has several limitations. First, we did not report the detailed clinical and radiologic 228 manifestations of the included population due to lack of access to data. Thus, we were not able to 229 evaluate the severity of disease based on predefined classifications by international agencies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "227"
+        },
+        {
+            "text": "Second, we did not consider the comorbidities of patients, a factor that may have an important 231 role in the mortality of patients with COVID-19 (6). In addition, due to the retrospective nature 232 of the study, we did not have access to complete lab data for all patients, which might potentially 233 reduce the strength of the reported findings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "230"
+        },
+        {
+            "text": "In conclusion, the results of this study suggest that laboratory abnormalities are seen in patients ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "234"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A Novel Coronavirus from Patients with 245 Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "New England Journal of Medicine",
+            "volume": "382",
+            "issn": "8",
+            "pages": "727--760",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Clinical characteristics of 138 hospitalized 247 patients with 2019 novel coronavirus-infected pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Jama",
+            "volume": "323",
+            "issn": "11",
+            "pages": "1061--1070",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Clinical features of patients infected with 2019 249 novel coronavirus in Wuhan, China. The lancet",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "497--506",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Clinical Characteristics of Coronavirus 251 Disease 2019 in China",
+            "authors": [
+                {
+                    "first": "W-J",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-Y",
+                    "middle": [],
+                    "last": "Ni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W-H",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-Q",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "New England Journal of Medicine",
+            "volume": "382",
+            "issn": "18",
+            "pages": "1708--1728",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Epidemiological and clinical characteristics 253 of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "The Lancet",
+            "volume": "254",
+            "issn": "2020",
+            "pages": "507--520",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Novel Coronavirus-Infected Pneumonia in Wuhan, China",
+            "authors": [],
+            "year": 2019,
+            "venue": "Patients With",
+            "volume": "323",
+            "issn": "",
+            "pages": "1061--257",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Thrombocytopenia is associated with severe coronavirus disease 259 2019 (COVID-19) infections: A meta-analysis",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Plebani",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clinica Chimica Acta",
+            "volume": "506",
+            "issn": "",
+            "pages": "145--153",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Hematologic parameters in 261 patients with COVID-19 infection. American journal of hematology",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vcl",
+                    "middle": [],
+                    "last": "Chong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ssw",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kge",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "262",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "The diagnostic and predictive role of NLR, d-NLR and PLR in 263 COVID-19 patients",
+            "authors": [
+                {
+                    "first": "A-P",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W-Q",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int Immunopharmacol",
+            "volume": "84",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Neutrophil-to-lymphocyte ratio as an 265 independent risk factor for mortality in hospitalized patients with COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Infection",
+            "volume": "266",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Platelet-to-lymphocyte ratio is associated with 267 prognosis in patients with Corona Virus Disease-19",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhang",
+                    "middle": [],
+                    "last": "Yh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wei",
+                    "middle": [],
+                    "last": "Ly",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of medical virology",
+            "volume": "268",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Clinical and immunological features of 269 severe and moderate coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Journal of clinical investigation",
+            "volume": "130",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Early clinical and CT manifestations of 271 coronavirus disease 2019 (COVID-19) pneumonia",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "American Journal of Roentgenology",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Clinical Course and Outcomes of 273 Patients with Severe Acute Respiratory Syndrome Coronavirus 2 Infection: a Preliminary",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "First 28 Patients from the Korean Cohort Study on COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "13",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Clinical course and risk factors for mortality of adult 276 inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. The lancet",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "277",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Lobar Distribution of 278 COVID-19 Pneumonia Based on Chest Computed Tomography Findings; A Retrospective Study. Arch 279",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Haseli",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Khalili",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bakhshayeshkaram",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sanei",
+                    "middle": [],
+                    "last": "Taheri",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Moharramzad",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acad Emerg Med",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Clinical characteristics of 140 281 patients infected with SARS-CoV-2 in Wuhan",
+            "authors": [
+                {
+                    "first": "J-J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-D",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yang",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-B",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-Q",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Allergy",
+            "volume": "282",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China. 284 JAMA Internal Medicine",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Analysis of the Clinical Characteristics of 77 COVID-286 19 Deaths",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "287",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The clinical characteristics and mortal 288 causes analysis of COVID-19 death patients",
+            "authors": [
+                {
+                    "first": "A-X",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-J",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q-Y",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-X",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-Y",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "ICU, intensive care unit; NLR, 339 neutrophil-to-lymphocyte ratio; PLR, platelet-to-lymphocyte ratio, ESR, erythrocyte 340 sedimentation rate; CRP, C-reactive protein; WBC, white blood cell; Hgb, hemoglobin; PLT, 341 platelet; PCR, polymerase chain reaction; LDH, lactate dehydrogenase; AST, aspartate 342 aminotransferase; ALT, alanine aminotransferase",
+            "authors": [],
+            "year": null,
+            "venue": "Data are reported as median (IQR), mean (\u00b1 SD) and n (%)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Validation Elham Askari: Resources, Writing -Review & Editing, Supervision",
+            "authors": [
+                {
+                    "first": "Toutkaboni",
+                    "middle": [],
+                    "last": "Mihan Pourabdollah",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Conceptualization Nastaran Khalili: Writing -Original Draft, Writing -Review & Editing, Validation, Formal analysis Payam Tabarsi: Conceptualization, Visualization, Validation Hamidreza Jamaati: Conceptualization, Visualization, Validation",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Visualization, Supervision, Validation Atosa Dorudinia: Resources, Visualization, Investigation Mitrasadat Rezaei: Resources, Visualization, Investigation Seyed Alireza Nadji: Resources, Visualization Abdolreza Mohamadnia: Resources, Visualization Neda Khalili: Writing -Original Draft",
+            "authors": [
+                {
+                    "first": "Ali Akbar",
+                    "middle": [],
+                    "last": "Velayati",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "40 the laboratory findings of patients with COVID-19 are from Mainland China (3-6). Although 41 Iran is one of the countries greatly affected by this novel coronavirus, to date information on the 42 laboratory findings of COVID-19 infection among Iranian patients is scarce. Herein, we report 43 J o u r n a l P r e -p r o o f This retrospective study was conducted on 1061 patients with suspected COVID-19 who were 48 admitted to Masih Daneshvari Hospital, Tehran, Iran between February 20, 2020 and April 2, 49 2020. This hospital was the first and largest hospital that was specifically designated for the 50 hospitalization of patients with suspected COVID-19 in Tehran. All cases who tested positive for 51 SARS-CoV-2 by real-time reverse transcriptase polymerase chain reaction (RT-PCR) or those 52 suspected with COVID-19 infection based on characteristic clinical symptoms and chest 53",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Medical Sciences and written informed consent was obtained from all patients prior to 64 enrollment in the study.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "were taken based on the hospital protocol for COVID-19 management. These 67 assessments included complete blood count (CBC), coagulation tests [prothrombin time (PT), 68 international normalized ratio (INR), partial thromboplastin time (PTT)], serum total protein, 69 serum albumin, lactate dehydrogenase (LDH), C-reactive protein (CRP), serum ferritin 70 (measured by ELISA), cardiac troponin I, erythrocyte sedimentation rate (ESR), D-dimer, 25-71 OH-VitD3, interleukin-6 (IL-6), blood urea, creatinine, aspartate aminotransferase (AST), and 72 alanine aminotransferase (ALT). In addition, RT-PCR assay was performed on nasopharyngeal 73 specimens for SARS-CoV-2 detection in all patients with Taqman\u00ae Premix TAKARA (TaKaRa, 74 Dalian, China) considering the protocols provided by the manufacturer. In patients with 75 laboratory examinations at multiple time points during the study period, only the initial tests 76were evaluated. According to our clinical experience, we also investigated whether a decreasing 77 trend in the absolute number of lymphocytes correlated with mortality. This was defined as at 78 least two consecutive decreases in the lymphocyte count during the study period.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "were expressed as frequency (%), and continuous variables were presented 81 as mean (SD) or median (IQR) for normally distributed and non-normally distributed variables, 82",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "108 platelet count, PTT, 25-OH-VitD3 level, IL-6, and quantitative CRP level were not statistically 109 J o u r n a l P r e -p r o o f significant between groups. Compared with patients who died by the end of final follow-up, 110 those admitted to the ward were significantly younger (p<0.001), had significantly lower blood 111 urea (p<0.001), creatinine (p<0.001), AST (<0.001), ALT (p=0.027), LDH (p<0.001), serum 112 ferritin (p=0.001), cardiac troponin I (p<0.001), WBC (p<0.001), neutrophil count (p<0.001), 113 neutrophil percentage (p<0.001), NLR (p<0.001), PLR (p<0.001), ESR (p=0.001), PT (p=0.006), 114 INR (p=0.002), D-dimer level (p<0.001), and significantly higher albumin (p<0.001), total 115 protein (p<0.001), lymphocyte count (p<0.001) and lymphocyte percentage (p<0.001). 116 Moreover, patients who were admitted to the ICU also had significantly lower LDH (p=0.009), 117 ESR (p=0.007), neutrophil percentage (p=0.001), NLR (p=0.026), and serum ferritin (p<0.001), 118 and statistically higher lymphocyte count (p=0.006) than those who had a final outcome of death. 119 Among survivors, when comparing patients admitted to the ward with those admitted to the ICU, 120 significant difference was found in the following variables: urea (p=0.001), LDH (p=0.001), 121 albumin (p<0.001), WBC (p<0.001), lymphocyte percentage (p<0.001), neutrophil count 122 (p<0.001), neutrophil percentage (p=0.023), NLR (p=0.001), PT (p=0.006), INR (p=0.024), and 123 D-dimer (0.008).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "124Laboratory-confirmed patients with COVID-19125 As mentioned earlier, 570 patients had RT-PCR-confirmed COVID-19 infection. Among this 126 subpopulation, 89 (15.6%) patients died, 25 (4.4%) patients were admitted to the ICU, and the 127 remaining (80%) received care in the ward. The median (IQR) age of these patients was 56.5 128 (45-66) years and approximately 65% were male. Also, the median age of those who died was 64 129 years. At baseline, 81 (14.6%) patients had leukopenia and 410 (74.1%) had lymphopenia. After",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": ", the variables that had the greatest correlation with mortality were D-dimer 136 (r = 0.455, p<0.001), serum ferritin (r = 0.412, p<0.001) and albumin (r = -0.406, p<0.001) in 137 descending order. Although a statistically significant positive correlation was observed between 138 decreasing lymphocytes and mortality (r = 0.254, p<0.001), it was not as strong as variables such 139 as, D-dimer, serum ferritin, albumin, LDH, total protein and NLR. Moreover, PLT (p=0.431), 140 25-OH-VitD3 (p=0.697), ALT (p=0.428) and quantitative CRP (p=0.684) did not show a 141 significant correlation with mortality. We also found that ESR levels had a significant negative 142 correlation with albumin levels (r = -0.301, p<0.001). Among patients with RT-PCR-confirmed 143 COVID-19, D-dimer (r = 0.456, p=0.001), albumin (r = -0.404, p<0.001) and LDH (r = 0.381, 144 p<0.001) had the strongest correlation with mortality",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "the current COVID-19 pandemic, identifying risk factors that are associated with a poor 147 outcome will help in appropriate resource allocation and patient management. Initially, clinical 148 characteristics such as increased age and the presence of comorbidities were suggested as 149 predictive factors of outcome (6, 15, 16); however, more recently, studies have addressed the 150 prognostic value of laboratory parameters. In this study, we investigated the demographic and 151 laboratory findings of COVID-19 infection among the Iranian population. Our results showed 152 that the median age of patients with COVID-19 was 55 years. This finding is similar to studies 153 from China in which the median age of infected patients ranged between 55.5 and 57 years (5, 6,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "183 mentioned by Shi et al, patients with impaired adaptive immune response progress to the severe 184 stage of disease, which is marked by pulmonary inflammation (27). Stimulation of the innate 185 immune system also leads to cytokine release storm. The non-significant difference in IL-6 186 levels between the three groups in our study could be possibly explained by the fact that we 187 assessed the initial laboratory findings of the included patients and so, cytokine release storm 188 might have occurred at later stages of disease in critical patients. Worthy of note, about 10% of 189 the patients in our study had an ESR value of greater than 100 mm/h. Although the main reason 190 for enhanced ESR in inflammatory conditions is increased fibrinogen, an acute phase reactant, 191 albumin also has a suppressive effect on sedimentation; this was confirmed by the significant 192 negative correlation between ESR and albumin levels in this study. From the clinical perspective, 193 COVID-19 could be considered in the differential diagnosis of markedly increased ESR of over 194 100 mm/h. 195 As mentioned earlier, COVID-19-asscoiated coagulopathy (CAC) is a common finding among 196 hospitalized patients (28, 29). In this study, coagulopathy was characterized by elevated D-dimer 197 levels and prolonged PT, INR, and PTT. Patients with COVID-19 suffer from a hypercoagulable 198 state due to several reasons. SARS-CoV-2 can directly cause injury to the endothelial cells, 199 which along with systemic inflammation activates the coagulation cascade (30, 31). Besides, 200 J o u r n a l P r e -p r o o f patients with hypoxia are more prone to thrombosis due to increased blood viscosity and 201 stimulation of hypoxia-inducible factors (32).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Zhang et al.  have also reported lower lymphocyte percentages, but not lymphocyte counts, in 213 severe patients in comparison to non-severe patients (17). On the other hand, neutrophil counts 214 were significantly higher in patients admitted to the ICU and those who died compared with 215 patients in the ward. We observed statistically lower values of NLR in patients hospitalized in 216 the ward compared with both those admitted to the ICU and those who died, and also in patients 217 admitted to the ICU compared with the patients who died.218Regarding Hgb, decreased hemoglobin level was an uncommon finding in this study. One 219 possible explanation is hemoconcentration, caused by the leakage of plasma from blood vessels 220 in response to increased proinflammatory markers. Dehydration also plays a role in increased 221 Hgb levels, although to a lesser extent.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "235with COVID-19. These alterations may be due to the induction of inflammatory response, 236 cytokine storm or the direct invasion of SARS-CoV-2. Specific hematologic markers could help 237 to predict the prognosis of patients with COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "support: This research received no specific grant from any funding agency, 241 commercial or not-for-profit sectors.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": "are reported as median (IQR) and n (%). ICU, intensive care unit; NLR, neutrophil-to-330 lymphocyte ratio; PLR, platelet-to-lymphocyte ratio, ESR, erythrocyte sedimentation rate; CRP, 331 C-reactive protein; WBC, white blood cell; Hgb, hemoglobin; PLT, platelet; PCR, polymerase 332 chain reaction; LDH, lactate dehydrogenase; AST, aspartate aminotransferase; ALT, alanine 333 aminotransferase; PT, prothrombin time; INR, international normalized ratio;",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "). Male patients represented 65% of all patients; similarly, Wu et al. observed that 63.7% of the patients with COVID-19 were male (18). Also, the median age of patients who experienced COVID-19-related mortality in our study was 65 years, and approximately 75% of these patients were male. Wang et al. evaluated the characteristics of 77 COVID-19 death cases in Wuhan. They reported an average age of 71 years at death and male patients constituted a greater percentage compared with females (66% vs 34%) (19). In another study from China, the median age of patients who had died of COVID-19 was also 71 years, and male patients were more likely to die than females (20). In a systematic review by Rodriguez-Morales et al, 13.9% of the 162 hospitalized patients with confirmed COVID-19 had fatal outcomes; our study found that 12.2% of the hospitalized patients died at some point during the study period. In addition, a relatively 164 small percentage of patients who survived (5.0%) required ICU care, whereas other studies have 165 reported higher percentages (5, 6, 21, 22). However, as stated earlier, those who died by the final",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Zhao Y-Y, Evans CE. The stimulation of thrombosis by hypoxia. Thrombosis Research. Cao Q, Qin L, Wang X, Cheng Z, Pan A, et al. Clinical characteristics and imaging 318 manifestations of the 2019 novel coronavirus disease (COVID-19): A multi-center study in Wenzhou city, 319 Zhejiang, China. Journal of Infection. 2020. 320 34. Li Lq, Huang T, Wang Yq, Wang Zp, Liang Y, Huang Tb, et al. COVID-19 patients' clinical 321 characteristics, discharge rate, and fatality rate of meta-analysis. Journal of medical virology.J o u r n a l P r e -p r o o fTable 1. Demographics and baseline laboratory findings of all included patients (n=1061)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Demographics and baseline laboratory findings among laboratory-confirmed patients",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Correlation between mortality and study variables among patients NLR, neutrophil-to-lymphocyte ratio; PLR, platelet-to-lymphocyte ratio, ESR, erythrocyte sedimentation rate; CRP, C-reactive protein; WBC, white blood cell; Hgb, hemoglobin; PLT, platelet; LDH, lactate dehydrogenase; AST, aspartate aminotransferase; ALT, alanine 353 J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

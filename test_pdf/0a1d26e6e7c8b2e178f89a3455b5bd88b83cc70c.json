@@ -1,0 +1,1699 @@
+{
+    "paper_id": "0a1d26e6e7c8b2e178f89a3455b5bd88b83cc70c",
+    "metadata": {
+        "title": "Mammalian deltavirus without hepadnavirus coinfection in the neotropical rodent Proechimys semispinosus",
+        "authors": [
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Sommer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [
+                    "D P"
+                ],
+                "last": "Research; S",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "F",
+                "middle": [
+                    "P"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "N",
+                "middle": [
+                    "G"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "S"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "V",
+                "middle": [
+                    "M C"
+                ],
+                "last": "Pnas |",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Hepatitis delta virus (HDV) is a human hepatitis-causing RNA virus, unrelated to any other taxonomic group of RNA viruses. Its occurrence as a satellite virus of hepatitis B virus (HBV) is a singular case in animal virology for which no consensus evolutionary explanation exists. Here we present a mammalian deltavirus that does not occur in humans, identified in the neotropical rodent species Proechimys semispinosus. The rodent deltavirus is highly distinct, showing a common ancestor with a recently described deltavirus in snakes. Reverse genetics based on a tandem minus-strand complementary DNA genome copy under the control of a cytomegalovirus (CMV) promoter confirms autonomous genome replication in transfected cells, with initiation of replication from the upstream genome copy. In contrast to HDV, a large delta antigen is not expressed and the farnesylation motif critical for HBV interaction is absent from a genome region that might correspond to a hypothetical rodent large delta antigen. Correspondingly, there is no evidence for coinfection with an HBV-related hepadnavirus based on virus detection and serology in any deltavirus-positive animal. No other coinfecting viruses were detected by RNA sequencing studies of 120 wildcaught animals that could serve as a potential helper virus. The presence of virus in blood and pronounced detection in reproductively active males suggest horizontal transmission linked to competitive behavior. Our study establishes a nonhuman, mammalian deltavirus that occurs as a horizontally transmitted infection, is potentially cleared by immune response, is not focused in the liver, and possibly does not require helper virus coinfection. deltavirus | Proechimys semispinosus | hepadnavirus | coinfection | neotropical rodent T he genus Deltavirus is an unclassified RNA virus taxon that currently includes only one species, the hepatitis delta virus (HDV). This virus is an important human pathogen and the only satellite virus known in animals. For transmission, HDV must acquire an envelope from a coinfecting hepatitis B virus (HBV; family Hepadnaviridae, genus Orthohepadnavirus). Following superinfection of HBV-infected individuals, HDV increases the severity of liver disease (1). Initially detected in 1977 (2), HDV is present in about 10% of chronically HBV-infected patients (3). The circular single-stranded RNA genome is \u223c1,700 nt long and is packaged together with the small and large hepatitis delta antigens (S-HDAg and L-HDAg) into an HDV ribonucleoprotein particle that buds with the help of HBV envelope proteins from HDV/HBV-coinfected hepatocytes. During replication, a double rolling-circle scheme produces multimeric antigenomic RNAs that are self-cleaved into monomers by a viroid-like ribozyme structure. The ligated circular RNA (circRNA) is further transcribed into multimeric genomic RNAs which also undergo selfcleavage and ligation (4). Remarkably, HDV RNA replication is performed by cellular RNA polymerase II (Pol-II), with S-HDAg being essential in this process, as it coactivates Pol-II by possibly acting as a histone mimic (5). The RNA genome of HDV folds into an unbranched rod-like structure due to its high degree of selfcomplementarity (6). Budding and interaction with HBV envelope proteins require expression of L-HDAg, which is identical to S-HDAg except for a 19-amino acid extension at its C terminus, directed by cellular adenosine deaminase activity that edits the Significance Hepatitis delta virus (HDV) aggravates hepatitis B virus (HBV) infection of liver cells. Although the viruses are evolutionarily unrelated, HDV depends on HBV because it requires the HBV envelope protein for its transmission. HDV is only described in humans, which has triggered diverse hypotheses regarding its evolution and origins. Here we show that spiny rats (Proechimys semispinosus) carry a counterpart to HDV that surprisingly does not cause hepatitis and is not linked to HBV. The rodent deltavirus finding alone, but also taken together with the recent deltavirus findings in snakes and other vertebrates and invertebrates, suggests that a deltavirus precursor may have infected mammals before it acquired dependence on HBV as seen in humans.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Hepatitis delta virus (HDV) is a human hepatitis-causing RNA virus, unrelated to any other taxonomic group of RNA viruses. Its occurrence as a satellite virus of hepatitis B virus (HBV) is a singular case in animal virology for which no consensus evolutionary explanation exists. Here we present a mammalian deltavirus that does not occur in humans, identified in the neotropical rodent species Proechimys semispinosus. The rodent deltavirus is highly distinct, showing a common ancestor with a recently described deltavirus in snakes. Reverse genetics based on a tandem minus-strand complementary DNA genome copy under the control of a cytomegalovirus (CMV) promoter confirms autonomous genome replication in transfected cells, with initiation of replication from the upstream genome copy. In contrast to HDV, a large delta antigen is not expressed and the farnesylation motif critical for HBV interaction is absent from a genome region that might correspond to a hypothetical rodent large delta antigen. Correspondingly, there is no evidence for coinfection with an HBV-related hepadnavirus based on virus detection and serology in any deltavirus-positive animal. No other coinfecting viruses were detected by RNA sequencing studies of 120 wildcaught animals that could serve as a potential helper virus. The presence of virus in blood and pronounced detection in reproductively active males suggest horizontal transmission linked to competitive behavior. Our study establishes a nonhuman, mammalian deltavirus that occurs as a horizontally transmitted infection, is potentially cleared by immune response, is not focused in the liver, and possibly does not require helper virus coinfection. deltavirus | Proechimys semispinosus | hepadnavirus | coinfection | neotropical rodent T he genus Deltavirus is an unclassified RNA virus taxon that currently includes only one species, the hepatitis delta virus (HDV). This virus is an important human pathogen and the only satellite virus known in animals. For transmission, HDV must acquire an envelope from a coinfecting hepatitis B virus (HBV; family Hepadnaviridae, genus Orthohepadnavirus). Following superinfection of HBV-infected individuals, HDV increases the severity of liver disease (1) . Initially detected in 1977 (2) , HDV is present in about 10% of chronically HBV-infected patients (3) . The circular single-stranded RNA genome is \u223c1,700 nt long and is packaged together with the small and large hepatitis delta antigens (S-HDAg and L-HDAg) into an HDV ribonucleoprotein particle that buds with the help of HBV envelope proteins from HDV/HBV-coinfected hepatocytes. During replication, a double rolling-circle scheme produces multimeric antigenomic RNAs that are self-cleaved into monomers by a viroid-like ribozyme structure. The ligated circular RNA (circRNA) is further transcribed into multimeric genomic RNAs which also undergo selfcleavage and ligation (4) . Remarkably, HDV RNA replication is performed by cellular RNA polymerase II (Pol-II), with S-HDAg being essential in this process, as it coactivates Pol-II by possibly acting as a histone mimic (5) . The RNA genome of HDV folds into an unbranched rod-like structure due to its high degree of selfcomplementarity (6) . Budding and interaction with HBV envelope proteins require expression of L-HDAg, which is identical to S-HDAg except for a 19-amino acid extension at its C terminus, directed by cellular adenosine deaminase activity that edits the Significance Hepatitis delta virus (HDV) aggravates hepatitis B virus (HBV) infection of liver cells. Although the viruses are evolutionarily unrelated, HDV depends on HBV because it requires the HBV envelope protein for its transmission. HDV is only described in humans, which has triggered diverse hypotheses regarding its evolution and origins. Here we show that spiny rats (Proechimys semispinosus) carry a counterpart to HDV that surprisingly does not cause hepatitis and is not linked to HBV. The rodent deltavirus finding alone, but also taken together with the recent deltavirus findings in snakes and other vertebrates and invertebrates, suggests that a deltavirus precursor may have infected mammals before it acquired dependence on HBV as seen in humans.",
+            "cite_spans": [
+                {
+                    "start": 2239,
+                    "end": 2242,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 2272,
+                    "end": 2275,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 2343,
+                    "end": 2346,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 2920,
+                    "end": 2923,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 3119,
+                    "end": 3122,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 3237,
+                    "end": 3240,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "amber codon on the antigenomic RNA (7) . Posttranslational farnesylation of the C terminus of L-HDAg is essential for successful interaction of the HDV ribonucleoprotein particle with HBV envelope proteins (8) . HDV has one serotype and is divided into eight distinct genotypes which show only a moderately structured geographic distribution (9, 10) . The distribution of HBV and HDV genotypes is also only slightly correlated (11) . HDV can be experimentally transmitted to woodchucks that carry replicating woodchuck hepatitis virus, but has not been observed in feral animals (12, 13) . HDV remains the only human RNA virus for which there is no known replicating counterpart in other animals.",
+            "cite_spans": [
+                {
+                    "start": 35,
+                    "end": 38,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 206,
+                    "end": 209,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 342,
+                    "end": 345,
+                    "text": "(9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 346,
+                    "end": 349,
+                    "text": "10)",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 427,
+                    "end": 431,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 579,
+                    "end": 583,
+                    "text": "(12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 584,
+                    "end": 587,
+                    "text": "13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Recently, deltavirus-like sequences have been found in transcriptome data derived from pooled oropharyngeal and cloacal samples of teals and ducks (14) , tissues of boas (Boa constrictor) and a water python (Liasis mackloti) (15) , and various vertebrate and invertebrate transcriptomes (16) . The snake-and duck-associated sequences, although highly distinct from HDV, show predicted similarity in secondary structure to the HDV ribozyme element. Amino acid motifs known to have functional importance for HDV replication occur in both sequences. However, the sequences described by Chang et al. (16) lack the two ribozyme structural elements and some of the functional motifs, as well as experimental proof of the viral replication mechanism. Also, the natural history of disease, if transmissible, is not known for these putative viruses.",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 225,
+                    "end": 229,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 287,
+                    "end": 291,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 583,
+                    "end": 600,
+                    "text": "Chang et al. (16)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Here we describe a unique mammalian deltavirus from the neotropical rodent species Proechimys semispinosus, tentatively named rodent deltavirus (RDeV). We initially discovered the viral RNA following undirected next-generation sequencing of blood samples. Our study of 763 animals provides epidemiological and virological evidence for a transmissible and prevalent infection with a delta-like agent in a specific host. Surprisingly, and in striking contrast to human HDV, we neither find a liverspecific tropism of RDeV nor epidemiological or functional evidence of coinfection with a hepadnavirus in the animals studied.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In an ongoing study in the Panama Canal area, focused on the effects of habitat disturbance on the infection rate with rodent Hepacivirus (SI Appendix, Fig. S1 ) (17), we subjected blood samples of 120 individuals of P. semispinosus to total RNA sequencing (RNA-seq) using the Illumina MiSeq platform. High bit-score matches to human HDV were obtained after comparing de novo assembled sequences with a viral reference library (18) . Based on mapping against a reference alignment of all known HDV genotypes, we compiled HDV-related sequences covering the whole deltavirus genome from two individual animals. After aligning these initial genome assemblies with HDV reference genotypes, we designed an RT-PCR assay targeting a fragment in the coding region of the rodent deltavirus antigen (RDeAg). The assay was applied to pooled blood samples from 763 P. semispinosus individuals. Resolution of positive-testing pools resulted in 30 positive individuals (overall detection rate 3.9%; 95% CI 2.6 to 5.3%). Only adult animals were found positive. In addition to P. semispinosus, we examined blood samples from individuals (n = 183) from 11 other rodent and marsupial species. No species other than P. semispinosus yielded evidence of RDeV presence (SI Appendix, Table S1 ).",
+            "cite_spans": [
+                {
+                    "start": 427,
+                    "end": 431,
+                    "text": "(18)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 159,
+                    "text": "Fig. S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1261,
+                    "end": 1269,
+                    "text": "Table S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Because HDV has a circular genome, we used primer pairs whose 5\u2032 ends are adjacent on reverse-complementary template strands, with 3\u2032 ends facing in opposite directions ( Fig. 1B and SI Appendix, Table S2 ). These primers can generate RT-PCR amplicons covering the near-full deltavirus genome if the template RNA molecule is circular. This was successful in three samples with high viral load (Fig. 1C) . Genome circularity was further confirmed by mapping RNA-seq reads from the respective samples to the initial amplicon sequences, resulting in assemblies with protruding ends that are identical, matching both ends of the amplicon, and therefore derived from circular templates. Ten full circular RDeV genomes and 10 partial genome assemblies were subsequently obtained from the 30 initially RNA-positive samples by mapping reads from individual RNA-seq datasets. PCR products for the other 10 samples produced small fragments of less than 200 bases. The nucleotide sequences of all 10 full genomes are 97.5 to 99.6% identical. The sequences are available in GenBank under accession numbers MK598003 to MK598012.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 171,
+                    "end": 178,
+                    "text": "Fig. 1B",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 196,
+                    "end": 204,
+                    "text": "Table S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 393,
+                    "end": 402,
+                    "text": "(Fig. 1C)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Major structural and functional HDV domains are present in all recovered RDeV sequences ( Fig. 1A and SI Appendix, Fig. S2 and Table S10), including a single open reading frame (ORF) representing the delta antigen. A 19-amino acid tail that differentiates the S-HDAg from the L-HDAg in human HDV is present in RDeV, though with a different amino acid composition. This tail is the result of antigenomic editing at a site corresponding to the amber stop codon in the S-HDAg ORF of human HDV (SI Appendix, Fig. S3 ). There is no experimental evidence of RNA editing or large-antigen expression in RDeV, as discussed below. In addition, the farnesylation motif CXXQ in the HDV L-HDAg C terminus, required to acquire the HBVderived envelope (8) , is absent in all P. semispinosus deltavirus sequences.",
+            "cite_spans": [
+                {
+                    "start": 737,
+                    "end": 740,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 90,
+                    "end": 97,
+                    "text": "Fig. 1A",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 115,
+                    "end": 122,
+                    "text": "Fig. S2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 504,
+                    "end": 511,
+                    "text": "Fig. S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Predicted secondary structures of genomic and antigenomic ribozymes are highly similar between human and rodent deltavirus (SI Appendix, Fig. S4 ). The ribozyme active site is identical between rodent and human virus on both antigenomic and genomic strands. The nuclear export sequence motif and the nuclear localization signal of S-HDAg are also present in the S-RDeAg. Evidence for the existence and functionality of the nuclear localization signal is provided by the occurrence of the small delta antigen in the cell nuclei of HuH7 cells overexpressing S-RDeAg ( Fig. 2A) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 137,
+                    "end": 144,
+                    "text": "Fig. S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 566,
+                    "end": 574,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Deltavirus Phylogeny. Nucleotide and amino acid sequences were compared as summarized in SI Appendix, Fig. S2 and Table S3 . Phylogenies were calculated based on full-genome nucleotide sequence alignments, as well as translated small delta antigencoding sequences. Both tree topologies are equivalent and the distinction of RDeV from human HDV is clear (the full-genome phylogeny is shown in Fig. 3 ). The nonhuman deltaviruses are highly diverged and therefore chosen to root the phylogeny. The snake deltavirus (SDeV) clusters with the rodent deltavirus, and both form a highly diversified and well-supported sister group to human HDV, with HDV genotype 3 being the most divergent among HDV genotypes. All other nonhuman deltaviruses group together consistently, although without significant bootstrap support among subclades, owing to their high sequence divergence. RDeV is most closely related to human HDV, as averaged over all 1,000 bootstrap replicate trees (Fig. 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 102,
+                    "end": 109,
+                    "text": "Fig. S2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 114,
+                    "end": 122,
+                    "text": "Table S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 392,
+                    "end": 398,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 966,
+                    "end": 973,
+                    "text": "(Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Organ Distribution of RDeV RNA and Protein Detection. To obtain insight into the infection pattern caused by the rodent deltavirus, we tested for viral RNA in organs of 18 animals that were found dead during sampling (note that we followed a noninvasive sampling approach and animals could not be purposefully euthanized during our study). One of these animals tested RDeV RNA-positive in all available organs (liver, kidney, lung, heart, and small intestine), but its organ-specific RNA concentrations did not suggest specific virus replication in the liver (SI Appendix, Table S4 ). Also, a commercial HDV antigen enzyme-linked immunosorbent assay that we found to cross-detect with RDeV did not identify organ-specific protein expression in the liver, lung, small intestine, heart, or kidney of this animal (SI Appendix, Fig. S5A ). To further understand potential virus excretion, fecal samples from 822 individuals were tested by RT-PCR, 10 of which were positive for RDeV RNA (the numbers of individuals tested for each type of material are summarized in SI Appendix, Table S5 ). This 1.2% detection rate was significantly lower than that in blood samples (\u03c7 2 test, P < 10 \u22124 ). The average virus concentration in fecal samples was 2.9 \u00d7 10 9 RNA copies per gram, with a maximum concentration of 2.2 \u00d7 10 10 copies per gram. Average and maximum concentrations in blood were 1.8 \u00d7 10 8 and 2.1 \u00d7 10 9 copies per milliliter.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 573,
+                    "end": 581,
+                    "text": "Table S4",
+                    "ref_id": null
+                },
+                {
+                    "start": 824,
+                    "end": 832,
+                    "text": "Fig. S5A",
+                    "ref_id": null
+                },
+                {
+                    "start": 1074,
+                    "end": 1082,
+                    "text": "Table S5",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "RDeV Genome Replication. Rodent deltavirus genome replication was confirmed by Northern blot analysis, as well as by clonal expansion of RDeV-transfected cells. The full RDeV genome was cloned as a tandem head-to-tail fusion dimeric construct in genomic (minus-strand) orientation downstream of a cytomegalovirus (CMV) promoter (see the construct map in SI Appendix, Fig. S6 ) and transfected into HuH7 cells. Antigenomic RDeV RNA as a marker of ongoing RDeV replication was detected in transfected cells at all time points (Fig. 2F ). The expression of antigenomic RDeV RNA was accompanied by a robust synthesis of genomic RDeV RNA (SI Appendix, Fig. S5D ). Massive clonal expansion of RDeV-transfected cells verifies the autonomous replicating nature of RDeV, even exceeding HDV clonal expansion as determined by immunofluorescence staining (Fig. 2G) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 367,
+                    "end": 374,
+                    "text": "Fig. S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 524,
+                    "end": 532,
+                    "text": "(Fig. 2F",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 647,
+                    "end": 655,
+                    "text": "Fig. S5D",
+                    "ref_id": null
+                },
+                {
+                    "start": 843,
+                    "end": 852,
+                    "text": "(Fig. 2G)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Deltavirus Antigens and Editing of the Amber Codon. One key feature of HDV is the expression of two viral proteins (S-HDAg and L-HDAg) from a single ORF. A 19-amino acid carboxyl-terminal extension differentiates the S-HDAg (195 codons) from the L-HDAg (214 codons) in human HDV. This extension is the result of antigenomic editing by cellular adenosine deaminase acting on RNA 1 (ADAR1) at a site corresponding to the amber stop codon in the S-HDAg ORF of the circular antigenomic HDV RNA, edited from a UAG to a UIG codon. Following HDV RNA replication, the UIG codon is converted into a tryptophan codon (UGG) (SI Appendix, Fig. S3 ) during subsequent HDV messenger RNA (mRNA) synthesis, allowing expression of the L-HDAg (20) . Interestingly, a 19-amino acid carboxyl-terminal extension is present in RDeV, though different in 15 of the 19 amino acids. To investigate potential RDeV large antigen (L-RDeAg) expression, the full RDeV genome was cloned as a tandem head-to-tail fusion construct in genomic (minus-strand) orientation downstream of a CMV promoter (see the construct map in SI Appendix, Fig. S6 ) and transfected into HuH7 cells. As positive controls, S-or (hypothetical) L-RDeAg was expressed under the control of a CMV promoter. Specific Sor L-RDeAg expression was examined with antibodies from rabbits immunized with synthetic peptides against S-RDeAg ( Fig. 2A) or the putative 19-amino acid extension of L-RDeAg (Fig. 2B) . The tandem genome construct expressed S-RDeAg but not L-RDeAg (Fig. 2 A and B) .",
+            "cite_spans": [
+                {
+                    "start": 725,
+                    "end": 729,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 627,
+                    "end": 634,
+                    "text": "Fig. S3",
+                    "ref_id": null
+                },
+                {
+                    "start": 1103,
+                    "end": 1110,
+                    "text": "Fig. S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1373,
+                    "end": 1381,
+                    "text": "Fig. 2A)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1433,
+                    "end": 1442,
+                    "text": "(Fig. 2B)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1507,
+                    "end": 1523,
+                    "text": "(Fig. 2 A and B)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Corresponding results were obtained by Western blot analysis of RDeV dimer transfection experiments using a broadly crossreactive human anti-HDV serum (Fig. 2 H, Upper) . Evidence for the absence of RNA editing on the RDeAg ORF was also obtained from RNA-seq data. Mapping of reads from total RNA blood and organ extracts of infected animals and from transfected RDeV dimeric genome constructs in cell culture yielded only unedited reads, whereas both edited and unedited reads were detected for human HDV in a control experiment (SI Appendix, Fig. S3 ). In summary, there is no experimental evidence of RNA editing on the RDeV antigen ORF or of large-antigen expression during RDeV replication in vivo or in vitro.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 151,
+                    "end": 168,
+                    "text": "(Fig. 2 H, Upper)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 544,
+                    "end": 551,
+                    "text": "Fig. S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Search for Signs of Hepadnaviral Coinfection. Because human HDV transmission requires an envelope protein provided by an active coinfection with HBV, we subjected all 763 P. semispinosus blood samples to PCR screening for hepadnaviruses. The assay was designed to detect all mammalian orthohepadnaviruses, including those from rodents, bats, and primates (21) . None of the samples tested positive. Specific reanalysis of all available transcriptome datasets from the present study did not yield any evidence for orthohepadnaviral genomes in a basic local alignment search tool (BLAST) analysis. All blood samples with sufficient volume, whether RNA-positive or -negative for RDeV (n = 68), were tested for antibodies against woodchuck HBV core antigen (WHcAg). This antigen was chosen because the woodchuck is most closely related to Proechimys among known HBV hosts. In previous studies, we demonstrated that anti-HBc antibodies broadly cross-react among HBVs from different hosts, even across mammalian orders (21), so it is likely that WHcAg would be bound by antibodies against a possible HBV in Proechimys.",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 359,
+                    "text": "(21)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "However, no such antibodies were found in any of the tested samples (Fig. 2D ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 68,
+                    "end": 76,
+                    "text": "(Fig. 2D",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Investigation of Hepacivirus as Potential Cofactor. Experimental evidence shows that apart from HBV, other viruses, including hepatitis C virus (genus Hepacivirus), can provide envelope proteins for human HDV (22) . As we previously detected a high prevalence of hepacivirus in the rodents studied (17) , this possibility was investigated. Overall, we found 4 out of 30 RDeV RNA-positive rodents in which hepacivirus was not detected by the tests initially applied (SI Appendix, Table S6 ). To exclude having missed hepacivirus detection, we applied RT-PCR assays specifically designed for the E1, NS3, and NS5B genes of P. semispinosus hepacivirus to those samples. All four animals were confirmed to be hepacivirus RNA-negative by these assays as well as by RNAseq read mapping against P. semispinosus hepacivirus. Statistical analysis of the degree of dependency between deltavirus and hepacivirus infection in individuals was conducted, providing no support for a dependency between the two infections (SI Appendix, Table S6 ; \u03c7 2 test, P = 0.24). Also, analyses of sampling sitespecific deltavirus and hepacivirus detection rates (SI Appendix, , as well as an intact dimer of the RDeV genome (both panels). Cell nuclei were stained with DAPI; delta antigens were detected with anti-HDAg immunoglobulin G (IgG) from an HDV/HBV-coinfected patient followed by an Alexa 568-labeled goat anti-human antibody (red); S-or L-RDeAg was identified using S-or L-RDeAg-specific peptide antisera from immunized rabbits, followed by an Alexa 488-labeled goat anti-rabbit antibody (green). Channels are overlaid for both panels. (C) Immunofluorescence staining of L-RDeAg expression in Vero B4 cells with HDAg-reactive human and P. semispinosus serum samples. Cell nuclei were stained with DAPI (blue); FLAG-tagged L-RDeAg was detected using a mouse anti-FLAG antibody followed by a goat anti-mouse Cy3-labeled antibody (red); reactivity of human and P. semispinosus serum against L-RDeAg is visualized by an Alexa 488-labeled goat anti-human and goat anti-guinea pig antibody, respectively (green). Nonreactive human and P. semispinosus serum samples are shown for comparison. (D) Immunofluorescence staining of HBcAg expression in HuH7 cells with anti-HBc-specific rabbit antiserum (Upper) and P. semispinosus serum (Lower) samples. Cell nuclei are stained with DAPI (blue); expression of HBcAg is visualized using a Cy2-labeled secondary antibody (green). Channels are merged for both panels. RDeV infection in P. semispinosus does not depend on active hepacivirus infection.",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 213,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 298,
+                    "end": 302,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 479,
+                    "end": 487,
+                    "text": "Table S6",
+                    "ref_id": null
+                },
+                {
+                    "start": 1020,
+                    "end": 1028,
+                    "text": "Table S6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Immune Reaction in RDeV-Infected Animals. To determine whether RDeV causes an immune reaction in P. semispinosus, serum samples were subjected to an indirect immunofluorescence assay. L-RDeAg was cloned and transiently expressed in Vero B4 cells, as described (23) . To exclude RNA degradation in the case of antibody-positive samples for which RDeV RNA was not detected, we applied a real-time RT-PCR assay to detect RNA transcripts of a host housekeeping gene (TATA-binding protein) (SI Appendix, Table  S8 ). The 20 positive sera were additionally tested at 1:1,000 dilution, testing positive in 5 cases. Western blots of these sera against expressed S-RDeAg confirmed the specificity of serum antibodies (Fig. 2E) . The average RDeV RNA concentration in all anti-RDeAg-positive sera was 262,400 RNA copies per microliter of blood. The average RDeV RNA concentration in only those samples that tested antibody-positive up to a dilution of 1:1,000 was 8,500 RNA copies per microliter of blood (SI Appendix, Fig. S5C ). These concentrations were significantly different (P < 0.05, Mann-Whitney U test), which suggests that an adaptive immune response can potentially limit or eliminate viral replication. Elimination is also suggested by the occurrence of three anti-RDeAg antibody-positive but RDeV RNA-negative animals.",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 264,
+                    "text": "(23)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 499,
+                    "end": 508,
+                    "text": "Table  S8",
+                    "ref_id": null
+                },
+                {
+                    "start": 708,
+                    "end": 717,
+                    "text": "(Fig. 2E)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1009,
+                    "end": 1017,
+                    "text": "Fig. S5C",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Ecological Factors That Influence Rodent Deltavirus Infection. The study area in the Barro Colorado Nature Monument consists of islands and peninsulas with different densities of populations of P. semispinosus, a generalist species that can adapt to environmental changes (24) and thus (relatively) competitively benefit from anthropogenic habitat disturbance. We have previously noted a positive correlation between site-specific P. semispinosus population density and the detection rate of hepacivirus infection (SI Appendix, Table  S7 ) (17) . For rodent deltavirus, a different site-specific distribution was observed (SI Appendix, Table S7 ). Highest detection rates were identified in continuous forest sites that have largely preserved the primordial habitat composition that existed before the flooding of the Gat\u00fan Lake area during the construction of the Panama Canal. Lower detection rates were found on forested islands, and minimal rates in forest fragments surrounded by agriculture. To identify environmental factors that might correlate with rodent deltavirus transmission, host-and habitat-specific properties were examined under two different logistic regression models (SI Appendix, Table  S9 ). RDeV infection was found to be positively correlated with male sex and reproductive activity, as well as with inhabiting continuous forest sites with undisturbed habitat. In addition to the variables shown in SI Appendix, Table S9 , other habitat-specific factors such as population density, canopy height and coverage, and understory density did not add explanatory power to the analysis. The inclusion of site-specific data on mosquito diversity narrowed the sample size to n = 686 individuals for sampling sites where these data were available. There was no detectable correlation between mosquito diversity and RDeV detection rate.",
+            "cite_spans": [
+                {
+                    "start": 272,
+                    "end": 276,
+                    "text": "(24)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 528,
+                    "end": 537,
+                    "text": "Table  S7",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 636,
+                    "end": 644,
+                    "text": "Table S7",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1202,
+                    "end": 1211,
+                    "text": "Table  S9",
+                    "ref_id": null
+                },
+                {
+                    "start": 1437,
+                    "end": 1445,
+                    "text": "Table S9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The present results enhance our understanding of the evolution of hepatitis delta virus, a satellite virus to HBV and until recently the only human RNA virus with no known counterpart in other animals. The first question that must follow the discovery of novel deltavirus-like sequences in rodent, reptile (15) , and putatively avian (14) and other vertebrate and invertebrate hosts (16) is whether these represent transmissible viruses as opposed to, for example, endogenous viral elements. Hetzel et al. (15) demonstrated protein expression in organs of those snakes in which viral sequences were detected, and Szirovicza et al. (25) showed that snake deltavirus can replicate in several cell lines. Our reverse genetic and clonal expansion experiments now prove the existence of mammalian nonhuman deltavirus genomes as self-replicating viral entities, in which genomic replication involves an internal initiation of replication. Moreover, correlations of serology and virus detection in a natural animal population of considerable size demonstrate that rodent deltavirus infection is acquired during the course of life and is likely to be cleared by an active immune response. Previous observations on the snake deltavirus corroborate this infection pattern, showing that although snake deltavirus infection was found in both maternal and offspring boas (15) , not all offspring were infected, and snakes with no kinship to the mating pairs exhibited both the presence and absence of the virus. Horizontal transmission seems likely in both rodent and reptile deltaviruses. The significantly lower detection rate of viral RNA in stool samples compared with blood suggest blood-borne rather than fecal-oral transmission. The observed predominant infection of adult males is compatible with transmission through competitive behavior. The novel deltaviruses associated with diverse hosts warrant considerations regarding evolutionary origins. Phylogeny suggests that fish-and amphibian-associated viruses are most distant from other known deltaviruses, while snake and rodent viruses are significantly closer to the HDV common ancestor. Considering the relationship of these hosts, the tree topology seems to disfavor Fig. 3 . Maximum-likelihood phylogeny based on a full-genome alignment of HDV representatives from the eight different genotype groups and RDeV, SDeV, duck-associated DeV, newt DeV, toad DeV, fish DeV, and termite DeV. The phylogenetic inference was done using RAxML-NG version 0.7.0 BETA (19) . Asterisks indicate bootstrap support >80 and tree tips show GenBank accession numbers. The tree is rooted to the branch leading to the nonhuman DeVs. Distribution of evolutionary distances (branch lengths, extracted from 1,000 bootstraps) for all nonhuman DeVs relative to the common ancestor of HDV (arrow on tree) is shown in the boxplots. The boxplots show median, interquartile range, Tukey's minimum and maximum (whiskers), and extreme outlier values (dotted).",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 334,
+                    "end": 338,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 506,
+                    "end": 510,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 631,
+                    "end": 635,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1358,
+                    "end": 1362,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 2507,
+                    "end": 2511,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2218,
+                    "end": 2224,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "virus-host codivergence. Besides, the duck-associated virus was not detected in an internal organ but in cloacal and oropharyngeal swabs, leaving open the possibility of contamination from alimentary sources (14) . The phylogenetic branch pattern supports previous work on human HDV phylogeny, suggesting that HDV genotype 3 stems from the oldest common ancestor of human HDV genotypes (26) . As this ancestor is more closely related to the rodent virus than to any of the nonmammalian deltaviruses, this would be compatible with the hypothesis that human and rodent deltaviruses have codiverged with mammalian lineages. Deltaviruses in other mammals may remain to be discovered, but equally may now be extinct. A hypothesis of codivergence would be corroborated by the discovery of at least one more mammalian virus whose phylogenetic position reflects that of its host in relation to humans and rodents. The clustering of rodent and snake viruses might then be interpreted as a sign of cross-species acquisition from mammals. It is noteworthy that the parental boas carrying the snake deltavirus stemmed from Panama, like the rodents studied here (15) . Human HDV genotype 3 is also found in South and Middle America, but this alone should not be taken as support to claim cross-host transmission.",
+            "cite_spans": [
+                {
+                    "start": 208,
+                    "end": 212,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 386,
+                    "end": 390,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1149,
+                    "end": 1153,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The dependence of HDV on HBV coinfection for transmission may have evolved only in a mammalian viral lineage leading to human HDV, given that hepadnaviruses occur in diverse mammalian species including rodents, bats, and particularly New World primates (21, 27, 28) . Based on the lack of large-antigen expression and a farnesylation motif, both necessary for interaction with hepadnaviral envelope proteins, as well as on evidence from epidemiological and serological data, we can exclude the presence of HBV coinfection in deltavirus-infected P. semispinosus. Neither HBV DNA nor anti-HBc antibodies were detected in any animals infected with the deltavirus. In all other deltavirus studies, no sequences of coinfecting hepadnaviruses were found in transcriptome data. Other coinfecting viruses were identified in each of these studies, designating their envelope proteins as a potential source for an RDeV envelope (14) (15) (16) . As very recently shown by Szirovicza et al. (25) , snake deltavirus can produce infectious viral particles in vitro by utilization of envelope proteins from arenaviruses and orthohantaviruses.",
+            "cite_spans": [
+                {
+                    "start": 253,
+                    "end": 257,
+                    "text": "(21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 258,
+                    "end": 261,
+                    "text": "27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 262,
+                    "end": 265,
+                    "text": "28)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 918,
+                    "end": 922,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 923,
+                    "end": 927,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 928,
+                    "end": 932,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 979,
+                    "end": 983,
+                    "text": "(25)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In the present study, we investigated the potential influence of hepacivirus infection. Despite a high hepacivirus prevalence in the studied rodents [ca. 80% (17)], we found four deltavirus RNApositive individuals lacking a hepacivirus coinfection. Human HDV has been found to produce infectious particles in vitro with the help of an envelope protein from hepatitis C virus, with the required presence of an L-HDAg farnesylation motif (22) . Given the absence of this motif in the rodent delta antigen and the lack of a hepacivirus coinfection in some individuals carrying deltavirus RNA, we do not consider deltavirus infection to depend on hepacivirus infection in these rodents. In addition, we screened individual RNA-seq datasets from 120 animals and did not identify any other infectious viral agent in any deltavirus RNA-positive P. semispinosus. There are multiple alternatives that may have resulted in rodent deltavirus transmission. One possibility is the presence of a currently unknown virus, bacterium, or integrated sequence that provides an envelope protein to rodent deltavirus. Furthermore, recent advances in cellular cross-communication have revealed the exchange of extracellular vesicles containing mRNA, circRNA, and other noncoding RNA molecules (29) . It should be investigated whether rodent deltavirus might employ such pathways for transmission.",
+            "cite_spans": [
+                {
+                    "start": 436,
+                    "end": 440,
+                    "text": "(22)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1271,
+                    "end": 1275,
+                    "text": "(29)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In their study of snake organ samples, Hetzel et al. (15) found two bands of ca. 20 and 27 kDa in Western blots using an anti-S-SDeAg serum. While the larger band might correspond to a larger protein variant, expression of an actual L-SDeAg was not confirmed by specific anti-L-SDeAg immunoblots, analyses of RNA editing, or experimental studies of gene expression. The present data, based on all these approaches, show that the related rodent virus does not express a large delta antigen, suggesting that the use of L-HDAg may have evolved only in connection with the utilization of the HBV envelope. In this scenario, the encounter with hepadnaviruses may have selected for viral variants with a farnesylation signal in an L-HDAg tail that is expressed by an initially low-level editing activity or stop codon readthrough, allowing these viruses to exploit a novel transmission opportunity by acquisition of an HBV envelope. The sequence information from the present study can now be used in directed searches for deltaviruses in other mammalian species, even in the absence of HBV infection.",
+            "cite_spans": [
+                {
+                    "start": 53,
+                    "end": 57,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Alternative hypotheses of HDV origin have suggested either a viroid origin (perhaps via an insect vector) or derivation from a host DIPA gene (reviewed in ref. 11). A viroid origin is supported by the structural similarity of the HDV ribozyme to plant viroid ribozymes, the genome circularity of both HDV and viroids, and the interaction with common cellular proteins (30) . Derivation from the human genome has been suggested based on the incomplete set of genes essential for replication, the occurrence of HDV-like ribozyme elements in the human genome (31) , and the interaction of HDV with a human-derived protein (DIPA) (32) . The deltavirus findings do not increase or decrease support for the viroid origin hypothesis but force us to consider the DIPA hypothesis from a wider perspective. The rodent deltavirus ORF shows 30% nucleotide and 22% amino acid identity when compared with the DIPA ORF in mice and rats, at which levels similarity due to chance must be considered as a likely explanation (33) . In addition to these caveats, the present results suggest that other mammalian deltaviruses existed before the origin of human HDV, and that precursors to these mammalian viruses existed in other vertebrates (14) (15) (16) . Alternate scenarios, specifically the derivation of nonhuman deltaviruses from human HDV precursors, seem unlikely, considering the genetic distances between these viruses, the relatively short time span available for the evolution of such diversity in the case of a human origin, and the requirement that the human virus infect several nonhuman hosts. It appears instead that deltavirus originated as an exogenous infectious agent that established acute infection in mammals. The present study provides a basis for the evolution of HDV, confirming the general understanding that RNA virus diversity evolved along the major evolutionary lineages of their hosts (34) .",
+            "cite_spans": [
+                {
+                    "start": 368,
+                    "end": 372,
+                    "text": "(30)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 556,
+                    "end": 560,
+                    "text": "(31)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 626,
+                    "end": 630,
+                    "text": "(32)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1006,
+                    "end": 1010,
+                    "text": "(33)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1221,
+                    "end": 1225,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1226,
+                    "end": 1230,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1231,
+                    "end": 1235,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1899,
+                    "end": 1903,
+                    "text": "(34)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Animals were captured using Sherman traps in the Barro Colorado Nature Monument, Panama (17) . RNA-seq experiments were done on an Illumina MiSeq instrument. RT-PCR followed standard protocols, including for circular genome amplification. Immunofluorescence assay (IFA) serology was based on cells overexpressing the L-RDeAg or woodchuck WHc antigen under the control of a CMV promoter. Viral full RDeV genome complementary DNA was cloned as a monomer or head-to-tail dimer under the control of a CMV promoter. A full description of methods is provided in SI Appendix, Materials and Methods.",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 92,
+                    "text": "(17)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "All Data Availability. The rodent deltavirus complete genome sequences described here are available in GenBank under accession numbers MK598003 to MK598012.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methods"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Chronic hepatitis in carriers of hepatitis B surface antigen, with intrahepatic expression of the delta antigen. An active and progressive disease unresponsive to immunosuppressive treatment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rizzetto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Ann. Intern. Med",
+            "volume": "98",
+            "issn": "",
+            "pages": "437--441",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Immunofluorescence detection of new antigen-antibody system (delta/anti-delta) associated to hepatitis B virus in liver and in serum of HBsAg carriers",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rizzetto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Gut",
+            "volume": "18",
+            "issn": "",
+            "pages": "997--1003",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Prevalence and burden of hepatitis D virus infection in the global population: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "H.-Y.",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Gut",
+            "volume": "68",
+            "issn": "",
+            "pages": "512--521",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "A replication cycle for viroids and other small infectious RNA's",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Branch",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Robertson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Science",
+            "volume": "223",
+            "issn": "",
+            "pages": "450--455",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Hepatitis delta virus histone mimicry drives the recruitment of chromatin remodelers for viral RNA replication",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Abeywickrama-Samarakoon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Commun",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Structure, sequence and expression of the hepatitis delta (\u03b4) viral genome",
+            "authors": [
+                {
+                    "first": "K.-S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Nature",
+            "volume": "323",
+            "issn": "",
+            "pages": "508--514",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Replicating hepatitis delta virus RNA is edited in the nucleus by the small form of ADAR1",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lazinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Proc. Natl. Acad. Sci. U.S.A",
+            "volume": "99",
+            "issn": "",
+            "pages": "15118--15123",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The hepatitis delta virus large antigen is farnesylated both in vitro and in animal cells",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Otto",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Casey",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "J. Biol. Chem",
+            "volume": "271",
+            "issn": "",
+            "pages": "4569--4572",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Epidemiology and phylogenetic analysis of hepatitis D virus infection in Australia",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Intern. Med. J",
+            "volume": "48",
+            "issn": "",
+            "pages": "1308--1317",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Eighth Major Clade for Hepatitis Delta Virus",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Gal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Emerging Infectious Diseases",
+            "volume": "12",
+            "issn": "",
+            "pages": "1447--1450",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Origin of hepatitis \u03b4 virus",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Taylor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pelchat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Future Microbiol",
+            "volume": "5",
+            "issn": "",
+            "pages": "393--402",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Hepatitis delta virus (HDV) and woodchuck hepatitis virus (WHV) nucleic acids in tissues of HDV-infected chronic WHV carrier woodchucks",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Negro",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "J. Virol",
+            "volume": "63",
+            "issn": "",
+            "pages": "1612--1618",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Hepatitis delta virus infects the cells of hepadnavirus-induced hepatocellular carcinoma in woodchucks",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Freitas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Hepatology",
+            "volume": "56",
+            "issn": "",
+            "pages": "76--85",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A divergent hepatitis D-like agent in birds",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wille",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Viruses",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Identification of a novel deltavirus in boa constrictors",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Hetzel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "MBio",
+            "volume": "10",
+            "issn": "",
+            "pages": "14--19",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Novel hepatitis D-like agents in vertebrates and invertebrates",
+            "authors": [
+                {
+                    "first": "W.-S",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Virus Evol",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Ecological drivers of Hepacivirus infection in a neotropical rodent inhabiting landscapes with various degrees of human environmental change",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schmid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Oecologia",
+            "volume": "188",
+            "issn": "",
+            "pages": "289--302",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "A reference viral database (RVDB) to enhance bioinformatics analysis of high-throughput sequencing for novel virus detection",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Goodacre",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aljanahi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nandakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mikailov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "MSphere",
+            "volume": "3",
+            "issn": "",
+            "pages": "69--87",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "RAxML-NG: A fast, scalable and user-friendly tool for maximum likelihood phylogenetic inference",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kozlov",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Darriba",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Flouri",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Morel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Stamatakis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bioinformatics",
+            "volume": "35",
+            "issn": "",
+            "pages": "4453--4455",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "A specific base transition occurs on replicating hepatitis delta virus RNA",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J. Virol",
+            "volume": "64",
+            "issn": "",
+            "pages": "1021--1027",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Bats carry pathogenic hepadnaviruses antigenically related to hepatitis B virus and capable of infecting human hepatocytes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Drexler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Proc. Natl. Acad. Sci. U.S.A",
+            "volume": "110",
+            "issn": "",
+            "pages": "16151--16156",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Enveloped viruses distinct from HBV induce dissemination of hepatitis D virus in vivo",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Perez-Vargas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Commun",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Presence of Middle East respiratory syndrome coronavirus antibodies in Saudi Arabia: A nationwide, cross-sectional, serological study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Lancet Infect. Dis",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The island syndrome in isolated populations of a tropical forest rodent",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Adler",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Oecologia",
+            "volume": "108",
+            "issn": "",
+            "pages": "694--700",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Snake deltavirus utilizes envelope proteins of different viruses to generate infectious particles",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Szirovicza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MBio",
+            "volume": "11",
+            "issn": "",
+            "pages": "3250--3269",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Eighth major clade for hepatitis delta virus",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Gal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Emerg. Infect. Dis",
+            "volume": "12",
+            "issn": "",
+            "pages": "1447--1450",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "A novel hepatitis B virus species discovered in capuchin monkeys sheds new light on the evolution of primate hepadnaviruses",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "De Carvalho Dominguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Souza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Hepatol",
+            "volume": "68",
+            "issn": "",
+            "pages": "1114--1122",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Evolutionary biology of human hepatitis viruses",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rasche",
+                    "suffix": ""
+                },
+                {
+                    "first": "A.-L",
+                    "middle": [],
+                    "last": "Sander",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Drexler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Hepatol",
+            "volume": "70",
+            "issn": "",
+            "pages": "501--520",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "RNA in extracellular vesicles",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Abdelmohsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mustapic",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kapogiannis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gorospe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Wiley Interdiscip. Rev. RNA",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Viroids and hepatitis delta virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Flores",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ruiz-Ruiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Serra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Semin. Liver Dis",
+            "volume": "32",
+            "issn": "",
+            "pages": "201--210",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "HDV-like self-cleaving ribozymes",
+            "authors": [
+                {
+                    "first": "C.-H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lupt\u00e1k",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "RNA Biol",
+            "volume": "8",
+            "issn": "",
+            "pages": "719--727",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "A cellular homolog of hepatitis delta antigen: Implications for viral replication and evolution",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Brazas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ganem",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Science",
+            "volume": "274",
+            "issn": "",
+            "pages": "90--94",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Delta-interacting protein A and the origin of hepatitis delta antigen",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Gilbert",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Science",
+            "volume": "276",
+            "issn": "",
+            "pages": "824--825",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The diversity, evolution and origins of vertebrate RNA viruses",
+            "authors": [
+                {
+                    "first": "Y.-Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W.-C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Curr. Opin. Virol",
+            "volume": "31",
+            "issn": "",
+            "pages": "9--16",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "(A) Genome organization of human HDV, RDeV, SDeV, duck-associated DeV, newt DeV, toad DeV, fish DeV, and termite DeV. Delta antigen-coding regions, functional and structural motifs, as well as post-translational modification sites. (B) Primer-binding positions for the circularization assays shown in their locations on the RDeV genome. Primer names and sequences are listed in SI Appendix,Table S2. Blue, circularization assay 1 (CA1); red, circularization assay 2 (CA2); green, circularization assay 3 (CA3). External primers are shown in dark color, and nested primers in light color. The S-RDeAg ORF is shown for orientation. (C) Exemplary results from CA1 and CA3 obtained from total RNA blood extracts of three RDeV RNA-positive P. semispinosus. Fragment sizes are 1,608 bp for CA1 and 1,532 bp for CA3; label correspondence to RDeV GenBank accession numbers: 377, MK598006; 1481, MK598003; 976, MK598009.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "(A and B) Immunofluorescence staining of HuH7 cells transfected with plasmids expressing S-RDeAg (A), a stop codon mutant expressing a hypothetical L-RDeAg (B)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "(Scale bars, 30 \u03bcm.) (E) Specific reactivity of P. semispinosus sera against S-RDeAg in a Western blot. Total protein extracts from HuH7 cells overexpressing S-RDeAg were separated by sodium dodecyl sulfate/polyacrylamide gel electrophoresis and blotted. The membranes were incubated with five P. semispinosus serum samples (IDs shown in figure) followed by a goat antiguinea pig horseradish peroxidase (HRP) antibody. Anti-S-RDeAg-specific peptide antiserum from an immunized rabbit was used as positive control, with goat anti-rabbit HRP as secondary antibody. (F) Northern blot of antigenomic RDeV RNA from transfected HuH7 cells. The cells were transfected with an expression plasmid containing an intact dimer of the RDeV genome.Total RNA was isolated 4, 6, 8, and 10 d posttransfection (dpt) and subjected to a 1% denaturing formaldehyde agarose gel. After blotting, the RNA was hybridized with a single-stranded oligonucleotide probe labeled with [\u03b3-32 P] ATP and T4 polynucleotide kinase at the 5\u2032 end. In vitro-transcribed antigenomic RDeV RNA was used as positive control. (G) Immunofluorescence staining of HuH7 cells transfected with expression plasmids containing an intact dimer of the RDeV genome, a mutant dimer of the RDeV genome with abrogated S-RDeAg expression, and a trimeric genome of human HDV genotype 1 [pSVL(D3)]. Cells (Left) were fixed on day 4 posttransfection. A 1:64 dilution of the cells (Left) were subjected to clonal expansion and fixed on day 10 posttransfection (Right). Cell nuclei were stained with DAPI (blue) and delta antigens were detected with anti-HDV IgGs followed by an Alexa 568-labeled goat anti-human antibody (red). (Scale bars, 100 \u03bcm.) (H) Detection of deltavirus antigens from HDV-and RDeV-transfected HuH7 cells by Western blot. HuH7 cells were transfected with a dimeric RDeV genome and a trimeric genome of human HDV genotype 1 [pSVL(D3)], and total protein was isolated on 4, 6, 8, and 10 d posttransfection. S-RDeAg (Upper) and Sand L-HDAg (Lower) were detected using cross-reactive human anti-HDV serum; beta-actin was detected by an anti-beta-actin antibody.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Fig. 2C shows the reactivity of antibodies from human sera against L-RDeAg, along with examples of reactive and nonreactive P. semispinosus sera. At a dilution of 1:100, 17 of 30 RDeV RNA-positive and 3 of 115 RDeV RNA-negative animals tested positive for anti-RDeAg antibodies (P < 10 \u22126 , \u03c7 2 test).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "fieldwork was carried out with full ethical approval (Smithsonian Institutional Animal Care and Use Committee protocols 2013-0401-2016-A1-A7 and 2016-0627-2019-A2) and samples were exported to Germany with permission from the Panamanian government (SEX/A-21-14, SE/A-69-14, SEX/A-22-15, SEX/A-24-17, SEX/A-120-16, and SEX/A-52-17).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "did not reveal any correlation between deltavirus and hepacivirus (Pearson's correlation coefficient, \u03c1 = 0.15), arguing against a linear correlation. Logarithmic and linear regression fits did not yield significant associations either, suggesting that the two viruses follow different patterns of distribution. We conclude that",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "ACKNOWLEDGMENTS. We thank Stefan Br\u00e4ndel for arranging research permits and Tobias Bleicker for technical assistance. This work was supported by grants from the German Research Foundation (DFG), B08/SFB 1021/2 (to D.G.), SPP 1596 Grants SO 428/9-1 and 2 (to S. Sommer), and DR772/8-22 (to C.D.). The National Reference Centre for Hepatitis B Viruses and Hepatitis D Viruses is supported by the German Ministry of Health via the Robert Koch Institute. Additional support for sequencing work was provided by the European Commission's COMPARE project.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

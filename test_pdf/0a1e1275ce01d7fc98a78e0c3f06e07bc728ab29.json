@@ -1,0 +1,322 @@
+{
+    "paper_id": "0a1e1275ce01d7fc98a78e0c3f06e07bc728ab29",
+    "metadata": {
+        "title": "Colorectal cancer referrals during the COVID-19 pandemic -a model for the faster diagnosis standard? clinic appointments for symptomatic patients requiring direct counselling or outpatient treatments",
+        "authors": [
+            {
+                "first": "K",
+                "middle": [],
+                "last": "Barrett",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "King George Hospital",
+                    "location": {
+                        "addrLine": "1 Courtney A, Howell AM, Daulatzai N, Savva N, Warren O, Mills S et al",
+                        "settlement": "Barking"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "N",
+                "middle": [],
+                "last": "Habib Bedwani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "King George Hospital",
+                    "location": {
+                        "addrLine": "1 Courtney A, Howell AM, Daulatzai N, Savva N, Warren O, Mills S et al",
+                        "settlement": "Barking"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Arya",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "King George Hospital",
+                    "location": {
+                        "addrLine": "1 Courtney A, Howell AM, Daulatzai N, Savva N, Warren O, Mills S et al",
+                        "settlement": "Barking"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Bhargava",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "King George Hospital",
+                    "location": {
+                        "addrLine": "1 Courtney A, Howell AM, Daulatzai N, Savva N, Warren O, Mills S et al",
+                        "settlement": "Barking"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The COVID-19 pandemic forced an unprecedented shift in the organisation of NHS cancer services, with a simultaneous reduction observed in the capacity to investigate individuals with suspected colo-rectal cancer (CRC) through the two week wait (2WW) pathway 1 . Like many UK units, our trust restructured its cancer pathways to better utilise diagnostic services and safely investigate patients suspected of CRC 2 . A consultantled telephone triage service was implemented to assess suitability of referred patients for either streamlined screening endoscopy or CT scanning, as determined by national cancer guidelines 3 .",
+            "cite_spans": [
+                {
+                    "start": 619,
+                    "end": 620,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Editor"
+        },
+        {
+            "text": "A retrospective case-note review was performed on newly referred patients, assessed in our trust on this modified 2WW CRC pathway from 30 th March-6 th June 2020. Patient demographics, imaging and endoscopy results were collated and compared against a time-matched cohort from 2019. 381 patients were assessed during the 2020 study period, compared to 1098 in 2019. Summary results are found in Table 1 . Fewer patients underwent screening endoscopy in 2020, down to 27% from 77% in 2019 (109/381 vs. 884/1098; p < 0\u22c5001). The pick-up rate for CRC following endoscopy however increased from 1\u22c59% in 2019 to 9\u22c52% in 2020 (21/884 vs 10/109; p < 0\u22c5001) with a comparable overall cancer yield (21/1098 vs 10/381; p = 0\u22c5403). 107 patients were deemed 'low risk' for CRC at initial consultation during the COVID-19 pandemic and, in line with BSG/ACPGBI guidance, discharged from the 2WW pathway without further investigation 4 . 264 patients were additionally discharged from the pathway following negative diagnostic tests (endoscopy and/or CT scan of abdomen and pelvis).",
+            "cite_spans": [
+                {
+                    "start": 919,
+                    "end": 920,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 395,
+                    "end": 402,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Editor"
+        },
+        {
+            "text": "The COVID-19 pandemic limited the capacity of diagnostic services, driving the need to remodel assessment of patients suspected of CRC. Although fewer colonoscopies were conducted amongst referred patients, the pick-up rate for CRC reassuringly increased in our examined cohort with a consistent case yield compared to previous years. This suggests that our secondary care triage system is more effective at identifying patients for colonoscopy, and may be a potential model for the 28-day faster diagnostic service (FDS). This 'COVID model' avoids lengthy diagnostic delays through prompt decisions at initial triage to accept or remove patients from the pathway, thereby enabling rapid access to, yet reducing overall pressure on, diagnostic services, the continued expansion of which is unsustainable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Editor"
+        },
+        {
+            "text": "At the height of the COVID-19 pandemic, the benefits of this pathway outweighed the risk of viral transmission among a potentially vulnerable patient cohort. Concerns remain for its potential long-term ramifications given the significant reduction in GP referrals and investigations performed during this period. This may in future result in patients receiving a delayed diagnosis and an increase in emergency presentations due to complications of advanced disease that would otherwise have been identified through usual diagnostic pathways. Furthermore, by discharging 'lowrisk' patients at source, we may miss early or minimally symptomatic cancers which would again otherwise be identified through colonoscopy or CT colonography 5 . This risk may be mitigated through more routine use of faecal immunochemical testing (FIT) in both primary and secondary care with recent studies indicating a high diagnostic yield for cancer when a lower test cut-off is used 6 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Editor"
+        },
+        {
+            "text": "Our experience demonstrates that a consultant-led phone triage service is as effective in CRC detection as a traditional clinic model. This pathway will likely remain relevant during the post-COVID-19 recovery period whilst the risk of a second wave of infections persists, given the clear advantage of faster time to triage and potential definitive investigations and treatments. Combining this service with more sensitive point-of-care tests holds potential as a model for the FDS by avoiding unnecessary referrals and excessive investigations whilst maintaining diagnostic yield and conserving face-to-face",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Editor"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Colorectal cancer services during the COVID-19 pandemic",
+            "authors": [],
+            "year": 2020,
+            "venue": "Br J Surg",
+            "volume": "107",
+            "issn": "",
+            "pages": "255--256",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "COVID-19 pandemic: perspectives on an unfolding crisis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Spinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pellino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Br J Surg",
+            "volume": "107",
+            "issn": "",
+            "pages": "785--787",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Impact of the Coronavirus (COVID-19) pandemic on surgical practice -Part 2 (surgical prioritisation)",
+            "authors": [
+                {
+                    "first": "Al-Jabir A",
+                    "middle": [],
+                    "last": "Kerwan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nicola",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alsafi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sohrabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Surg",
+            "volume": "79",
+            "issn": "",
+            "pages": "233--248",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The British Society of Gastroenterology Joint ACPGBI, BSG and BSGAR considerations for adapting the rapid access colorectoral cancer pathway during COVID-19 pandemic",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Computed tomography has low sensitivity for the diagnosis of early colon cancer",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Chao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Mak",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tzeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Colorectal Dis",
+            "volume": "15",
+            "issn": "",
+            "pages": "807--811",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The diagnostic accuracy of the faecal immunochemical test for colorectal cancer in risk-stratified symptomatic patients",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "D&apos;souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hicks",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Benton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Abulafi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann R Coll Surg Engl",
+            "volume": "102",
+            "issn": "",
+            "pages": "174--179",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Key demographics and outcomes for all patients from two-week wait colorectal cancer referrals during the COVID-19 pandemic (2020) COVID-19 2WW (n = 381) CT -Computed Tomography; CTAP -Abdominal and Pelvis Computed Tomography; GI -Gastrointestinal; N/A -Not Applicable * Including patients who had CTAP alone or with colonoscopy",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

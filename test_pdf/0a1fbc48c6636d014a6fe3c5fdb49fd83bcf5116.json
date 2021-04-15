@@ -1,0 +1,525 @@
+{
+    "paper_id": "0a1fbc48c6636d014a6fe3c5fdb49fd83bcf5116",
+    "metadata": {
+        "title": "Obesity as a risk factor for COVID-19 mortality in women and men in the UK Biobank: comparisons with influenza/pneumonia and coronary heart disease",
+        "authors": [
+            {
+                "first": "Sanne",
+                "middle": [
+                    "A E"
+                ],
+                "last": "Peters",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Imperial College London",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": "speters@georgeinstitute.org.uk"
+            },
+            {
+                "first": "Stephen",
+                "middle": [],
+                "last": "Macmahon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Imperial College London",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [],
+                "last": "Woodward",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Imperial College London",
+                    "location": {
+                        "settlement": "London",
+                        "country": "UK"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sanne",
+                "middle": [],
+                "last": "Peters",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Obesity is associated with severe COVID-19 outcomes, yet, it unclear whether the risk of COVID-19 mortality associated with obesity is similar between the sexes. We used data from the UK Biobank to assess the risk of COVID-19 mortality associated with various anthropometric measures in women and men. To put these results in context, we also compared these estimates with those for mortality from influenza/pneumonia and coronary heart disease (CHD). The analyses included 502,493 individuals (54% women), of whom 410 (36% women) died of COVID-19, 549 (36% women) died of influenza/pneumonia, and 3355 (19% women) died of CHD. A higher BMI, waist circumference, waist-to-hip ratio, and waistto-height ratio were each associated with a greater risk of death from COVID-19, influenza/pneumonia, and CHD in both sexes, with the exception of the association between higher BMI and the risk of influenza/pneumonia death in men. A higher BMI was associated with a stronger risk of COVID-19 mortality in women than men; the women-to-men ratio of hazard ratios was 1.20 (95% confidence interval: 1.00; 1.43). This study demonstrates the role of obesity in COVID-19 mortality and shows that the relative effects of a higher BMI on COVID-19 mortality may be stronger in women than men.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Although women and men are approximately as likely to be infected by the coronavirus disease 2019 (COVID-19), men have higher death rates from COVID-19 in almost all countries where data are available. 1 Obesity has been identified as one of the key factors associated with severe COVID-19 outcomes, 2,3 some of which may be explained by the adverse effects of obesity on diabetes. However, it unclear whether the risk of COVID-19 mortality associated with obesity is similar between the sexes. We thus assessed the risk of COVID-19 mortality associated with various anthropometric measures in women and men in the UK Biobank. For comparability, we also evaluated the association of these measures with mortality from influenza or pneumonia, the leading causes of death from respiratory disease in usual circumstances, and coronary heart disease (CHD), a condition which has a well-established association with obesity.",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 203,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The UK Biobank is a prospective, population-based cohort study of women and men aged 40-69 at baseline between 2006 and 2010. 5 Follow-up for cause-specific mortality was conducted to June 30, 2020 through linkage with the national death register.",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 127,
+                    "text": "5",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Cox regression was used to estimate the sex-specific hazard ratios (HRs) and 95% confidence intervals (CIs) for mortality from COVID-19, influenza/pneumonia and CHD for overweight and obesity (defined as a body mass index [BMI] \u226525 to <30kg/m\u00b2 and \u226530kg/m\u00b2, respectively) and an overall 1-standard deviation (SD) increase in BMI (SD: 4.8), waist circumference (SD: 13.5), waist-to-hip ratio (SD: 0.09), and waist-to-height ratio (SD: 0.08). Influenza and pneumonia were taken together to avoid unreliable estimation due to small numbers. Confidence intervals were estimated using floating absolute risks. 6 Adjustments were made for age, smoking status (never/ex/current), socioeconomic status (determined using the Townsend index of area deprivation), ethnicity (white or not). Interactions between each variable and sex were added to the model, so as to obtain the women-to-men ratio of HRs (RHRs) for each risk factor. 7 Penalised smoothing splines were used to examine the shape of associations between BMI and the study endpoints. In secondary analyses, we additionally adjusted for diabetes. We also stratified our analyses on COVID-19 mortality for ethnicity because a previous UK Biobank analysis suggested that the association between BMI and the risk of testing positive for COVID-19 may vary by ethnicity. 8 Analyses used R version 3.3.0.",
+            "cite_spans": [
+                {
+                    "start": 605,
+                    "end": 606,
+                    "text": "6",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 922,
+                    "end": 923,
+                    "text": "7",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1317,
+                    "end": 1318,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods"
+        },
+        {
+            "text": "Of the 502,493 individuals (54% women) included in the analyses, 410 (36% women) died of COVID-19, 549 (36% women) died of influenza/pneumonia, and 3355 (19% women) died of CHD during a median follow-up of 11.2 years.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "A higher BMI, waist circumference, waist-to-hip ratio, and waist-to-height ratio were each associated with a greater risk of death from COVID-19, influenza/pneumonia, and CHD in both sexes ( Table 1) . The only exception was the association between higher BMI and the risk of influenza/pneumonia death in men, which may be due to the apparent underlying U-shaped relationship (Figure 1) . The shape and magnitude of the relationship between BMI and COVID-19 mortality was similar to the relationship with CHD mortality. Obesity was associated with an increased risk of each cause of death in both sexes, except for influenza/pneumonia in men.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 191,
+                    "end": 199,
+                    "text": "Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 376,
+                    "end": 386,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Page of 12"
+        },
+        {
+            "text": "A one standard deviation higher BMI was associated with a stronger risk of COVID-19 and influenza/pneumonia mortality in women than men: HRs for COVID-19 mortality (95%CIs) were 1.51 (1.34; 1.71) in women and 1.26 (1.11; 1.44) in men, leading to a women:men RHR of 1.20 (95%CI: 1.00 1.43). Similar results were seen for waist circumference and waist-toheight ratio, although the RHRs were both marginally non-significant. The association of higher values of waist-to-hip ratio with COVID-19 mortality was greater for men than women (HRs (95% CIs) of 1.34 (1.23; 1.47) in women and 1.57 (1.37; 1.79) in men), with a RHR of 0.86 (0.73; 1.01).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Page of 12"
+        },
+        {
+            "text": "Virtually the same sex difference relating to a one standard deviation higher BMI, to those for COVID-19, were found for influenza/pneumonia: the HR was 1.19 (1.01; 1.40). In this case, the three other measures of adiposity showed similar sex differences, albeit not reaching traditional levels of statistical significance. However, for CHD there was no evidence of a sex difference in the effects of any measure of adiposity. The magnitude of sex differences in the effect of obesity, compared to healthy weight, were of roughly the same magnitude as they were for higher values of BMI, for all three causes of death. Results were broadly similar after adjustment for diabetes (eTable 1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Page of 12"
+        },
+        {
+            "text": "Compared with their White counterparts, the association between obesity measures and COVID-19 mortality was stronger among non-White women, but broadly similar in non-White men (eTable 2). The risk of COVID-19 mortality associated with obesity was 8.55 (4.02; 18.19) in non-White women and 1.51 (0.68; 3.36) in non-White men; the corresponding RHR was 5.67 (1.89; 17.06).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Page of 12"
+        },
+        {
+            "text": "This population-based study of over 500,000 women and men in the UK Biobank shows that higher levels of adiposity measures were associated with a higher risk of death from COVID-19, of an order of magnitude similar to that seen for other respiratory diseases and CHD. The findings for COVID-19 are in agreement with previous studies that highlighted the role of obesity in COVID-19 severity and mortality, although these did not investigate the sex-specific associations. 2, 3 They also add to the findings of previous studies in the UK Biobank that showed that both BMI and waist circumference were associated with an increased chance of testing positive for COVID-19, especially among people from non-White origin. 8 We show that the associations between higher BMI, and of obesity compared to healthy weight, with death from COVID-19 and death from influenza or pneumonia, were each about 20% greater in women than men. Our analyses also suggest that the risk of COVID-19 mortality associated with obesity may be particularly strong among women from non-White origin, although the number of individuals from non-White origin was relatively limited. In agreement with our prior meta-analysis, 4 there was no sex difference in the effects of adiposity on death from CHD. By and large, results were similar for the other three measures of adiposity considered. We are unable to explain the exception to this general agreement in that we found a higher effect on COVID-19 mortality of waist-to-hip ratio in men than women; this requires further study. Otherwise, given that the association between BMI and COVID-19 mortality was stronger, not weaker, in women than men, the greater risk of death from COVID-19 in men is unlikely to be due to a greater relative impact of obesity to death from COVID-19 in men. Although our analyses relied on a single measurements of obesity markers at study baseline, we anticipate that the impact of any changes in obesity levels during follow-up and the risk of COVID-19 would be similar for women and men.",
+            "cite_spans": [
+                {
+                    "start": 472,
+                    "end": 474,
+                    "text": "2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 475,
+                    "end": 476,
+                    "text": "3",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 717,
+                    "end": 718,
+                    "text": "8",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1195,
+                    "end": 1196,
+                    "text": "4",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "These results indicate that, if causal, obesity prevention strategies aimed to reduce the burden of several chronic diseases should also lead to better outcomes among both women and men affected by COVID-19. Furthermore, the striking similarity in most of the observed effects of adiposity on COVID-19 and the other two respiratory diseases considered, both in sex-specific and sex-comparative terms, suggests that obesity is likely to be a key driver of mortality in any future viral epidemic, particularly amongst women.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This research has been conducted using the UK Biobank Resource (application No 2495). Permission to use the UK Biobank Resource was approved by the access subcommittee of the UK Biobank Board.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Page of 12"
+        },
+        {
+            "text": "Contributors: All authors were involved in the design of the study. SP carried out the statistical analyses and wrote the first draft of the paper, with support from SM and MW. All authors contributed to further drafts and approved the final manuscript. The corresponding author attests that all listed authors meet authorship criteria and that no others meeting the criteria have been omitted. SP is the guarantor. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Page of 12"
+        },
+        {
+            "text": "Ethical approval: UK Biobank has obtained Research Tissue Bank approval from its governing research ethics committee, as recommended by the National Research Ethics Service. No separate ethical approval was required. The study was conducted in accordance with the principles of the Declaration of Helsinki.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest None"
+        },
+        {
+            "text": "Data sharing: Researchers can apply to use the UK Biobank resource and access the data used. No additional data are available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest None"
+        },
+        {
+            "text": "The manuscript's guarantor (SP) affirms that this manuscript is an honest, accurate, and transparent account of the study being reported; that no important aspects of the study have been omitted; and that any discrepancies from the study as planned (and, if relevant, registered) have been explained. Table 1 Adjusted hazard ratios (HRs) and women-to-men ratios of HRs with 95% confidence intervals for death from COVID-19, influenza/pneumonia, or coronary heart disease associated with body mass index, waist circumference, waist-to-hip ratio, and waist-to-height ratio Analyses are adjusted for age, Townsend index, smoking status, and ethnicity. HRs for continuous variables are per 1-SD higher value, taking the overall SD from the sex-combined baseline data. HRs for BMI categories are presented on a floating absolute scale, with the healthy weight group as the reference group.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 301,
+                    "end": 308,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Transparency:"
+        },
+        {
+            "text": "Influenza ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "What Sex-Disaggregated Metrics Are Needed to Explain Sex Differences in COVID-19? Front. Glob. Women's Health",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hockham",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Carcel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Excess weight and COVID-19: insights from new evidence",
+            "authors": [
+                {
+                    "first": "Public",
+                    "middle": [],
+                    "last": "Health England",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "OpenSAFELY: factors associated with COVID-19 death in 17 million patients",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bhaskaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2521-4"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The sex-specific association between BMI and coronary heart disease: a systematic review and meta-analysis of 95 cohorts with 1\u00b72 million participants",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mongraw-Chaffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Peters",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Huxley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Woodward",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Lancet Diabetes Endocrinol",
+            "volume": "3",
+            "issn": "6",
+            "pages": "437--486",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "UK biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sudlow",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gallacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLoS Med",
+            "volume": "12",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Floating absolute risk: an alternative to relative risk in survival and case-control analysis avoiding an arbitrary reference group",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Easton",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peto",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Babiker",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Statistics in medicine",
+            "volume": "10",
+            "issn": "7",
+            "pages": "1025--1060",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Rationale and tutorial for analysing and reporting sex differences in cardiovascular associations",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Woodward",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Heart",
+            "volume": "105",
+            "issn": "",
+            "pages": "1701--1708",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Body mass index and the risk of COVID-19 across ethnic groups: Analysis of UK Biobank",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Razieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zaccardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Khunti",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Yates",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Obes Metab",
+            "volume": "22",
+            "issn": "10",
+            "pages": "1953--54",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "SAEP is supported by a UK Medical Research Council Skills Development Fellowship (MR/P014550/1). MW is supported by the National Health and Medical Research Foundation of Australia grants (1080206 and 1149987).",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This article is protected by copyright. All rights reserved.Analyses are adjusted for age, Townsend index, smoking status, and ethnicity. Figure 1 Penalised spline plots with adjusted hazard ratios and 95% confidence intervals for death from COVID-19, influenza/pneumonia, or coronary heart disease associated with body mass index",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 138,
+                    "end": 146,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        }
+    ]
+}
