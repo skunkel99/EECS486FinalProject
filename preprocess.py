@@ -2,14 +2,9 @@
 
 # Assumptions for proper use: 
 #
-# All results are safe to transcribe to only lowercase, including proper nouns. 
-# SGML tag description info not contained in the tag itself will be tokenized
-#
 # Date Formats: 
 #     A date format like 01.10.2020 iare not supported for date style tokenization
 #
-# Quote Formats: 
-#     Quotation marks of the form << >> are not supported
 
 import os
 import re
@@ -32,12 +27,29 @@ class sentenceText:
     tokenized = []
 
 
-# a. Function that removes the SGML tags.
-# Name: removeSGML;
-# Input: string;
-# Output: string
-# Assumptions: Descriptive content between tags (eg <AUTHOR> John Smith </AUTHOR>) is not removed
-#               - John Smith is not removed, quotes formatted like << content >> are not present
+def removeSGML(file):
+    found_left = False
+    found_both = False
+    ret_str = ""
+    left_i = 0
+    right_i = 0
+    last = len(file) - 1
+    for i, x in enumerate(file): 
+        if found_left and x == '>':
+            found_both = True
+        elif x == '<': 
+            found_left = True
+            right_i = i
+        if found_both == True or i == len(file) - 1:
+            if i == len(file) - 1:
+                right_i = i + 1
+            ret_str += file[left_i : right_i]
+            left_i = i + 1
+            found_both = False
+            found_left = False
+    return ret_str
+
+
 def parseJSON(file):
     ret_str = ""
     for dictionary in file["body_text"]:
@@ -371,7 +383,7 @@ def tokenizeText(file, sentencesFound):
                 tokens = check_date_format(file[entry_start:i], tokens)
                 space_count = 0
                 found_num = False
-                possible_date = False            
+                possible_date = False  
             tokens = tokenize_str(x, tokens)
             entry_start = i + 1
             found_num = False
@@ -389,7 +401,7 @@ def tokenizeText(file, sentencesFound):
                 if(special_flags.found_fullstop and special_flags.tokenize_punc):
                     sentenceContent = sentenceText()
                     sentenceContent.tokenized = tokens[sentence_start_in_tokens:]
-                    sentenceContent.raw = file[entry_start:i]
+                    sentenceContent.raw = file[sentence_start_in_string:i]
                     sentencesFound.append(sentenceContent)
                 entry_start = i + 1
             if(special_flags.tokenize_punc):
@@ -409,7 +421,7 @@ def tokenizeText(file, sentencesFound):
     if sentence_start_in_string != entry_start:
         sentenceContent = sentenceText()
         sentenceContent.tokenized = tokens[sentence_start_in_tokens:]
-        sentenceContent.raw = file[entry_start:i]
+        sentenceContent.raw = file[sentence_start_in_string:i]
         sentencesFound.append(sentenceContent)
     return tokens, sentencesFound           
 
@@ -445,22 +457,25 @@ def stemWords(tokens):
     return stemmed
 
 
-def processFolder(file_list, tokens, passStartId, documents):
+def processFolder(file_list, passStartId, documents):
     idProcessed = passStartId
     for i,x in enumerate(file_list):
         file = open(x, "r")
-        data = json.load(file)
-        current_file = parseJSON(data)
+        print(x.name)
+        # data = json.load(file)
+        # current_file = parseJSON(data)
+        current_file = removeSGML(file.read())
+        current_file = current_file.encode('ascii', 'ignore').decode('utf-8')
         #divide into sentences
         documents[idProcessed] = []
         curr_file_tokens, documents[idProcessed] = tokenizeText(current_file, documents[idProcessed])
         for j, y in enumerate(documents[idProcessed]):
             documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
             documents[idProcessed][j].tokenized = stemWords(y.tokenized)
-            tokens.extend(documents[idProcessed][j].tokenized)
-        idProcessed += i
+        documents[idProcessed][j] = documents[idProcessed][j].tokenized
+        idProcessed += 1
         file.close()
-    return tokens, idProcessed
+    return documents, idProcessed
 
 # The main program should perform the following sequence of steps:
 # i. open the folder containing the data collection, provided as the first argument on the command
@@ -472,7 +487,7 @@ def processFolder(file_list, tokens, passStartId, documents):
 # - most frequent 50 words in the collection, along with their frequencies (list in reverse order
 # of their frequency, i.e., from most to least frequent)
 
-def main():
+def getDocs():
     cwd = os.getcwd
     arg1 = sys.argv[1]
     # arg2 = sys.argv[2]
@@ -484,37 +499,7 @@ def main():
     nextPassStartId = 0
     documents  = {}
 
-    tokens, nextPassStartId = processFolder(file_list_1, tokens, nextPassStartId, documents)
-    # tokens, nextPassStartId = processFolder(file_list_1, tokens, nextPassStartId, documents)
-    vocab = {}
-    word_count = 0
-    for x in tokens: 
-        if x not in ['!','>','<', '?', ';', '~', '\"', '.', ',', '-', '_', '\'', ':', '/', '-', '_', '=', '`', '%', '^', '&', '(', ')', '{', '}', '$', '*', '[', ']', '@', '#']:
-            word_count += 1
-            if x not in vocab:
-                vocab[x] = 1
-            else: 
-                vocab.update({x: vocab[x] + 1})
-    
-# TODO: Address formatting output with team
-#       Current format is the format from Assignment 1, determine whether this needs to be modified in any way. 
-    output_str = ""
-    answers_str = "".join(("Words: ", str(word_count), '\n',"Vocabulary: ", str(len(vocab)),'\n'))
-    output_str = "".join((answers_str, "Top 50 words\n"))
-    res_val = sorted(vocab.values())
-    res_key = sorted(vocab, key = vocab.get)
-    res_val.reverse()
-    res_key.reverse()
-    for i,x in enumerate(res_val): 
-        if not (i < 50): 
-            break
-        else:
-            output_str = "".join((output_str, res_key[i]," ", str(x), '\n'))
-        
-    output_file = open("preprocess_new_thing.output", 'w')
-    output_file.write(output_str)
-    output_file.close()
+    documents,nextPassStartId = processFolder(file_list_1, tokens, nextPassStartId, documents)
+    # tokens, nextPassStartId, documents = processFolder(file_list_2, tokens, nextPassStartId, documents)
+    return tokens, documents
 
-
-if __name__ == "__main__":
-    main()
