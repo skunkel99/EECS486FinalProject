@@ -6,7 +6,7 @@
  Assumptions for proper use: 
 
  preprocess.py accurately tokenizes the CORD-19 dataset into sentences
- sys.argv[1] is the folder containing CORD-19 documents
+ sys.argv[1] and sys.argv[2] are the the folders containing CORD-19 documents
  Remaining arguments are the question to be answered
 
  '''
@@ -15,22 +15,23 @@ import sys
 import os
 import math
 import string
-from preprocess import tokenizeText, removeStopwords, stemWords, processFolder
+from preprocess import tokenizeText, removeStopwords, stemWords, getDocs
 
 
 
 def main():
-    file_list = []
+    #file_list = []
     documents = {}
     inverted_index = {}
     sentence_lengths = {}
     max_sentence_freqs = {}
-    path = sys.argv[1]
-    query = str(' '.join(sys.argv[2:]))
+    #path1 = sys.argv[1]
+    query = str(' '.join(sys.argv[3:]))
 
-    for file in os.listdir(path):
-        file_list.append(os.path.join(path, file))
-    documents, return_ID = processFolder(file_list, 0, documents)
+    #for file in os.listdir(path):
+        #file_list.append(os.path.join(path, file))
+    #documents, return_ID = processFolder(file_list, 0, documents)
+    documents = getDocs(sys.argv[1], sys.argv[2])
 
     # For each sentence, obtain the content and add it to the inverted index
     for doc_ID, sentences in documents.items():
@@ -64,8 +65,10 @@ def main():
     # TODO - change to however we want to output the answer
     if (len(similarities) > 0):
         answer_loc = str(similarities[0][0]).split("-")
-        print(documents[int(answer_loc[0])][int(answer_loc[1])].raw)
-        print("Answer found in document " + str(int(answer_loc[0])) + " in sentence " + str(int(answer_loc[0])) + "\n")
+        doc_ID = int(answer_loc[0])
+        sentence_ID = int(answer_loc[1])
+        print(("\n" + documents[doc_ID][sentence_ID].raw).strip())
+        print("\nAnswer found in document " + str(doc_ID) + " in sentence " + str(sentence_ID) + "\n")
     else:
         print("No answer could be found in the database.\n")
 
