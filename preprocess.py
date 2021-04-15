@@ -474,30 +474,21 @@ def processFolder(file_list, passStartId, documents):
         idProcessed += 1
         file.close()
     return documents, idProcessed
-    #return tokens, documents, idProcessed
 
-# The main program should perform the following sequence of steps:
-# i. open the folder containing the data collection, provided as the first argument on the command
-# line (e.g., cranfieldDocs/), and read one file at a time from this folder.
-# ii. for each file, apply, in order: removeSGML, tokenizeText, removeStopwords, stemWords
-# iii. in addition, write code to determine (this is after step ii above):
-# - the total number of words in the collection (numbers should be counted as words)
-# - vocabulary size (i.e., number of unique terms)
-# - most frequent 50 words in the collection, along with their frequencies (list in reverse order
-# of their frequency, i.e., from most to least frequent)
+# getDocs takes in the paths to two folders, which contain the contents of the CORD-19 database. 
+# getDocs determines the absolute paths of the two folders and calls processFolder on each folder, which processes the contents in these folders. 
+# getDocs returns the contents of the documents
 
-def getDocs():
+def getDocs(folder1, folder2):
     cwd = os.getcwd
-    arg1 = sys.argv[1]
-    # arg2 = sys.argv[2]
-    collection_1 = os.path.abspath(arg1)
-    # collection_2 = os.path.abspath(arg2)
+    collection_1 = os.path.abspath(folder1)
+    collection_2 = os.path.abspath(folder2)
     file_list_1 = os.scandir(collection_1)
-    # file_list_2 = os.scandir(collection_2)
+    file_list_2 = os.scandir(collection_2)
     nextPassStartId = 0
     documents  = {}
 
     documents,nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
-    # tokens, nextPassStartId, documents = processFolder(file_list_2, tokens, nextPassStartId, documents)
+    documents, nextPassStartId = processFolder(file_list_2, nextPassStartId, documents)
     return documents
 
