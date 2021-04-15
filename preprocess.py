@@ -494,11 +494,10 @@ def getDocs():
     # collection_2 = os.path.abspath(arg2)
     file_list_1 = os.scandir(collection_1)
     # file_list_2 = os.scandir(collection_2)
-    tokens =[]
     nextPassStartId = 0
     documents  = {}
 
-    documents,nextPassStartId = processFolder(file_list_1, tokens, nextPassStartId, documents)
+    documents,nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
     # tokens, nextPassStartId, documents = processFolder(file_list_2, tokens, nextPassStartId, documents)
-    return tokens, documents
+    return documents
 
