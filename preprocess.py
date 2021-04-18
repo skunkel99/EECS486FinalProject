@@ -5,6 +5,8 @@
 # Date Formats: 
 #     A date format like 01.10.2020 iare not supported for date style tokenization
 #
+# Honorific Titles: 
+#     Titles or names formatted with their abbreviations (e.g. Dr. Smith) will be stored as separate sentences ("... Dr." and "Smith ...")
 
 import os
 import re
@@ -17,7 +19,7 @@ class tokFlags:
     tokenize_word = False
     special_tokenize = False
     tokenize_contr = False
-    found_fullstop = False
+    found_sentence_end = False
     tokenize_list = []
     contr_handled = False
     slash_count =  0
@@ -25,29 +27,6 @@ class tokFlags:
 class sentenceText: 
     raw = ""
     tokenized = []
-
-
-def removeSGML(file):
-    found_left = False
-    found_both = False
-    ret_str = ""
-    left_i = 0
-    right_i = 0
-    last = len(file) - 1
-    for i, x in enumerate(file): 
-        if found_left and x == '>':
-            found_both = True
-        elif x == '<': 
-            found_left = True
-            right_i = i
-        if found_both == True or i == len(file) - 1:
-            if i == len(file) - 1:
-                right_i = i + 1
-            ret_str += file[left_i : right_i]
-            left_i = i + 1
-            found_both = False
-            found_left = False
-    return ret_str
 
 
 def parseJSON(file):
@@ -183,13 +162,22 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
             ret_flags.special_tokenize = False
             return  ret_flags; 
     elif character == '.':
-        ret_flags.found_fullstop = True
-        if next_char.isspace() or i + 1 == file_len:
+        if next_char.isspace():
+            ret_flags.found_sentence_end = False
+            if char_2_after.isspace() or char_2_after.isupper():
+                ret_flags.found_sentence_end = True
+            ret_flags.tokenize_punc = True
+            ret_flags.tokenize_word = True
+            ret_flags.special_tokenize = True
+            return ret_flags
+        elif i + 1 == file_len:
+            ret_flags.found_sentence_end = True
             ret_flags.tokenize_punc = True
             ret_flags.tokenize_word = True
             ret_flags.special_tokenize = True
             return ret_flags
         else:
+            ret_flags.found_sentence_end = False
             ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = False
             ret_flags.special_tokenize = False
@@ -398,19 +386,19 @@ def tokenizeText(file, sentencesFound):
                     space_count = 0
                     found_num = False
                     possible_date = False
-                if(special_flags.found_fullstop and special_flags.tokenize_punc):
+                if(special_flags.found_sentence_end and special_flags.tokenize_punc):
                     sentenceContent = sentenceText()
                     sentenceContent.tokenized = tokens[sentence_start_in_tokens:]
-                    sentenceContent.raw = file[sentence_start_in_string:i]
+                    sentenceContent.raw = file[sentence_start_in_string:i+1]
                     sentencesFound.append(sentenceContent)
                 entry_start = i + 1
             if(special_flags.tokenize_punc):
                 tokens = tokenize_str(x, tokens)
                 entry_start = i + 1
-                if(special_flags.found_fullstop):
+                if(special_flags.found_sentence_end):
                     sentence_start_in_tokens = len(tokens)
-                    sentence_start_in_string = entry_start
-                    special_flags.found_fullstop = False
+                    sentence_start_in_string = entry_start + 1
+                    special_flags.found_sentence_end = False
             if(special_flags.tokenize_contr):
                 for y in special_flags.tokenize_list:
                     tokens = tokenize_str(y,tokens)
@@ -418,10 +406,10 @@ def tokenizeText(file, sentencesFound):
                 special_flags.tokenize_list.clear()
     if not special_flags.contr_handled:
         tokens = tokenize_str(file[entry_start:len(file)], tokens)
-    if sentence_start_in_string != entry_start:
+    if  i + 1 == len(file):
         sentenceContent = sentenceText()
         sentenceContent.tokenized = tokens[sentence_start_in_tokens:]
-        sentenceContent.raw = file[sentence_start_in_string:i]
+        sentenceContent.raw = file[sentence_start_in_string:]
         sentencesFound.append(sentenceContent)
     return tokens, sentencesFound           
 
