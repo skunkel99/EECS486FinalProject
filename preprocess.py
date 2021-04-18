@@ -448,21 +448,22 @@ def stemWords(tokens):
 def processFolder(file_list, passStartId, documents):
     idProcessed = passStartId
     for i,x in enumerate(file_list):
-        file = open(x, "r")
-        try: 
-            data = json.load(file)
-            current_file = parseJSON(data)
-            current_file = current_file.encode('ascii', 'ignore').decode('utf-8')
-            #divide into sentences
-            documents[idProcessed] = []
-            curr_file_tokens, documents[idProcessed] = tokenizeText(current_file, documents[idProcessed])
-            for j, y in enumerate(documents[idProcessed]):
-                documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
-                documents[idProcessed][j].tokenized = stemWords(y.tokenized)
-            idProcessed += 1
-        except: 
-            print(file.name, " could not be converted to JSON")
-        file.close()
+        if(idProcessed %4 == 0):
+            file = open(x, "r")
+            try: 
+                data = json.load(file)
+                current_file = parseJSON(data)
+                current_file = current_file.encode('ascii', 'ignore').decode('utf-8')
+                #divide into sentences
+                documents[idProcessed] = []
+                curr_file_tokens, documents[idProcessed] = tokenizeText(current_file, documents[idProcessed])
+                for j, y in enumerate(documents[idProcessed]):
+                    documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
+                    documents[idProcessed][j].tokenized = stemWords(y.tokenized)
+                idProcessed += 1
+            except: 
+                print(file.name, " could not be converted to JSON")
+            file.close()
     return documents, idProcessed
 
 # getDocs takes in the paths to two folders, which contain the contents of the CORD-19 database. 
