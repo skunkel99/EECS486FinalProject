@@ -449,16 +449,19 @@ def processFolder(file_list, passStartId, documents):
     idProcessed = passStartId
     for i,x in enumerate(file_list):
         file = open(x, "r")
-        data = json.load(file)
-        current_file = parseJSON(data)
-        current_file = current_file.encode('ascii', 'ignore').decode('utf-8')
-        #divide into sentences
-        documents[idProcessed] = []
-        curr_file_tokens, documents[idProcessed] = tokenizeText(current_file, documents[idProcessed])
-        for j, y in enumerate(documents[idProcessed]):
-            documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
-            documents[idProcessed][j].tokenized = stemWords(y.tokenized)
-        idProcessed += 1
+        try: 
+            data = json.load(file)
+            current_file = parseJSON(data)
+            current_file = current_file.encode('ascii', 'ignore').decode('utf-8')
+            #divide into sentences
+            documents[idProcessed] = []
+            curr_file_tokens, documents[idProcessed] = tokenizeText(current_file, documents[idProcessed])
+            for j, y in enumerate(documents[idProcessed]):
+                documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
+                documents[idProcessed][j].tokenized = stemWords(y.tokenized)
+            idProcessed += 1
+        except: 
+            print(file.name, " could not be converted to JSON")
         file.close()
     return documents, idProcessed
 
@@ -466,19 +469,37 @@ def processFolder(file_list, passStartId, documents):
 # getDocs determines the absolute paths of the two folders and calls processFolder on each folder, which processes the contents in these folders. 
 # getDocs returns the contents of the documents
 
-def getDocs(folder1, folder2):
-    file_list_1 = []
-    file_list_2 = []
+# def getDocs(folder1, folder2):
+#     file_list_1 = []
+#     file_list_2 = []
 
-    for file in os.listdir(folder1):
-        file_list_1.append(os.path.join(folder1, file))
-    for file in os.listdir(folder2):
-        file_list_2.append(os.path.join(folder2, file))
+#     for file in os.listdir(folder1):
+#         file_list_1.append(os.path.join(folder1, file))
+#     for file in os.listdir(folder2):
+#         file_list_2.append(os.path.join(folder2, file))
+
+#     nextPassStartId = 0
+#     documents  = {}
+
+#     documents, nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
+#     documents, nextPassStartId = processFolder(file_list_2, nextPassStartId, documents)
+#     return documents
+
+def main():
+    cwd = os.getcwd
+    arg1 = sys.argv[1]
+    arg2 = sys.argv[2]
+    collection_1 = os.path.abspath(arg1)
+    collection_2 = os.path.abspath(arg2)
+    file_list_1 = os.scandir(collection_1)
+    file_list_2 = os.scandir(collection_2)
 
     nextPassStartId = 0
     documents  = {}
 
     documents, nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
     documents, nextPassStartId = processFolder(file_list_2, nextPassStartId, documents)
-    return documents
 
+
+if __name__ == "__main__":
+    main()
