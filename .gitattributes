@@ -1,1 +1,2 @@
 processed_documents_tokenized.txt.zip filter=lfs diff=lfs merge=lfs -text
+processed_documents_raw.txt.zip filter=lfs diff=lfs merge=lfs -text
