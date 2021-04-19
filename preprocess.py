@@ -1,11 +1,11 @@
 #preprocess.py - EECS 486 Final project group, derived from Assignment 1 (ljhale and sharifma)
 
-# Assumptions for proper use: 
+# Assumptions for proper use:
 #
-# Date Formats: 
+# Date Formats:
 #     A date format like 01.10.2020 iare not supported for date style tokenization
 #
-# Honorific Titles: 
+# Honorific Titles:
 #     Titles or names formatted with their abbreviations (e.g. Dr. Smith) will be stored as separate sentences ("... Dr." and "Smith ...")
 
 import pickle
@@ -25,7 +25,7 @@ class tokFlags:
     contr_handled = False
     slash_count =  0
 
-class sentenceText: 
+class sentenceText:
     raw = ""
     tokenized = []
 
@@ -54,90 +54,90 @@ def maybe_date(word, date_flag):
             return True
     if date_flag and not month_res:
         return False
-    for i,x in enumerate(days): 
+    for i,x in enumerate(days):
         if lower_word.find(days[i]) != -1:
             return True
     return False
 
 
-def tokenize_str(word, tokens): 
-    if(word):            
+def tokenize_str(word, tokens):
+    if(word):
         tokens.append(word)
     return tokens
 
-        
+
 def tok_special_punc(character, i, num_flagged, date_detected, possible_token, special_flags, prev_char, next_char, char_2_after, file_len):
     ret_flags = special_flags
     # Contractions list based off of: https://en.wikipedia.org/wiki/Wikipedia:List_of_English_contractions
     contractions = {
         "aren't": "are not",
         "can't": "can not",
-        "could've": "could have", 
-        "couldn't": "could not", 
-        "didn't": "did not", 
-        "doesn't": "does not", 
-        "don't": "do not", 
+        "could've": "could have",
+        "couldn't": "could not",
+        "didn't": "did not",
+        "doesn't": "does not",
+        "don't": "do not",
         "'em": "them",
-        "g'day": "good day", 
-        "hadn't": "had not", 
-        "hasn't": "has not", 
-        "haven't": "have not", 
-        "he'd": "he would", 
-        "he'll" : "he will", 
-        "he's": "he is", 
-        "here's": "here is", 
-        "how'd": "how did", 
-        "how'll": "how will", 
-        "how's": "how is", 
-        "I'd": "I would", 
-        "I'll": "I will", 
-        "I'm": "I am", 
-        "I've": "I have", 
-        "isn't": "is not", 
-        "it'd": "it would", 
-        "it'll": "it will", 
-        "it's": "it is", 
-        "let's": "let us", 
-        "ma'am": "madam", 
-        "may've": "may have", 
-        "might've": "might have", 
-        "mustn't": "must not", 
-        "must've": "must have", 
-        "needn't": "need not", 
-        "oughtn't": "ought not", 
-        "she'd": "she would", 
-        "she'll": "she will", 
-        "she's": "she is", 
-        "shouldn't": "should not", 
-        "should've": "should have", 
-        "that'll": "that will", 
-        "that's": "that is", 
-        "that'd": "that would", 
-        "there's": "there is", 
-        "they'd": "the would", 
-        "they'll": "they will", 
-        "they're": "they are", 
-        "wasn't": "was not", 
-        "we'd": "we would", 
-        "we'll": "we will", 
-        "we're": "we are", 
-        "we've": "we have", 
-        "weren't": "were not", 
-        "what'd": "what did", 
-        "what'll": "what will", 
-        "what're": "what are", 
-        "what's": "what is", 
-        "when's": "when is", 
-        "which'll": "which will", 
-        "who'd": "who would", 
-        "who'll": "who will", 
-        "who's": "who is", 
-        "why'd": "why did", 
-        "won't": "will not", 
-        "would've": "would have", 
-        "wouldn't": "would not", 
+        "g'day": "good day",
+        "hadn't": "had not",
+        "hasn't": "has not",
+        "haven't": "have not",
+        "he'd": "he would",
+        "he'll" : "he will",
+        "he's": "he is",
+        "here's": "here is",
+        "how'd": "how did",
+        "how'll": "how will",
+        "how's": "how is",
+        "I'd": "I would",
+        "I'll": "I will",
+        "I'm": "I am",
+        "I've": "I have",
+        "isn't": "is not",
+        "it'd": "it would",
+        "it'll": "it will",
+        "it's": "it is",
+        "let's": "let us",
+        "ma'am": "madam",
+        "may've": "may have",
+        "might've": "might have",
+        "mustn't": "must not",
+        "must've": "must have",
+        "needn't": "need not",
+        "oughtn't": "ought not",
+        "she'd": "she would",
+        "she'll": "she will",
+        "she's": "she is",
+        "shouldn't": "should not",
+        "should've": "should have",
+        "that'll": "that will",
+        "that's": "that is",
+        "that'd": "that would",
+        "there's": "there is",
+        "they'd": "the would",
+        "they'll": "they will",
+        "they're": "they are",
+        "wasn't": "was not",
+        "we'd": "we would",
+        "we'll": "we will",
+        "we're": "we are",
+        "we've": "we have",
+        "weren't": "were not",
+        "what'd": "what did",
+        "what'll": "what will",
+        "what're": "what are",
+        "what's": "what is",
+        "when's": "when is",
+        "which'll": "which will",
+        "who'd": "who would",
+        "who'll": "who will",
+        "who's": "who is",
+        "why'd": "why did",
+        "won't": "will not",
+        "would've": "would have",
+        "wouldn't": "would not",
         "you'd": "you would" ,
-        "you'll": "you will", 
+        "you'll": "you will",
         "you're": "you are"
     }
     if character in ['(', ')', ',', '/'] and not num_flagged:
@@ -145,23 +145,23 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
             ret_flags.tokenize_punc = True
             ret_flags.tokenize_word = True
             ret_flags.special_tokenize = True
-            return ret_flags; 
-        else: 
+            return ret_flags;
+        else:
             ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = False
             ret_flags.special_tokenize = False
-            return  ret_flags; 
+            return  ret_flags;
     elif character == ":":
         if not next_char.isdecimal():
             ret_flags.tokenize_punc = True
             ret_flags.tokenize_word = True
             ret_flags.special_tokenize = True
-            return ret_flags; 
-        else: 
+            return ret_flags;
+        else:
             ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = False
             ret_flags.special_tokenize = False
-            return  ret_flags; 
+            return  ret_flags;
     elif character == '.':
         if next_char.isspace():
             ret_flags.found_sentence_end = False
@@ -187,7 +187,7 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
             ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = False
             ret_flags.special_tokenize = False
-            return ret_flags; 
+            return ret_flags;
     elif character == '\'':
         word_w_next= possible_token + character + next_char
         word_w_next = word_w_next.casefold()
@@ -200,7 +200,7 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
             ret_flags.tokenize_list = contractions[word_w_next].split(' ')
             ret_flags.tokenize_contr = True
             ret_flags.contr_handled = True
-            return ret_flags 
+            return ret_flags
         elif word_w_two_after in contractions:
             ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = False
@@ -208,7 +208,7 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
             ret_flags.tokenize_list = contractions[word_w_two_after].split(' ')
             ret_flags.tokenize_contr = True
             ret_flags.contr_handled = True
-            return ret_flags 
+            return ret_flags
         elif character + next_char + char_2_after == "'em":
             ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = False
@@ -217,15 +217,15 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
             ret_flags.tokenize_list.append("them")
             ret_flags.tokenize_contr = True
             ret_flags.contr_handled = True
-            return ret_flags 
+            return ret_flags
         else:
             if next_char == ' ':
                 ret_flags.tokenize_punc = True
-            else: 
+            else:
                 ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = True
             ret_flags.special_tokenize = True
-            return ret_flags 
+            return ret_flags
     elif character == '/':
         if num_flagged and special_flags.slash_count < 2 :
             ret_flags.tokenize_punc = False
@@ -246,10 +246,10 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
             is_neg = True
             ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = True
-        elif prev_char == ' ' and next_char == ' ': 
+        elif prev_char == ' ' and next_char == ' ':
             ret_flags.tokenize_punc = True
             ret_flags.tokenize_word = True
-        else: 
+        else:
             ret_flags.tokenize_punc = False
             ret_flags.tokenize_word = False
             ret_flags.special_tokenize = False
@@ -258,7 +258,7 @@ def tok_special_punc(character, i, num_flagged, date_detected, possible_token, s
         return ret_flags
     ret_flags.special_tokenize = False
     return ret_flags
-    
+
 
 def check_date_format(word, tokens):
     lower_word = word.casefold()
@@ -272,7 +272,7 @@ def check_date_format(word, tokens):
     found_date = False
     first_found_i = 0
     has_date = False
-    date_start = 0 
+    date_start = 0
     date_end = 0
     for i,x in enumerate(phrase):
         if has_date and i == first_found_i + 2:
@@ -280,42 +280,42 @@ def check_date_format(word, tokens):
                 date_end = i
             else:
                 date_end = i - 1
-        elif 0 < months.count(x)  and not found_month: 
+        elif 0 < months.count(x)  and not found_month:
             found_month = True
-            if not found_date: 
+            if not found_date:
                 first_found_i = i
-            elif found_date and first_found_i == i-1: 
+            elif found_date and first_found_i == i-1:
                 has_date = True
                 date_start = first_found_i
                 date_end = i
-        elif 0 < days.count(x) and not found_date: 
+        elif 0 < days.count(x) and not found_date:
             found_date = True
-            if not found_month: 
+            if not found_month:
                 first_found_i = i
             elif found_month and first_found_i == i-1:
                 has_date = True
                 date_start = first_found_i
                 date_end = i
-        elif 0 < days_suf.count(x) and not found_date: 
+        elif 0 < days_suf.count(x) and not found_date:
             found_date = True
-            if not found_month: 
+            if not found_month:
                 first_found_i = i
             elif found_month and first_found_i != i:
                 has_date = True
                 date_start = first_found_i
                 date_end = i
     date = ""
-    for i, x in enumerate(true_phrase): 
-        if i < date_start or date_end < i: 
+    for i, x in enumerate(true_phrase):
+        if i < date_start or date_end < i:
             res = tokenize_str(x, tokens)
-        elif i !=date_end: 
+        elif i !=date_end:
             date = date + x + " "
-        else: 
+        else:
             date += x
             res = tokenize_str(date, tokens)
     return res
 
-    
+
 # b. Function that tokenizes the text.
 # Name: tokenizeText; input: string; output: list (of tokens)
 def tokenizeText(file, sentencesFound):
@@ -340,21 +340,21 @@ def tokenizeText(file, sentencesFound):
             did_reserve = possible_date
             possible_date =  maybe_date(file[entry_start: i], possible_date)
             if possible_date:
-                if space_count < 2: 
+                if space_count < 2:
                     space_count += 1
-                else: 
+                else:
                     tokens = check_date_format(file[entry_start:i], tokens)
                     found_num = False
                     possible_date = False
                     entry_start = i + 1
                     space_count = 0
             elif not possible_date and did_reserve:
-                for j, y in enumerate(file[entry_start:i].split(" ")): 
+                for j, y in enumerate(file[entry_start:i].split(" ")):
                     tokens = tokenize_str(y, tokens)
                     entry_start = i + 1
                     found_num = False
                     possible_date = False
-            elif not possible_date and not special_flags.contr_handled: 
+            elif not possible_date and not special_flags.contr_handled:
                 tokens = tokenize_str(file[entry_start:i], tokens)
                 entry_start = i + 1
                 found_num = False
@@ -365,14 +365,14 @@ def tokenizeText(file, sentencesFound):
         elif x.isdecimal():
             found_num = True
         elif is_basic_punc(x):
-            if(not possible_date): 
+            if(not possible_date):
                 tokens = tokenize_str(file[entry_start:i], tokens)
                 found_num = False
-            else: 
+            else:
                 tokens = check_date_format(file[entry_start:i], tokens)
                 space_count = 0
                 found_num = False
-                possible_date = False  
+                possible_date = False
             tokens = tokenize_str(x, tokens)
             entry_start = i + 1
             found_num = False
@@ -380,9 +380,9 @@ def tokenizeText(file, sentencesFound):
         special_flags = tok_special_punc(x, i, found_num, possible_date, file[entry_start:i], special_flags, prev_char, next_char, char_2_after, file_len)
         if (special_flags.special_tokenize):
             if(special_flags.tokenize_word):
-                if(not possible_date): 
+                if(not possible_date):
                     tokens = tokenize_str(file[entry_start:i], tokens)
-                else: 
+                else:
                     tokens = check_date_format(file[entry_start:i], tokens)
                     space_count = 0
                     found_num = False
@@ -412,7 +412,7 @@ def tokenizeText(file, sentencesFound):
         sentenceContent.tokenized = tokens[sentence_start_in_tokens:]
         sentenceContent.raw = file[sentence_start_in_string:]
         sentencesFound.append(sentenceContent)
-    return tokens, sentencesFound           
+    return tokens, sentencesFound
 
 
 # c. Function that removes the stopwords.
@@ -420,12 +420,12 @@ def tokenizeText(file, sentencesFound):
 def removeStopwords(tokens):
     stopwords = os.path.abspath("stopwords")
     stopword_file = open(stopwords, 'r')
-    stopword_list = stopword_file.read()  
-    stopword_file.close()  
+    stopword_list = stopword_file.read()
+    stopword_file.close()
     no_stop = tokens
     to_pop = []
-    for i,x in enumerate(no_stop): 
-        if x.casefold() in stopword_list: 
+    for i,x in enumerate(no_stop):
+        if x.casefold() in stopword_list:
             to_pop.append(i)
     to_pop.reverse()
     for x in to_pop:
@@ -440,7 +440,7 @@ def removeStopwords(tokens):
 def stemWords(tokens):
     stemmed = []
     stem = PorterStemmer()
-    for x in tokens: 
+    for x in tokens:
         y = stem.stem(x,0, len(x) -1)
         stemmed.append(y)
     return stemmed
@@ -451,7 +451,7 @@ def processFolder(file_list, passStartId, documents):
     for i,x in enumerate(file_list):
         if(i %4 == 0):
             file = open(x, "r")
-            try: 
+            try:
                 data = json.load(file)
                 current_file = parseJSON(data)
                 current_file = current_file.encode('ascii', 'ignore').decode('utf-8')
@@ -462,13 +462,14 @@ def processFolder(file_list, passStartId, documents):
                     documents[idProcessed][j].tokenized = removeStopwords(y.tokenized)
                     documents[idProcessed][j].tokenized = stemWords(y.tokenized)
                 idProcessed += 1
-            except: 
+            except:
                 print(file.name, " could not be converted to JSON")
             file.close()
+
     return documents, idProcessed
 
-# getDocs takes in the paths to two folders, which contain the contents of the CORD-19 database. 
-# getDocs determines the absolute paths of the two folders and calls processFolder on each folder, which processes the contents in these folders. 
+# getDocs takes in the paths to two folders, which contain the contents of the CORD-19 database.
+# getDocs determines the absolute paths of the two folders and calls processFolder on each folder, which processes the contents in these folders.
 # getDocs returns the contents of the documents
 
 def getDocs(folder1, folder2):
@@ -485,8 +486,17 @@ def getDocs(folder1, folder2):
 
     documents, nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
     documents, nextPassStartId = processFolder(file_list_2, nextPassStartId, documents)
-    with open("processed_documents.txt", 'wb') as outfile: 
-        pickle.dump(documents, outfile)
+    with open("processed_documents_tokenized.txt", 'wb') as outfile:
+        for docId in documents:
+            for j in documents[docId]:
+                pickle.dump(j.tokenized, outfile)
+    with open("processed_documents_raw.txt", 'wb') as outfile:
+        for docId in documents:
+            for j in documents[docId]:
+                pickle.dump(j.raw, outfile)
+
+
+
     outfile.close()
 
     return documents
@@ -503,7 +513,7 @@ def getDocs(folder1, folder2):
 #     documents  = {}
 #     documents, nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
 #     documents, nextPassStartId = processFolder(file_list_2, nextPassStartId, documents)
-#     with open("test_dump_trial.txt", 'wb') as outfile: 
+#     with open("test_dump_trial.txt", 'wb') as outfile:
 #         pickle.dump(documents, outfile)
 #     outfile.close()
 
