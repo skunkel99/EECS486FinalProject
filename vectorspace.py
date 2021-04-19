@@ -27,65 +27,30 @@ def main():
     inverted_index = {}
     sentence_lengths = {}
     max_sentence_freqs = {}
-    #path1 = sys.argv[1]
-#    query = str(' '.join(sys.argv[3:]))
+    inverted_index_file = sys.argv[1]
+    max_sentence_freqs_file = sys.argv[2]
+    sentence_lengths_file = sys.argv[3]
 
+    #load all data structures needed to calculate cosine similarity
+    with open(inverted_index_file) as json_file:
+        inverted_index = json.load(json_file)
+    with open(max_sentence_freqs_file) as json_file:
+        max_sentence_freqs = json.load(json_file)
+    with open(sentence_lengths_file) as json_file:
+        sentence_lengths = json.load(json_file)
 
-    pickled_file_tokenized = open(sys.argv[1], "rb")
-    pickled_file_raw = open(sys.argv[2], "rb")
-
-
-    ground_truth = open(sys.argv[3], "r")
-
-    queries = json.load(ground_truth)
-    # for file in os.listdir(path):
-    #     file_list.append(os.path.join(path, file))
-    # documents, return_ID = processFolder(file_list, 0, documents)
-
-    #documents = getDocs(sys.argv[1], sys.argv[2])
-    # documents_tokenized = pickle.load(pickled_file_tokenized)
-    # documents_tokenized2 = pickle.load(pickled_file_tokenized)
+    #read raw files to return answer
     raw_files = []
+    pickled_file_raw = open(sys.argv[5], "rb")
     try:
         while True:
             file = pickle.load(pickled_file_raw)
             raw_files.append(file)
     except EOFError:
         print("end of file")
-    tokenized_files = []
-    try:
-        while True:
-            file = pickle.load(pickled_file_tokenized)
-            tokenized_files.append(file)
-    except EOFError:
-        print("end of file")
 
-    #11460986
-
-
-#
-#     # For each sentence, obtain the content and add it to the inverted index
-    for sentence in range(len(tokenized_files)):
-        inverted_index, term_freqs = indexSentence(tokenized_files[sentence], sentence, inverted_index)
-
-        # Exit the program if multiple identical IDs are found
-        if sentence in sentence_lengths:
-            print("sentence_ID already in sentence_lengths and was overwritten")
-            sys.exit()
-
-        # Find the max term frequency in the sentence
-        sentence_lengths[sentence] = term_freqs
-        max_frequency = 0
-        for frequency in term_freqs.values():
-             if frequency > max_frequency:
-                 max_frequency = frequency
-        max_sentence_freqs[sentence] = max_frequency
-
-        # Calculate sentence lengths given its term frequencies according to the nxc weighting scheme
-        sum = 0
-        for term, frequency in term_freqs.items():
-            sum += (.5 + (.5 * frequency / max_frequency)) ** 2
-        sentence_lengths[sentence] = math.sqrt(sum)
+    ground_truth = open(sys.argv[4], "r")
+    queries = json.load(ground_truth)
 
     output_dict = {}
     for query in queries:
@@ -93,43 +58,15 @@ def main():
         similarities = list(retrieveSentences(query, inverted_index, sentence_lengths, max_sentence_freqs).items())
         similarities = sorted(similarities, reverse=True, key=lambda sentence:sentence[1])
 
-        # TODO - change to however we want to output the answer
         if (len(similarities) > 0):
             answer_loc = similarities[0][0]
-            output_dict[query] = (raw_files[answer_loc]).strip()
-#            print(("\n" + documents[doc_ID][sentence_ID].raw).strip())
-#            print("\nAnswer found in document " + str(doc_ID) + " in sentence " + str(sentence_ID) + "\n")
+            output_dict[query] = (raw_files[int(answer_loc)]).strip()
         else:
             output_dict[query] = ""
-#            print("No answer could be found in the database.\n")
+            print("No answer could be found in the database.\n")
 
     with open("output_answers.json", "w") as file:
         json.dump(output_dict, file)
-
-''' Adds a sentence to the inverted_index '''
-def indexSentence(sentence, ID, inverted_index):
-    term_freqs = {}
-
-    for token in sentence:
-        # Get term frequences in the sentence
-        if token in term_freqs:
-            term_freqs[token] += 1
-        else:
-            term_freqs[token] = 1
-
-        # Add or update tokens in inverted_index
-        if token in inverted_index:
-            if ID in inverted_index[token]:
-                inverted_index[token][ID] += 1
-            else:
-                inverted_index[token][ID] = 1
-        else:
-            new_ID = {}
-            new_ID[ID] = 1
-            inverted_index[token] = new_ID
-
-    return inverted_index, term_freqs
-
 
 
 ''' Retrieves a dictionary of similarity scores for each sentence for a given query '''
@@ -194,7 +131,6 @@ def retrieveSentences(query, inverted_index, sentence_lengths, max_sentence_freq
                 similarities[ID] = .5 / sentence_lengths[ID]
 
     return similarities
-    return 0
 
 
 
