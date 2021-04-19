@@ -475,7 +475,6 @@ def processFolder(file_list, passStartId, documents):
 def getDocs(folder1, folder2):
     file_list_1 = []
     file_list_2 = []
-
     for file in os.listdir(folder1):
         file_list_1.append(os.path.join(folder1, file))
     for file in os.listdir(folder2):
@@ -496,27 +495,14 @@ def getDocs(folder1, folder2):
                 pickle.dump(j.raw, outfile)
 
 
-
     outfile.close()
-
     return documents
 
-# def main():
-#     cwd = os.getcwd
-#     arg1 = sys.argv[1]
-#     arg2 = sys.argv[2]
-#     collection_1 = os.path.abspath(arg1)
-#     collection_2 = os.path.abspath(arg2)
-#     file_list_1 = os.scandir(collection_1)
-#     file_list_2 = os.scandir(collection_2)
-#     nextPassStartId = 0
-#     documents  = {}
-#     documents, nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
-#     documents, nextPassStartId = processFolder(file_list_2, nextPassStartId, documents)
-#     with open("test_dump_trial.txt", 'wb') as outfile:
-#         pickle.dump(documents, outfile)
-#     outfile.close()
+def main():
+    pdf_json = sys.argv[1]
+    pmc_json = sys.argv[2]
+    getDocs(pdf_json, pmc_json)
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()

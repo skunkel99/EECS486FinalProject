@@ -71,7 +71,6 @@ def main():
 
 ''' Retrieves a dictionary of similarity scores for each sentence for a given query '''
 def retrieveSentences(query, inverted_index, sentence_lengths, max_sentence_freqs):
-    # TODO - determine what a "short query" is and only use nfx in that case
     query_scheme = "tfx"
     if len(query) < 5:
         query_scheme = "nfx"
