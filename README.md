@@ -1,56 +1,22 @@
-# EECS486FinalProject
-
-## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
+## COVID-19 Question & Answer System
+For our final project, we will be implementing a COVID-19 question and answer system. This program will be effective in answering many different types of queries. The overall goal is to create a single program that utilizes a dataset that can quickly and efficiently search through related materials and present the most relevant answer in an easy-to-read format. 
 
 ## Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. - 
-
-[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
-
-## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
- 
-## Screenshots
-Include logo/demo screenshot etc.
-
-## Tech/framework used
-Ex. -
-
-<b>Built with</b>
-- [Electron](https://electron.atom.io)
-
-## Features
-What makes your project stand out?
-
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
-
-## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-Describe and show how to run the tests with code examples.
+In a bid to prevent further loss of life and negative economic impact, scientists have been working around the clock to learn more about COVID-19 and present relevant information to the public. Since COVID is a relatively new threat, the ever-changing information regarding COVID-19 can be overwhelming and difficult to follow, especially alongside the spread of misinformation through social media and other unreliable media outlets. Our system hopes to provide a quick and easy way for users to get their questions about the quickly evolving COVID-19 pandemic answered. 
 
 ## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
-
-## Contribute
-
-Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
+First, the dataset needs to be tokenized in order to create our inverted index. To do this, use the following command once you have downloaded the CORD-19 dataset:
+python3 preprocess.py 2021-04-13/document_parses/pmc_json 2021-04-13/document_parses/pdf_json
+Alternatively, the tokenized version of 25% of the CORD-19 dataset is already processed and stored in processed_documents_tokenized.txt.zip, and the corresponding raw sentences  are stored in processed_documents_raw.txt.zip. 
+These files are passed into invertedindex.py, where the tokens will be added to our inverted index data structure. The following command can be used to do this:
+python3 invertedindex.py processed_documents_tokenized.txt processed_documents_raw.txt
+However, because the dataset is so large, we have included a file that contains all of the processed data structures that will be needed to compute the cosine similarities needed for our system. These are stored in inverted_index.json, sentence_lengths.json, and max_sentence_freqs.json. 
+In order to run our system and output queries, use the following command:
+Python3 vectorspace.py inverted_index.json max_sentence_freqs.json sentence_lengths.json ground_truth.json processed_documents_raw.txt
+ground_truth.json contains the compiled ground truth question and answers that are used for the evaluation of our system. 
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
+This project was created with the help of the entire EECS 486 staff at the University of Michigan. Our system utilized the CORD-19 database.
 
 #### Anything else that seems useful
 
