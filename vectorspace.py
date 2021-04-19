@@ -16,6 +16,7 @@ import os
 import math
 import string
 import json
+import pickle
 from preprocess import tokenizeText, removeStopwords, stemWords, getDocs
 
 
@@ -28,14 +29,22 @@ def main():
     max_sentence_freqs = {}
     #path1 = sys.argv[1]
 #    query = str(' '.join(sys.argv[3:]))
-    ground_truth = open(sys.argv[3], "r")
+
+
+    pickled_file = open(sys.argv[1], "rb")
+    ground_truth = open(sys.argv[2], "r")
+
+    # ground_truth = open(sys.argv[3], "r")
+
     queries = json.load(ground_truth)
     #for file in os.listdir(path):
         #file_list.append(os.path.join(path, file))
     #documents, return_ID = processFolder(file_list, 0, documents)
-    documents = getDocs(sys.argv[1], sys.argv[2])
 
-    # For each sentence, obtain the content and add it to the inverted index
+    # documents = getDocs(sys.argv[1], sys.argv[2])
+    documents = pickle.load(pickled_file)
+
+#     # For each sentence, obtain the content and add it to the inverted index
     for doc_ID, sentences in documents.items():
         for sentence_ID, sentence in enumerate(sentences):
             current_ID = str(doc_ID) + "-" + str(sentence_ID)

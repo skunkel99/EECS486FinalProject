@@ -8,6 +8,7 @@
 # Honorific Titles: 
 #     Titles or names formatted with their abbreviations (e.g. Dr. Smith) will be stored as separate sentences ("... Dr." and "Smith ...")
 
+import pickle
 import os
 import re
 import sys
@@ -448,7 +449,7 @@ def stemWords(tokens):
 def processFolder(file_list, passStartId, documents):
     idProcessed = passStartId
     for i,x in enumerate(file_list):
-        if(idProcessed %4 == 0):
+        if(i %4 == 0):
             file = open(x, "r")
             try: 
                 data = json.load(file)
@@ -484,6 +485,10 @@ def getDocs(folder1, folder2):
 
     documents, nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
     documents, nextPassStartId = processFolder(file_list_2, nextPassStartId, documents)
+    with open("processed_documents.txt", 'wb') as outfile: 
+        pickle.dump(documents, outfile)
+    outfile.close()
+
     return documents
 
 # def main():
@@ -498,6 +503,9 @@ def getDocs(folder1, folder2):
 #     documents  = {}
 #     documents, nextPassStartId = processFolder(file_list_1, nextPassStartId, documents)
 #     documents, nextPassStartId = processFolder(file_list_2, nextPassStartId, documents)
+#     with open("test_dump_trial.txt", 'wb') as outfile: 
+#         pickle.dump(documents, outfile)
+#     outfile.close()
 
 
 # if __name__ == "__main__":
