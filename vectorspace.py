@@ -35,7 +35,6 @@ def main():
 
     with zipfile.ZipFile(inverted_index_file, "r") as z:
         for filename in z.namelist():
-            print(filename)
             with z.open(filename) as f:
                 print("read")
                 data = f.read()
@@ -43,6 +42,7 @@ def main():
     #load all data structures needed to calculate cosine similarity
     # with open(inverted_index_file) as json_file:
     #     inverted_index = json.load(json_file)
+
     with open(max_sentence_freqs_file) as json_file:
         max_sentence_freqs = json.load(json_file)
     with open(sentence_lengths_file) as json_file:
@@ -50,7 +50,7 @@ def main():
 
     #read raw files to return answer
     raw_files = []
-    pickled_file_raw = open(sys.argv[5], "rb")
+    pickled_file_raw = open(sys.argv[4], "rb")
     try:
         while True:
             file = pickle.load(pickled_file_raw)
@@ -58,9 +58,27 @@ def main():
     except EOFError:
         print("end of file")
 
-    ground_truth = open(sys.argv[4], "r")
-    queries = json.load(ground_truth)
+    #either run list of test queries or read query from user input
 
+    if len(sys.argv) == 6:
+        ground_truth = open(sys.argv[5], "r")
+        queries = json.load(ground_truth)
+        output_dict = computeAnswer(queries, inverted_index, sentence_lengths, max_sentence_freqs, raw_files)
+        with open("output_answers.json", "w") as file:
+            json.dump(output_dict, file)
+    else:
+        query = input("What would you like to ask about COVID-19? (type exit to end Q&A system) ")
+        while (query != "exit"):
+            queries = []
+            queries.append(query)
+            output_dict = computeAnswer(queries, inverted_index, sentence_lengths, max_sentence_freqs, raw_files)
+            print(output_dict[query])
+            query = input("What would you like to ask about COVID-19? (type exit to end Q&A system)")
+    return 0
+
+
+''' Computes an answer based on similiarty from the inputted query/queries '''
+def computeAnswer(queries, inverted_index, sentence_lengths, max_sentence_freqs, raw_files):
     output_dict = {}
     for query in queries:
         # Find the list of relevant sentences and their similarity scores
@@ -73,10 +91,7 @@ def main():
         else:
             output_dict[query] = ""
             print("No answer could be found in the database.\n")
-
-    with open("output_answers.json", "w") as file:
-        json.dump(output_dict, file)
-
+    return output_dict
 
 ''' Retrieves a dictionary of similarity scores for each sentence for a given query '''
 def retrieveSentences(query, inverted_index, sentence_lengths, max_sentence_freqs):
