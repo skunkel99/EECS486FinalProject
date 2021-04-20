@@ -32,21 +32,20 @@ def main():
     inverted_index_file = sys.argv[1]
     max_sentence_freqs_file = sys.argv[2]
     sentence_lengths_file = sys.argv[3]
-
-    with zipfile.ZipFile(inverted_index_file, "r") as z:
-        for filename in z.namelist():
-            with z.open(filename) as f:
-                print("read")
-                data = f.read()
-                inverted_index = json.loads(data.decode("utf-8"))
-    #load all data structures needed to calculate cosine similarity
-    # with open(inverted_index_file) as json_file:
-    #     inverted_index = json.load(json_file)
-
-    with open(max_sentence_freqs_file) as json_file:
-        max_sentence_freqs = json.load(json_file)
-    with open(sentence_lengths_file) as json_file:
-        sentence_lengths = json.load(json_file)
+    #
+    # with zipfile.ZipFile(inverted_index_file, "r") as z:
+    #     for filename in z.namelist():
+    #         with z.open(filename) as f:
+    #             data = f.read()
+    #             inverted_index = json.loads(data.decode("utf-8"))
+    # #load all data structures needed to calculate cosine similarity
+    # # with open(inverted_index_file) as json_file:
+    # #     inverted_index = json.load(json_file)
+    #
+    # with open(max_sentence_freqs_file) as json_file:
+    #     max_sentence_freqs = json.load(json_file)
+    # with open(sentence_lengths_file) as json_file:
+    #     sentence_lengths = json.load(json_file)
 
     #read raw files to return answer
     raw_files = []
@@ -56,7 +55,7 @@ def main():
             file = pickle.load(pickled_file_raw)
             raw_files.append(file)
     except EOFError:
-        print("end of file")
+        print()
 
     #either run list of test queries or read query from user input
 
