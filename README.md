@@ -16,7 +16,7 @@ python3 invertedindex.py processed_documents_tokenized.txt processed_documents_r
 However, because the dataset is so large, we have included a file that contains all of the processed data structures that will be needed to compute the cosine similarities needed for our system. These are stored in inverted_index.json, sentence_lengths.json, and max_sentence_freqs.json. 
 In order to run our system and output queries, use the following command:
 
-python3 vectorspace.py inverted_index.json max_sentence_freqs.json sentence_lengths.json ground_truth.json processed_documents_raw.txt
+python3 vectorspace.py inverted_index.json.zip max_sentence_freqs.json sentence_lengths.json ground_truth.json processed_documents_raw.txt
 
 ground_truth.json contains the compiled ground truth question and answers that are used for the evaluation of our system. 
 
