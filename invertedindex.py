@@ -34,7 +34,6 @@ def main():
 
      # For each sentence, obtain the content and add it to the inverted index
     for sentence in range(len(tokenized_files)):
-        print(sentence)
         inverted_index, term_freqs = indexSentence(tokenized_files[sentence], sentence, inverted_index)
 
         # Exit the program if multiple identical IDs are found

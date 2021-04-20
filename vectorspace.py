@@ -17,6 +17,8 @@ import math
 import string
 import json
 import pickle
+import json
+import zipfile
 from preprocess import tokenizeText, removeStopwords, stemWords, getDocs
 
 
@@ -31,9 +33,16 @@ def main():
     max_sentence_freqs_file = sys.argv[2]
     sentence_lengths_file = sys.argv[3]
 
+    with zipfile.ZipFile(inverted_index_file, "r") as z:
+        for filename in z.namelist():
+            print(filename)
+            with z.open(filename) as f:
+                print("read")
+                data = f.read()
+                inverted_index = json.loads(data.decode("utf-8"))
     #load all data structures needed to calculate cosine similarity
-    with open(inverted_index_file) as json_file:
-        inverted_index = json.load(json_file)
+    # with open(inverted_index_file) as json_file:
+    #     inverted_index = json.load(json_file)
     with open(max_sentence_freqs_file) as json_file:
         max_sentence_freqs = json.load(json_file)
     with open(sentence_lengths_file) as json_file:
