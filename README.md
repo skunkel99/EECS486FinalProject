@@ -14,9 +14,9 @@ Alternatively, the tokenized version of 25% of the CORD-19 dataset is already pr
 python3 invertedindex.py processed_documents_tokenized.txt processed_documents_raw.txt
 
 However, because the dataset is so large, we have included a file that contains all of the processed data structures that will be needed to compute the cosine similarities needed for our system. These are stored in inverted_index.json, sentence_lengths.json, and max_sentence_freqs.json. 
-In order to run our system and output queries, use the following command:
+In order to run our system and output queries, use the following command, where ground_truth.json is an optional argument that should be used when attempting to run our system against a list of 80 sample questions. If attempting to run in order to interactively ask our system a question, leave off the last command line argument:
 
-python3 vectorspace.py inverted_index.json.zip max_sentence_freqs.json sentence_lengths.json ground_truth.json processed_documents_raw.txt
+python3 vectorspace.py inverted_index.json.zip max_sentence_freqs.json sentence_lengths.json processed_documents_raw.txt ground_truth.json 
 
 In order to evaluate our system, we used ROUGE. In order to test our system against a list of sample questions, the following command can be used:
 
