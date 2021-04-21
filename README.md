@@ -9,7 +9,7 @@ First, the dataset needs to be tokenized in order to create our inverted index. 
 
 python3 preprocess.py 2021-04-13/document_parses/pmc_json 2021-04-13/document_parses/pdf_json
 
-Alternatively, the tokenized version of 25% of the CORD-19 dataset is already processed and stored in processed_documents_tokenized.txt.zip, and the corresponding raw sentences  are stored in processed_documents_raw.txt.zip. These files are passed into invertedindex.py, where the tokens will be added to our inverted index data structure. The following command can be used to do this after extracting the files:
+Alternatively, the tokenized version of 25% of the CORD-19 dataset is already processed and stored in processed_documents_tokenized.txt.zip, and the corresponding raw sentences  are stored in processed_documents_raw.txt.zip. These files are passed into invertedindex.py, where the tokens will be added to our inverted index data structure. The following command can be used to do this:
 
 python3 invertedindex.py processed_documents_tokenized.txt processed_documents_raw.txt
 
