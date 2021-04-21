@@ -26,26 +26,23 @@ from preprocess import tokenizeText, removeStopwords, stemWords, getDocs
 def main():
     file_list = []
     documents = {}
-    inverted_index = {}
+    inverted_index = {} #map that holds token -> list of docs containing word & doc frequencies
     sentence_lengths = {}
     max_sentence_freqs = {}
     inverted_index_file = sys.argv[1]
     max_sentence_freqs_file = sys.argv[2]
     sentence_lengths_file = sys.argv[3]
-    #
-    # with zipfile.ZipFile(inverted_index_file, "r") as z:
-    #     for filename in z.namelist():
-    #         with z.open(filename) as f:
-    #             data = f.read()
-    #             inverted_index = json.loads(data.decode("utf-8"))
-    # #load all data structures needed to calculate cosine similarity
-    # # with open(inverted_index_file) as json_file:
-    # #     inverted_index = json.load(json_file)
-    #
-    # with open(max_sentence_freqs_file) as json_file:
-    #     max_sentence_freqs = json.load(json_file)
-    # with open(sentence_lengths_file) as json_file:
-    #     sentence_lengths = json.load(json_file)
+
+    #load all data structures needed to calculate cosine similarity
+    with zipfile.ZipFile(inverted_index_file, "r") as z:
+        for filename in z.namelist():
+            with z.open(filename) as f:
+                data = f.read()
+                inverted_index = json.loads(data.decode("utf-8"))
+    with open(max_sentence_freqs_file) as json_file:
+        max_sentence_freqs = json.load(json_file)
+    with open(sentence_lengths_file) as json_file:
+        sentence_lengths = json.load(json_file)
 
     #read raw files to return answer
     raw_files = []
@@ -58,7 +55,6 @@ def main():
         print()
 
     #either run list of test queries or read query from user input
-
     if len(sys.argv) == 6:
         ground_truth = open(sys.argv[5], "r")
         queries = json.load(ground_truth)
@@ -67,12 +63,16 @@ def main():
             json.dump(output_dict, file)
     else:
         query = input("What would you like to ask about COVID-19? (type exit to end Q&A system) ")
-        while (query != "exit"):
+        if (query[-1] == '?'): #remove ? from question to avoid tokenizing issues
+            query = query[:-1]
+        while (query != "exit"): #continue to read user questions until they enter "exit"
             queries = []
             queries.append(query)
             output_dict = computeAnswer(queries, inverted_index, sentence_lengths, max_sentence_freqs, raw_files)
-            print(output_dict[query])
-            query = input("What would you like to ask about COVID-19? (type exit to end Q&A system)")
+            print(output_dict[query]) #print answer
+            query = input("What would you like to ask about COVID-19? (type exit to end Q&A system) ")
+            if (query[-1] == '?'):
+                query = query[:-1]
     return 0
 
 
