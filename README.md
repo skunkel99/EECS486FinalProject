@@ -5,6 +5,7 @@ For our final project, we will be implementing a COVID-19 question and answer sy
 In a bid to prevent further loss of life and negative economic impact, scientists have been working around the clock to learn more about COVID-19 and present relevant information to the public. Since COVID is a relatively new threat, the ever-changing information regarding COVID-19 can be overwhelming and difficult to follow, especially alongside the spread of misinformation through social media and other unreliable media outlets. Our system hopes to provide a quick and easy way for users to get their questions about the quickly evolving COVID-19 pandemic answered. 
 
 ## How to use?
+Please install the following rouge library: https://pypi.org/project/rouge/ using pip install rouge
 First, the dataset needs to be tokenized in order to create our inverted index. To do this, use the following command once you have downloaded the CORD-19 dataset:
 
 python3 preprocess.py 2021-04-13/document_parses/pmc_json 2021-04-13/document_parses/pdf_json
